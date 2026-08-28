@@ -39,11 +39,10 @@ jobs:
       - name: Build semantic HTML site
         run: python scripts/build_site.py
 
-      - name: Remove old mirrored website files
+      - name: Remove legacy mirror files and old generated copy
         run: |
-          git rm -rf --ignore-unmatch admin qfy-content qfy-includes
+          git rm -rf --ignore-unmatch admin qfy-content qfy-includes site
           git rm -f --ignore-unmatch index01f4.html index0807.html index1849.html index50d8.html index5e4c.html index756b.html index7a1c.html index7a7a.html index7b5a.html index91b0.html indexa520.html indexbf46.html xmlrpc.html xmlrpc0db0.html
-          git rm -f --ignore-unmatch index.html
 
       - name: Save generated HTML and assets
         run: |
@@ -56,11 +55,11 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html people.html publications.html assets .nojekyll site
+          git add index.html people.html publications.html assets .nojekyll
           if git diff --cached --quiet; then
             echo "No generated-site changes to commit."
           else
-            git commit -m "Rebuild website as clean static HTML"
+            git commit -m "Refresh clean static HTML website"
             git push
           fi
 
