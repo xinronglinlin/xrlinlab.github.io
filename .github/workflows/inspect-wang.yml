@@ -25,7 +25,7 @@ jobs:
           npx playwright install chromium --with-deps >/dev/null
       - name: Inspect computed layout
         run: |
-          cat > /tmp/inspect.mjs <<'JS'
+          cat > inspect.mjs <<'JS'
           import { chromium } from 'playwright';
 
           const browser = await chromium.launch({headless:true});
@@ -84,4 +84,4 @@ jobs:
           console.log('WANG_LAYOUT_JSON_END');
           await browser.close();
           JS
-          node /tmp/inspect.mjs
+          node inspect.mjs
