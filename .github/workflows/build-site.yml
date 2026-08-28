@@ -1,0 +1,77 @@
+name: Build clean static HTML site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_site.py"
+      - ".github/workflows/build-site.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: clean-static-site
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install parser dependencies
+        run: python -m pip install --upgrade requests beautifulsoup4
+
+      - name: Build semantic HTML site
+        run: python scripts/build_site.py
+
+      - name: Remove old mirrored website files
+        run: |
+          git rm -rf --ignore-unmatch admin qfy-content qfy-includes
+          git rm -f --ignore-unmatch index01f4.html index0807.html index1849.html index50d8.html index5e4c.html index756b.html index7a1c.html index7a7a.html index7b5a.html index91b0.html indexa520.html indexbf46.html xmlrpc.html xmlrpc0db0.html
+          git rm -f --ignore-unmatch index.html
+
+      - name: Save generated HTML and assets
+        run: |
+          cp site/index.html ./index.html
+          cp site/people.html ./people.html
+          cp site/publications.html ./publications.html
+          rm -rf assets
+          cp -R site/assets ./assets
+          touch .nojekyll
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html people.html publications.html assets .nojekyll site
+          if git diff --cached --quiet; then
+            echo "No generated-site changes to commit."
+          else
+            git commit -m "Rebuild website as clean static HTML"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
