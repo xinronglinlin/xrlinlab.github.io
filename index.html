@@ -1,121 +1,265 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Molecular Energy Materials Lab | Xinrong Lin Lab">
-<title>MolEnergy Lab | Xinrong Lin</title>
-<style>
-:root{--ink:#171717;--muted:#747474;--line:#dedede;--paper:#fbfbfa;--max:1440px}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-.shell{width:min(calc(100% - 76px),var(--max));margin:0 auto}
-header{height:104px;display:flex;align-items:center;border-bottom:1px solid rgba(0,0,0,.08)}
-.header-inner{width:100%;display:flex;justify-content:space-between;align-items:center;gap:36px}
-.brand{font-size:26px;font-weight:400;letter-spacing:-.035em}
-nav{display:flex;gap:34px;font-size:14px;letter-spacing:.01em}
-nav a{position:relative}
-nav a:after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:1px;background:#111;transition:right .2s ease}
-nav a:hover:after{right:0}
-.hero{padding:44px 0 0}
-.hero-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:22px;align-items:start}
-.main-shot{grid-column:1/10;margin:0}
-.main-frame{height:min(68vh,760px);min-height:520px;overflow:hidden;background:#e9e9e7}
-.main-frame img{width:100%;height:100%;object-fit:cover;object-position:62% 57%;display:block;filter:saturate(.83) contrast(.98)}
-.caption{margin-top:11px;font-size:12px;color:#696969;letter-spacing:.015em}
-.city-shot{grid-column:7/13;margin:132px 0 0}
-.city-frame{aspect-ratio:1.62/1;overflow:hidden;background:#e9e9e7}
-.city-frame img{width:100%;height:100%;object-fit:cover;object-position:center 59%;display:block;filter:saturate(.82) contrast(.98)}
-.intro{display:grid;grid-template-columns:repeat(12,1fr);gap:22px;padding:150px 0 112px}
-.intro-kicker{grid-column:1/4;font-size:12px;line-height:1.45;text-transform:uppercase;letter-spacing:.09em;color:#606060}
-.intro-copy{grid-column:5/12}
-.intro-copy h1{font-size:clamp(36px,4.1vw,68px);font-weight:400;letter-spacing:-.052em;line-height:1.02;margin:0 0 34px;max-width:980px}
-.intro-copy p{font-size:17px;line-height:1.72;max-width:760px;margin:0;color:#444}
-.research{border-top:1px solid var(--line);padding:88px 0 128px}
-.research-head{display:grid;grid-template-columns:repeat(12,1fr);gap:22px;margin-bottom:62px}
-.research-head h2{grid-column:1/5;font-size:13px;font-weight:400;text-transform:uppercase;letter-spacing:.09em;margin:0}
-.research-head p{grid-column:5/11;margin:0;font-size:19px;line-height:1.6;color:#333}
-.axes{display:grid;grid-template-columns:repeat(3,1fr);gap:42px}
-.axis{padding-top:18px;border-top:1px solid #bcbcbc}
-.axis .n{font-size:11px;color:#8a8a8a;margin-bottom:52px}
-.axis h3{font-size:25px;font-weight:400;letter-spacing:-.03em;margin:0 0 17px}
-.axis p{font-size:14px;line-height:1.65;color:#5c5c5c;margin:0;max-width:330px}
-footer{border-top:1px solid var(--line);padding:34px 0 48px;font-size:12px;color:#666}
-.footer-inner{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
-@media(max-width:900px){
-.shell{width:min(calc(100% - 34px),var(--max))}
-header{height:auto;padding:26px 0}.header-inner{align-items:flex-start}.brand{font-size:22px}nav{gap:15px;flex-wrap:wrap;justify-content:flex-end}
-.hero{padding-top:22px}.main-shot{grid-column:1/13}.main-frame{height:62vh;min-height:430px}.city-shot{grid-column:4/13;margin-top:58px}
-.intro{padding:92px 0 78px}.intro-kicker{grid-column:1/13;margin-bottom:16px}.intro-copy{grid-column:1/13}
-.research{padding:62px 0 88px}.research-head h2,.research-head p{grid-column:1/13}.research-head p{margin-top:24px}.axes{grid-template-columns:1fr;gap:48px}.axis .n{margin-bottom:24px}
-}
-@media(max-width:560px){
-nav{font-size:12px;gap:12px}.brand{font-size:20px}.main-frame{height:55vh;min-height:360px}.city-shot{grid-column:2/13}.intro-copy h1{font-size:38px}
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MolEnergy Lab | Xinrong Lin Research Group">
+  <title>MolEnergy Lab</title>
+  <style>
+    :root{
+      --page-width:1200px;
+      --title:#222222;
+      --nav:#999999;
+      --nav-active:#111111;
+      --body:#575757;
+      --paper:#ffffff;
+    }
+
+    *{box-sizing:border-box}
+
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--paper);
+      color:var(--body);
+    }
+
+    body{
+      font-family:"Proxima Nova","Helvetica Neue",Arial,sans-serif;
+      font-size:15px;
+      font-weight:300;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+
+    a{color:inherit;text-decoration:none}
+
+    .site-shell{
+      width:var(--page-width);
+      max-width:calc(100vw - 48px);
+      margin:0 auto;
+    }
+
+    /* Measured from Wang Lab homepage at a 1440 px desktop viewport:
+       1200 px centered content region, header around y=85–135 px. */
+    .site-header{
+      padding-top:84px;
+    }
+
+    .header-row{
+      min-height:52px;
+      display:grid;
+      grid-template-columns:320px 1fr;
+      align-items:start;
+    }
+
+    .site-title{
+      margin:0;
+      color:var(--title);
+      font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;
+      font-size:42px;
+      line-height:1.18;
+      font-weight:700;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      white-space:nowrap;
+    }
+
+    .site-nav{
+      display:flex;
+      justify-content:flex-end;
+      align-items:flex-start;
+      gap:30px;
+      padding-top:5px;
+      white-space:nowrap;
+    }
+
+    .site-nav a{
+      color:var(--nav);
+      font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;
+      font-size:18px;
+      line-height:1.2;
+      font-weight:400;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      transition:color .15s ease;
+    }
+
+    .site-nav a.active,
+    .site-nav a:hover{
+      color:var(--nav-active);
+    }
+
+    /* Wang Lab starts the homepage visual around y≈225 px.
+       Only the image composition is intentionally changed here. */
+    .hero{
+      position:relative;
+      min-height:820px;
+      margin-top:89px;
+    }
+
+    figure{
+      margin:0;
+    }
+
+    .hero-primary{
+      width:583px;
+      margin-left:120px;
+    }
+
+    .hero-primary img{
+      display:block;
+      width:583px;
+      height:583px;
+      object-fit:cover;
+      object-position:center;
+    }
+
+    .hero-secondary{
+      position:absolute;
+      width:420px;
+      top:304px;
+      right:40px;
+    }
+
+    .hero-secondary img{
+      display:block;
+      width:420px;
+      height:280px;
+      object-fit:cover;
+      object-position:center;
+    }
+
+    figcaption{
+      margin-top:8px;
+      color:var(--body);
+      font-family:"Proxima Nova","Helvetica Neue",Arial,sans-serif;
+      font-size:12px;
+      line-height:20.16px;
+      font-weight:300;
+      letter-spacing:0;
+    }
+
+    .home-space{
+      height:230px;
+    }
+
+    .site-footer{
+      padding:0 0 54px;
+      color:var(--body);
+      font-family:"Proxima Nova","Helvetica Neue",Arial,sans-serif;
+      font-size:12px;
+      line-height:20px;
+      font-weight:300;
+    }
+
+    .footer-row{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+    }
+
+    @media (max-width:1248px){
+      .site-shell{
+        width:auto;
+        max-width:none;
+        margin-left:24px;
+        margin-right:24px;
+      }
+
+      .header-row{
+        grid-template-columns:1fr;
+        gap:28px;
+      }
+
+      .site-nav{
+        justify-content:flex-start;
+        flex-wrap:wrap;
+        gap:18px 24px;
+        padding-top:0;
+      }
+
+      .hero{
+        min-height:auto;
+      }
+
+      .hero-primary{
+        width:min(583px,72vw);
+        margin-left:0;
+      }
+
+      .hero-primary img{
+        width:100%;
+        height:auto;
+        aspect-ratio:1/1;
+      }
+
+      .hero-secondary{
+        position:relative;
+        top:auto;
+        right:auto;
+        width:min(420px,60vw);
+        margin:58px 0 0 auto;
+      }
+
+      .hero-secondary img{
+        width:100%;
+        height:auto;
+        aspect-ratio:3/2;
+      }
+    }
+
+    @media (max-width:700px){
+      .site-header{padding-top:42px}
+      .site-title{font-size:32px}
+      .site-nav a{font-size:14px}
+      .hero{margin-top:62px}
+      .hero-primary{width:100%}
+      .hero-secondary{width:78%}
+      .home-space{height:140px}
+    }
+  </style>
 </head>
+
 <body>
-<header>
-  <div class="shell header-inner">
-    <a class="brand" href="index.html">MolEnergy Lab</a>
-    <nav aria-label="Primary navigation">
-      <a href="#research">Research</a>
-      <a href="people.html">People</a>
-      <a href="publications.html">Publications</a>
-      <a href="mailto:xrlin@sioc.ac.cn">Contact</a>
-    </nav>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="site-shell header-row">
+      <a class="site-title" href="index.html">MolEnergy Lab</a>
 
-<main>
-  <section class="hero shell" aria-label="Shanghai">
-    <div class="hero-grid">
-      <figure class="main-shot">
-        <div class="main-frame">
-          <img src="https://english.cas.cn/work-with-cas/campus/shanghai/202512/W020251230546228347851_ORIGIN.jpg" alt="Shanghai Institute of Organic Chemistry campus">
-        </div>
-        <figcaption class="caption">Shanghai Institute of Organic Chemistry · Chinese Academy of Sciences</figcaption>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="#" aria-label="Research page coming soon">Research</a>
+        <a href="#" aria-label="Xinrong Lin page coming soon">Xinrong Lin</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="#" aria-label="Gallery page coming soon">Gallery</a>
+        <a href="mailto:xrlin@sioc.ac.cn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-shell">
+    <section class="hero" aria-label="MolEnergy Lab in Shanghai">
+      <figure class="hero-primary">
+        <img src="assets/images/home-sioc-watercolor.jpg" alt="Watercolor illustration of Shanghai Institute of Organic Chemistry">
+        <figcaption>Shanghai Institute of Organic Chemistry</figcaption>
       </figure>
 
-      <figure class="city-shot">
-        <div class="city-frame">
-          <img src="https://chinesecheck.com/blog/covers/zhang-kaiyv-Aqc1Ds0pSuw-unsplash.jpg" alt="Shanghai skyline and Oriental Pearl Tower">
-        </div>
-        <figcaption class="caption">Shanghai · China</figcaption>
+      <figure class="hero-secondary">
+        <img src="assets/images/home-shanghai-watercolor.jpg" alt="Watercolor illustration of the Shanghai skyline and Oriental Pearl Tower">
+        <figcaption>Shanghai, China</figcaption>
       </figure>
-    </div>
-  </section>
+    </section>
 
-  <section class="intro shell">
-    <div class="intro-kicker">Molecular Energy Materials Lab<br>Xinrong Lin Research Group</div>
-    <div class="intro-copy">
-      <h1>Molecular design of ion-conducting materials across scales.</h1>
-      <p>We study how deliberately defined molecular information propagates from molecular structure to condensed-phase organization, ion transport, electrochemical interfaces and ultimately the behavior of working energy-storage devices.</p>
-    </div>
-  </section>
+    <div class="home-space" aria-hidden="true"></div>
+  </main>
 
-  <section class="research" id="research">
-    <div class="shell">
-      <div class="research-head">
-        <h2>Research</h2>
-        <p>Our work sits at the interface of organic synthesis, polymer science and electrochemical energy storage, with a focus on connecting molecular precision to macroscopic function.</p>
-      </div>
-      <div class="axes">
-        <article class="axis"><div class="n">01</div><h3>Molecular Design</h3><p>Design and synthesis of ion-conducting molecules and polymers with precisely controlled chemical information.</p></article>
-        <article class="axis"><div class="n">02</div><h3>Ion Transport</h3><p>Understanding how molecular structure and condensed-phase organization govern selective ion transport.</p></article>
-        <article class="axis"><div class="n">03</div><h3>Interfaces & Batteries</h3><p>Translating molecular control into stable interfaces and advanced solid-state and fast-charging battery systems.</p></article>
-      </div>
+  <footer class="site-footer">
+    <div class="site-shell footer-row">
+      <span>MolEnergy Lab</span>
+      <span>Shanghai Institute of Organic Chemistry, CAS</span>
     </div>
-  </section>
-</main>
-
-<footer>
-  <div class="shell footer-inner">
-    <span>MolEnergy Lab · Shanghai Institute of Organic Chemistry, CAS</span>
-    <span>Shanghai, China</span>
-  </div>
-</footer>
+  </footer>
 </body>
 </html>
