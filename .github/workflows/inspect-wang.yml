@@ -76,7 +76,9 @@ jobs:
               headers:headerCandidates.slice(0,12),
               navs:navCandidates.slice(0,12),
               links:allLinks.slice(0,20),
-              stylesheets:[...document.styleSheets].map(s=>s.href).filter(Boolean)
+              stylesheets:[...document.styleSheets].map(s=>s.href).filter(Boolean),
+              fontResources: performance.getEntriesByType('resource').map(r=>r.name).filter(n=>/typekit|adobe|font|woff|futura|proxima/i.test(n)),
+              headLinks:[...document.querySelectorAll('head link')].map(l=>({rel:l.rel,href:l.href,as:l.as,type:l.type})).filter(x=>x.href)
             };
           });
           console.log('WANG_LAYOUT_JSON_START');
