@@ -12,8 +12,8 @@ This repository contains the clean static HTML version of the Xinrong Lin Lab we
 - `assets/images/` — locally stored website images
 - `scripts/build_site.py` — migration / rebuild script that parses the current public source pages and regenerates semantic HTML
 
-The published site is hosted with GitHub Pages at:
+The published project site is hosted with GitHub Pages at:
 
-https://xinronglinlin.github.io/
+https://xinronglinlin.github.io/xrlinlab.github.io/
 
 The old HTTrack/QFY/WordPress mirror files and mirroring workflow have been removed.
