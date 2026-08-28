@@ -1,0 +1,67 @@
+name: Mirror xrlinlab.com
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/mirror-site.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install HTTrack
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y httrack
+
+      - name: Mirror current website
+        run: |
+          rm -rf mirror
+          mkdir -p mirror
+          httrack "https://www.xrlinlab.com/" \
+            -O "mirror" \
+            "+*.xrlinlab.com/*" \
+            "-*/wp-admin/*" \
+            "-*/wp-login.php*" \
+            "-*/cart/*" \
+            "-*/checkout/*" \
+            -v
+
+          SOURCE_DIR="mirror/www.xrlinlab.com"
+          if [ ! -d "$SOURCE_DIR" ]; then
+            SOURCE_DIR="$(find mirror -maxdepth 1 -type d -name '*xrlinlab.com*' | head -n 1)"
+          fi
+
+          if [ -z "$SOURCE_DIR" ] || [ ! -d "$SOURCE_DIR" ]; then
+            echo "Mirrored site directory not found."
+            find mirror -maxdepth 2 -type d -print
+            exit 1
+          fi
+
+          rsync -a --delete \
+            --exclude=".git/" \
+            --exclude=".github/" \
+            --exclude="README.md" \
+            "$SOURCE_DIR/" ./
+
+          touch .nojekyll
+
+      - name: Commit mirrored HTML site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No website changes detected."
+          else
+            git commit -m "Mirror xrlinlab.com as static HTML"
+            git push
+          fi
