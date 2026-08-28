@@ -37,13 +37,13 @@ jobs:
       - name: Install parser dependencies
         run: python -m pip install --upgrade requests beautifulsoup4
 
-      - name: Build semantic HTML site
-        run: python scripts/build_site.py
-
       - name: Remove legacy mirror files and old generated copy
         run: |
           git rm -rf --ignore-unmatch admin qfy-content qfy-includes site
           git rm -f --ignore-unmatch index01f4.html index0807.html index1849.html index50d8.html index5e4c.html index756b.html index7a1c.html index7a7a.html index7b5a.html index91b0.html indexa520.html indexbf46.html xmlrpc.html xmlrpc0db0.html
+
+      - name: Build semantic HTML site
+        run: python scripts/build_site.py
 
       - name: Save generated HTML and assets
         run: |
