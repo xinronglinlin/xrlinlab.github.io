@@ -33,10 +33,13 @@ jobs:
 
       - name: Mirror current website
         run: |
-          rm -rf mirror
-          mkdir -p mirror
+          MIRROR_DIR="$RUNNER_TEMP/xrlinlab-mirror"
+          SITE_DIR="$RUNNER_TEMP/xrlinlab-site"
+          rm -rf "$MIRROR_DIR" "$SITE_DIR"
+          mkdir -p "$MIRROR_DIR" "$SITE_DIR"
+
           httrack "https://www.xrlinlab.com/" \
-            -O "mirror" \
+            -O "$MIRROR_DIR" \
             "+*.xrlinlab.com/*" \
             "-*/wp-admin/*" \
             "-*/wp-login.php*" \
@@ -44,28 +47,29 @@ jobs:
             "-*/checkout/*" \
             -v
 
-          SOURCE_DIR="mirror/www.xrlinlab.com"
+          SOURCE_DIR="$MIRROR_DIR/www.xrlinlab.com"
           if [ ! -d "$SOURCE_DIR" ]; then
-            SOURCE_DIR="$(find mirror -maxdepth 1 -type d -name '*xrlinlab.com*' | head -n 1)"
+            SOURCE_DIR="$(find "$MIRROR_DIR" -maxdepth 1 -type d -name '*xrlinlab.com*' | head -n 1)"
           fi
 
           if [ -z "$SOURCE_DIR" ] || [ ! -d "$SOURCE_DIR" ]; then
             echo "Mirrored site directory not found."
-            find mirror -maxdepth 2 -type d -print
+            find "$MIRROR_DIR" -maxdepth 2 -type d -print
             exit 1
           fi
 
-          mkdir -p site
-          rsync -a "$SOURCE_DIR/" site/
-          touch site/.nojekyll
+          rsync -a "$SOURCE_DIR/" "$SITE_DIR/"
+          touch "$SITE_DIR/.nojekyll"
 
       - name: Save mirrored files to repository
         run: |
+          SITE_DIR="$RUNNER_TEMP/xrlinlab-site"
           rsync -a --delete \
             --exclude=".git/" \
             --exclude=".github/" \
             --exclude="README.md" \
-            site/ ./
+            "$SITE_DIR/" ./
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
@@ -84,7 +88,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: ${{ runner.temp }}/xrlinlab-site
 
       - name: Deploy to GitHub Pages
         id: deployment
