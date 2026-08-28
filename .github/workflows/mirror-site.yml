@@ -1,4 +1,4 @@
-name: Mirror xrlinlab.com
+name: Mirror and publish xrlinlab.com
 
 on:
   workflow_dispatch:
@@ -9,10 +9,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   mirror:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -46,16 +55,17 @@ jobs:
             exit 1
           fi
 
+          mkdir -p site
+          rsync -a "$SOURCE_DIR/" site/
+          touch site/.nojekyll
+
+      - name: Save mirrored files to repository
+        run: |
           rsync -a --delete \
             --exclude=".git/" \
             --exclude=".github/" \
             --exclude="README.md" \
-            "$SOURCE_DIR/" ./
-
-          touch .nojekyll
-
-      - name: Commit mirrored HTML site
-        run: |
+            site/ ./
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
@@ -65,3 +75,17 @@ jobs:
             git commit -m "Mirror xrlinlab.com as static HTML"
             git push
           fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
