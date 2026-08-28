@@ -42,8 +42,7 @@
       margin:0 auto;
     }
 
-    /* Measured from Wang Lab homepage at a 1440 px desktop viewport:
-       1200 px centered content region, header around y=85–135 px. */
+    /* Centered bilingual lab name above the primary navigation. */
     .site-header{
       padding-top:84px;
     }
@@ -51,28 +50,32 @@
     .header-row{
       min-height:52px;
       display:grid;
-      grid-template-columns:320px 1fr;
-      align-items:start;
+      grid-template-columns:minmax(0,1fr);
+      justify-items:center;
+      gap:28px;
+      text-align:center;
     }
 
     .site-title{
       margin:0;
       color:var(--title);
       font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;
-      font-size:42px;
-      line-height:1.18;
+      font-size:36px;
+      line-height:1.35;
       font-weight:700;
       letter-spacing:1px;
-      text-transform:uppercase;
-      white-space:nowrap;
+      text-transform:none;
+      white-space:normal;
+      max-width:100%;
     }
 
     .site-nav{
       display:flex;
-      justify-content:flex-end;
-      align-items:flex-start;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
       gap:30px;
-      padding-top:5px;
+      padding-top:0;
       white-space:nowrap;
     }
 
@@ -92,8 +95,7 @@
       color:var(--nav-active);
     }
 
-    /* Wang Lab starts the homepage visual around y≈225 px.
-       Only the image composition is intentionally changed here. */
+    /* Preserve the image composition and spacing below the header. */
     .hero{
       position:relative;
       min-height:820px;
@@ -175,7 +177,7 @@
       }
 
       .site-nav{
-        justify-content:flex-start;
+        justify-content:center;
         flex-wrap:wrap;
         gap:18px 24px;
         padding-top:0;
@@ -213,7 +215,7 @@
 
     @media (max-width:700px){
       .site-header{padding-top:42px}
-      .site-title{font-size:32px}
+      .site-title{font-size:24px}
       .site-nav a{font-size:14px}
       .hero{margin-top:62px}
       .hero-primary{width:100%}
@@ -226,7 +228,7 @@
 <body>
   <header class="site-header">
     <div class="site-shell header-row">
-      <a class="site-title" href="index.html">MolEnergy Lab</a>
+      <a class="site-title" href="index.html">Molecular Energy Lab | <span lang="zh-CN">分子能源实验室</span></a>
 
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="active" href="index.html">Home</a>
