@@ -1,5 +1,19 @@
-# xrlinlab.github.io
+# Xinrong Lin Lab
 
-Static HTML mirror of https://www.xrlinlab.com/ for GitHub Pages.
+This repository contains the clean static HTML version of the Xinrong Lin Lab website.
 
-The workflow in `.github/workflows/mirror-site.yml` downloads the current public site and commits the mirrored HTML/CSS/JS/assets into the repository root. The repository is intentionally configured as a GitHub user-site repository so it can be published at `https://xinronglinlin.github.io/` and later mapped to `www.xrlinlab.com`.
+## Site structure
+
+- `index.html` — Research / homepage
+- `people.html` — People
+- `publications.html` — Publications
+- `assets/css/style.css` — site styling
+- `assets/js/main.js` — navigation and homepage slider
+- `assets/images/` — locally stored website images
+- `scripts/build_site.py` — migration / rebuild script that parses the current public source pages and regenerates semantic HTML
+
+The published site is hosted with GitHub Pages at:
+
+https://xinronglinlin.github.io/
+
+The old HTTrack/QFY/WordPress mirror files and mirroring workflow have been removed.
