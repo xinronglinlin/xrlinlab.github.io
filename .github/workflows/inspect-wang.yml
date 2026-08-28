@@ -1,0 +1,87 @@
+name: Inspect Wang Lab layout
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/inspect-wang.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0 >/dev/null
+          npx playwright install chromium --with-deps >/dev/null
+      - name: Inspect computed layout
+        run: |
+          cat > /tmp/inspect.mjs <<'JS'
+          import { chromium } from 'playwright';
+
+          const browser = await chromium.launch({headless:true});
+          const page = await browser.newPage({ viewport: { width: 1440, height: 1100 }, deviceScaleFactor: 1 });
+          await page.goto('https://www.wangxiaolab.org/', {waitUntil:'networkidle', timeout:120000});
+          await page.evaluate(() => document.fonts.ready);
+
+          const out = await page.evaluate(() => {
+            const pick = (el) => {
+              if (!el) return null;
+              const s = getComputedStyle(el);
+              const r = el.getBoundingClientRect();
+              return {
+                tag: el.tagName,
+                text: (el.innerText || el.textContent || '').trim().replace(/\s+/g,' ').slice(0,160),
+                rect: {x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom},
+                fontFamily:s.fontFamily,
+                fontSize:s.fontSize,
+                fontWeight:s.fontWeight,
+                lineHeight:s.lineHeight,
+                letterSpacing:s.letterSpacing,
+                color:s.color,
+                textAlign:s.textAlign,
+                textTransform:s.textTransform,
+                margin:s.margin,
+                padding:s.padding,
+                display:s.display,
+                position:s.position
+              };
+            };
+            const findText = (txt) => [...document.querySelectorAll('body *')].filter(e => e.children.length===0 && (e.textContent||'').trim()===txt)[0];
+            const title = findText('Wang Lab');
+            const cap = findText('75 Ames St');
+            const home = findText('Home');
+            const research = findText('Research');
+            const contact = findText('Contact');
+            const img = [...document.images].find(i => (i.alt||'').includes('75 Ames')) || document.images[0];
+            const headerCandidates = [...document.querySelectorAll('header,[class*=header],[id*=header]')].map(pick);
+            const navCandidates = [...document.querySelectorAll('nav,[class*=nav]')].map(pick);
+            const bodyStyle = pick(document.body);
+            const main = pick(document.querySelector('main'));
+            const footer = pick(document.querySelector('footer'));
+            const allLinks = [...document.querySelectorAll('a')].map(pick).filter(Boolean);
+            return {
+              viewport:{width:innerWidth,height:innerHeight},
+              body:bodyStyle, title:pick(title), home:pick(home), research:pick(research), contact:pick(contact),
+              image:pick(img), caption:pick(cap), main, footer,
+              headers:headerCandidates.slice(0,12),
+              navs:navCandidates.slice(0,12),
+              links:allLinks.slice(0,20),
+              stylesheets:[...document.styleSheets].map(s=>s.href).filter(Boolean)
+            };
+          });
+          console.log('WANG_LAYOUT_JSON_START');
+          console.log(JSON.stringify(out,null,2));
+          console.log('WANG_LAYOUT_JSON_END');
+          await browser.close();
+          JS
+          node /tmp/inspect.mjs
