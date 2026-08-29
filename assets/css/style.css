@@ -60,9 +60,10 @@ img{display:block;max-width:100%}
 .people-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:52px 38px}
 .person-card{min-width:0}
 .person-card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;background:#f5f5f5}
+.person-placeholder{width:100%;aspect-ratio:4/5;display:grid;place-items:center;background:#f6f6f6;color:#aaa;font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:12px;line-height:1.4;font-weight:400;letter-spacing:1.4px;text-transform:uppercase}
 .person-name{margin-top:13px;color:#222;font-family:"Futura PT",Futura,Poppins,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:21px;font-weight:500}
 .person-year,.person-role{margin-top:4px;color:#858585;font-size:14px}
-.assistant-image{width:min(420px,100%);height:auto}
+.assistant-image{width:min(420px,100%);height:auto}.assistant-image.person-placeholder{aspect-ratio:4/5}
 .alumni .people-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:50px 28px}
 .alumni .person-name{font-size:17px}
 .publication-note{max-width:760px;color:#777}
