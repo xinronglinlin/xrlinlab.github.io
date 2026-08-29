@@ -18,7 +18,9 @@ img{display:block;max-width:100%}
 .site-shell{width:var(--page-width);max-width:calc(100vw - 48px);margin:0 auto}
 .site-header{padding-top:84px}
 .header-row{min-height:52px;display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:44px;text-align:center}
+.site-identity{display:grid;justify-items:center;gap:5px}
 .site-title{margin:0;color:var(--title);font-family:"Futura PT",Futura,Poppins,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:48px;line-height:1.2;font-weight:700;letter-spacing:1px;text-transform:none;white-space:normal;max-width:100%}
+.site-tagline{margin:0;color:#858585;font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.5;font-weight:400;font-style:italic;letter-spacing:.05px}
 .site-nav{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:30px;white-space:nowrap}
 .site-nav a{color:var(--nav);font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:18px;line-height:1.2;font-weight:400;letter-spacing:1px;text-transform:uppercase;transition:color .15s ease}
 .site-nav a.active,.site-nav a:hover{color:var(--nav-active)}
