@@ -51,9 +51,15 @@
       min-height:52px;
       display:grid;
       grid-template-columns:minmax(0,1fr);
-      justify-items:center;
+      justify-items:start;
       gap:28px;
-      text-align:center;
+      text-align:left;
+    }
+
+    .site-identity{
+      display:grid;
+      justify-items:start;
+      gap:5px;
     }
 
     .site-title{
@@ -69,9 +75,20 @@
       max-width:100%;
     }
 
+    .site-tagline{
+      margin:0;
+      color:#858585;
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:17px;
+      line-height:1.5;
+      font-weight:400;
+      font-style:italic;
+      letter-spacing:.05px;
+    }
+
     .site-nav{
       display:flex;
-      justify-content:center;
+      justify-content:flex-start;
       align-items:center;
       flex-wrap:wrap;
       gap:30px;
@@ -177,7 +194,7 @@
       }
 
       .site-nav{
-        justify-content:center;
+        justify-content:flex-start;
         flex-wrap:wrap;
         gap:18px 24px;
         padding-top:0;
@@ -216,6 +233,7 @@
     @media (max-width:700px){
       .site-header{padding-top:42px}
       .site-title{font-size:32px}
+      .site-tagline{font-size:15px}
       .site-nav a{font-size:14px}
       .hero{margin-top:62px}
       .hero-primary{width:100%}
@@ -228,7 +246,10 @@
 <body>
   <header class="site-header">
     <div class="site-shell header-row">
-      <a class="site-title" href="index.html">Molecular Energy Lab</a>
+      <div class="site-identity">
+        <a class="site-title" href="index.html">Molecular Energy Lab</a>
+        <p class="site-tagline">designing organic molecular materials for advanced energy technologies</p>
+      </div>
 
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="active" href="index.html">Home</a>
