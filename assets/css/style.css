@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 :root{
   --page-width:1200px;
   --content-width:1040px;
@@ -16,8 +17,8 @@ a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
 .site-shell{width:var(--page-width);max-width:calc(100vw - 48px);margin:0 auto}
 .site-header{padding-top:84px}
-.header-row{min-height:52px;display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:28px;text-align:center}
-.site-title{margin:0;color:var(--title);font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:48px;line-height:1.35;font-weight:700;letter-spacing:1px;white-space:normal}
+.header-row{min-height:52px;display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:44px;text-align:center}
+.site-title{margin:0;color:var(--title);font-family:"Futura PT",Futura,Poppins,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:48px;line-height:1.2;font-weight:700;letter-spacing:1px;text-transform:none;white-space:normal;max-width:100%}
 .site-nav{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:30px;white-space:nowrap}
 .site-nav a{color:var(--nav);font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:18px;line-height:1.2;font-weight:400;letter-spacing:1px;text-transform:uppercase;transition:color .15s ease}
 .site-nav a.active,.site-nav a:hover{color:var(--nav-active)}
