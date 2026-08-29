@@ -100,7 +100,7 @@ img{display:block;max-width:100%}
 }
 @media(max-width:700px){
  .site-header{padding-top:42px}.site-title{font-size:32px}.site-nav{gap:18px 24px}.site-nav a{font-size:14px}
- .page-main{max-width:calc(100vw - 36px);padding:66px 0 110px}.page-title{font-size:40px}.page-intro{font-size:18px}.page-heading{margin-bottom:68px}
+ .page-main{max-width:calc(100vw - 36px);padding:66px 0 110px}.page-title{font-size:38px}.page-intro{font-size:18px}.page-heading{margin-bottom:68px}
  .chapter-visual img,.gallery-item img{height:auto;max-height:360px}.people-grid,.alumni .people-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:46px 20px}
  .person-name{font-size:18px}.profile-name{font-size:37px}.timeline li{grid-template-columns:1fr;gap:4px}
  .footer-row{display:grid;gap:8px}.research-chapter{margin-bottom:90px}
