@@ -66,7 +66,7 @@ img{display:block;max-width:100%}
 .alumni .people-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:50px 28px}
 .alumni .person-name{font-size:17px}
 .publication-note{max-width:760px;color:#777}
-.featured-publications{display:grid;gap:76px}
+.featured-publications{display:grid;gap:44px}
 .featured-publication{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:54px;align-items:center}
 .featured-publication:nth-child(even) .feature-visual{order:2}
 .feature-visual img{width:100%;height:340px;object-fit:contain;background:#fff}
