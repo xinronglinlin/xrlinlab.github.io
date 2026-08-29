@@ -108,7 +108,8 @@ img{display:block;max-width:100%}
 }
 .pi-page .pi-main{padding-top:78px}
 .pi-page .pi-heading{margin-bottom:58px}
-.pi-page .profile-lead{grid-template-columns:300px minmax(0,1fr);gap:56px;align-items:start;margin-bottom:76px}
+.pi-page .profile-lead{grid-template-columns:240px minmax(0,1fr);gap:50px;align-items:start;margin-bottom:72px}
+.pi-page .profile-lead img{width:240px;height:auto;object-fit:contain;object-position:top left}
 .pi-page .profile-role{margin-bottom:18px}
 .pi-page .profile-affiliation{line-height:1.55}
 .pi-page .profile-links{margin-top:16px}
@@ -118,12 +119,14 @@ img{display:block;max-width:100%}
 .pi-page .timeline li{padding:15px 0}
 .pi-page .section.pi-empty{margin-top:44px}
 @media(max-width:900px){
- .pi-page .profile-lead{gap:32px;margin-bottom:64px}
+ .pi-page .profile-lead{grid-template-columns:220px minmax(0,1fr);gap:32px;margin-bottom:64px}
+ .pi-page .profile-lead img{width:220px}
 }
 @media(max-width:700px){
  .pi-page .pi-main{padding-top:58px}
  .pi-page .pi-heading{margin-bottom:44px}
  .pi-page .profile-lead{margin-bottom:54px}
+ .pi-page .profile-lead img{width:220px}
  .pi-page .section{margin-top:62px}
 }
 
