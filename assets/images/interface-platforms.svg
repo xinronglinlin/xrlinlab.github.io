@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Solid-state and fast-charging battery interface schematic</title>
+  <desc id="desc">Two restrained blue-gray scientific schematics showing organic ion-conducting materials in solid-state batteries and fast-charging lithium-metal batteries.</desc>
+  <defs>
+    <linearGradient id="softBlue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eaf3f8"/>
+      <stop offset="1" stop-color="#c7dde8"/>
+    </linearGradient>
+    <linearGradient id="deepBlue" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7fa9c4"/>
+      <stop offset="1" stop-color="#426f8c"/>
+    </linearGradient>
+    <linearGradient id="warmGray" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f3f1ed"/>
+      <stop offset="1" stop-color="#d8d6d1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#9eb3bf" flood-opacity="0.22"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10" fill="none" stroke="#5b8eab" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .label{font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:600;fill:#222;letter-spacing:.4px}
+      .small{font-family:Helvetica,Arial,sans-serif;font-size:15px;fill:#6c747a;letter-spacing:.2px}
+      .tiny{font-family:Helvetica,Arial,sans-serif;font-size:13px;fill:#7b858b;letter-spacing:.15px}
+      .ion{fill:#82b4cc;stroke:#5c8ca5;stroke-width:1.4}
+      .anion{fill:#e9c98f;stroke:#caa45f;stroke-width:1.2}
+      .bond{stroke:#93a9b5;stroke-width:2;fill:none;stroke-linecap:round}
+      .flux{stroke:#5b8eab;stroke-width:3.2;fill:none;stroke-linecap:round;marker-end:url(#arrow);opacity:.88}
+      .thin{stroke:#8fb1c2;stroke-width:1.5;fill:none;stroke-linecap:round;opacity:.8}
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" fill="#fff"/>
+  <text x="300" y="66" text-anchor="middle" class="label">Solid-state batteries</text>
+  <text x="900" y="66" text-anchor="middle" class="label">Fast-charging lithium-metal batteries</text>
+  <line x1="600" y1="96" x2="600" y2="650" stroke="#e5e8ea" stroke-width="1"/>
+
+  <!-- Solid-state batteries -->
+  <g transform="translate(70 125)" filter="url(#shadow)">
+    <path d="M80 70 L430 70 L500 120 L150 120 Z" fill="#eef4f6" stroke="#d7e1e6"/>
+    <path d="M150 120 L500 120 L500 390 L150 390 Z" fill="#f8fbfc" stroke="#d7e1e6"/>
+    <path d="M80 70 L150 120 L150 390 L80 340 Z" fill="#e4edf2" stroke="#d7e1e6"/>
+
+    <path d="M116 108 L466 108 L466 162 L116 162 Z" fill="#d7e8f1" stroke="#b9ccd6"/>
+    <path d="M116 184 L466 184 L466 262 L116 262 Z" fill="url(#softBlue)" stroke="#9cbccc"/>
+    <path d="M116 284 L466 284 L466 342 L116 342 Z" fill="url(#warmGray)" stroke="#c9c7c1"/>
+
+    <text x="492" y="142" class="tiny">Cathode composite</text>
+    <text x="492" y="226" class="tiny">solid ion conductor</text>
+    <text x="492" y="319" class="tiny">Li metal</text>
+
+    <path d="M135 176 C190 164 230 198 282 184 C330 171 380 190 448 176" class="thin"/>
+    <path d="M140 246 C205 230 250 266 315 248 C365 235 405 253 456 242" class="thin"/>
+    <path d="M134 264 C196 248 250 278 310 262 C358 250 410 268 456 255" class="thin"/>
+
+    <path d="M154 156 C210 184 234 205 260 222" class="flux"/>
+    <path d="M268 158 C305 190 324 216 346 248" class="flux"/>
+    <path d="M382 156 C402 188 414 224 428 270" class="flux"/>
+
+    <circle cx="170" cy="220" r="8" class="ion"/>
+    <circle cx="226" cy="235" r="8" class="ion"/>
+    <circle cx="306" cy="210" r="8" class="ion"/>
+    <circle cx="392" cy="238" r="8" class="ion"/>
+    <circle cx="250" cy="202" r="6" class="anion"/>
+    <circle cx="356" cy="224" r="6" class="anion"/>
+
+    <path d="M178 182 C195 168 218 168 236 183" class="bond"/>
+    <path d="M240 184 C258 200 280 199 298 183" class="bond"/>
+    <path d="M300 184 C318 168 342 168 360 183" class="bond"/>
+
+    <rect x="138" y="171" width="330" height="104" rx="12" fill="none" stroke="#7fa9c4" stroke-width="2" stroke-dasharray="7 7" opacity=".8"/>
+  </g>
+  <text x="300" y="575" text-anchor="middle" class="small">liquid-like ion transport in a solid matrix</text>
+  <text x="300" y="604" text-anchor="middle" class="tiny">electrochemical stability · mechanical integrity · persistent solid-solid contact</text>
+
+  <!-- Fast-charging lithium-metal batteries -->
+  <g transform="translate(670 125)" filter="url(#shadow)">
+    <path d="M90 88 L422 88 L482 132 L150 132 Z" fill="#eef4f6" stroke="#d7e1e6"/>
+    <path d="M150 132 L482 132 L482 362 L150 362 Z" fill="#fbfcfd" stroke="#d7e1e6"/>
+    <path d="M90 88 L150 132 L150 362 L90 318 Z" fill="#e4edf2" stroke="#d7e1e6"/>
+
+    <path d="M122 120 L446 120 L446 176 L122 176 Z" fill="#d8e9f1" stroke="#b7cbd5"/>
+    <path d="M122 198 L446 198 L446 244 L122 244 Z" fill="#f7f8f8" stroke="#d9dddd"/>
+    <path d="M122 246 L446 246 L446 286 L122 286 Z" fill="#c4dfea" stroke="#8fb6c8"/>
+    <path d="M122 290 L446 290 L446 332 L122 332 Z" fill="#dad8d3" stroke="#c5c1bb"/>
+
+    <text x="470" y="153" class="tiny">high-energy cathode</text>
+    <text x="470" y="226" class="tiny">electrolyte</text>
+    <text x="470" y="271" class="tiny">organic interphase</text>
+    <text x="470" y="318" class="tiny">Li metal</text>
+
+    <path d="M145 162 C194 198 224 214 265 246" class="flux"/>
+    <path d="M230 160 C260 193 292 217 324 250" class="flux"/>
+    <path d="M328 160 C350 196 376 224 406 254" class="flux"/>
+
+    <path d="M154 286 C188 270 210 270 240 286 C270 302 296 302 326 286 C358 270 392 270 430 286" fill="none" stroke="#8a8a84" stroke-width="2" opacity=".65"/>
+    <path d="M154 297 C192 283 215 284 244 297 C274 311 304 311 335 297 C366 284 398 284 430 297" fill="none" stroke="#8a8a84" stroke-width="2" opacity=".45"/>
+
+    <circle cx="174" cy="218" r="8" class="ion"/>
+    <circle cx="234" cy="234" r="8" class="ion"/>
+    <circle cx="306" cy="220" r="8" class="ion"/>
+    <circle cx="388" cy="238" r="8" class="ion"/>
+    <circle cx="210" cy="212" r="6" class="anion"/>
+    <circle cx="350" cy="232" r="6" class="anion"/>
+
+    <rect x="122" y="246" width="324" height="40" rx="9" fill="none" stroke="#5f95b0" stroke-width="2.3"/>
+    <path d="M142 266 C190 254 222 278 270 264 C320 250 366 276 426 262" class="thin"/>
+  </g>
+  <text x="900" y="575" text-anchor="middle" class="small">sustained interfacial Li-ion supply under minute-scale charging</text>
+  <text x="900" y="604" text-anchor="middle" class="tiny">ion flux · reaction kinetics · regulated Li deposition</text>
+</svg>
