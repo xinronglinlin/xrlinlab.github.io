@@ -36,7 +36,7 @@ img{display:block;max-width:100%}
 .research-chapter{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);gap:58px;align-items:center;margin:0 0 88px}
 .research-chapter:nth-child(even) .chapter-visual{order:2}
 .chapter-visual img{width:100%;height:420px;object-fit:contain;background:#fff}
-.research-chapter:last-of-type .chapter-visual img{height:clamp(560px,52vw,660px)}
+.research-chapter:last-of-type .chapter-visual img{height:550px}
 .chapter-number{display:block;margin-bottom:16px;color:var(--muted);font-size:12px;letter-spacing:2px}
 .chapter-copy h2{margin:0 0 16px;color:var(--title);font-family:"Futura PT",Futura,Poppins,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:30px;line-height:1.24;font-weight:700}
 .chapter-copy p{margin:0;font-size:17px;line-height:1.68}
