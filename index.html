@@ -266,8 +266,62 @@
       letter-spacing:0;
     }
 
-    .home-space{
-      height:230px;
+    .home-contact{
+      margin:96px 0 134px;
+      padding-top:24px;
+      border-top:1px solid #e7e7e7;
+      display:grid;
+      grid-template-columns:150px minmax(0,1fr);
+      gap:64px;
+      scroll-margin-top:28px;
+    }
+
+    .home-contact-kicker{
+      margin:0;
+      color:#8a8a8a;
+      font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;
+      font-size:12px;
+      line-height:1.6;
+      font-weight:500;
+      letter-spacing:2px;
+      text-transform:uppercase;
+    }
+
+    .home-contact-content{
+      display:grid;
+      grid-template-columns:minmax(0,.85fr) minmax(0,1.35fr);
+      gap:72px;
+    }
+
+    .home-contact h2{
+      margin:0 0 18px;
+      color:#333333;
+      font-family:"Futura PT",Futura,Poppins,"Century Gothic","Avenir Next",Arial,sans-serif;
+      font-size:15px;
+      line-height:1.5;
+      font-weight:500;
+      letter-spacing:1.4px;
+      text-transform:uppercase;
+    }
+
+    .home-contact p{
+      margin:0 0 15px;
+      color:#575757;
+      font-size:15px;
+      line-height:1.75;
+    }
+
+    .home-contact strong{
+      color:#333333;
+      font-weight:500;
+    }
+
+    .home-contact a{
+      border-bottom:1px solid #bdbdbd;
+    }
+
+    .home-contact-meta{
+      margin-top:22px;
     }
 
     .site-footer{
@@ -333,6 +387,15 @@
         height:auto;
         aspect-ratio:3/2;
       }
+
+      .home-contact{
+        grid-template-columns:120px minmax(0,1fr);
+        gap:44px;
+      }
+
+      .home-contact-content{
+        gap:44px;
+      }
     }
 
     @media (max-width:700px){
@@ -343,7 +406,15 @@
       .hero{margin-top:62px}
       .hero-primary{width:100%}
       .hero-secondary{width:78%}
-      .home-space{height:140px}
+      .home-contact{
+        margin:82px 0 96px;
+        grid-template-columns:1fr;
+        gap:30px;
+      }
+      .home-contact-content{
+        grid-template-columns:1fr;
+        gap:44px;
+      }
     }
   </style>
 </head>
@@ -363,7 +434,7 @@
         <a href="people.html">Lab Members</a>
         <a href="publications.html">Publications</a>
         <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
+        <a href="#contact">Contact</a>
         <a class="language-link" href="zh.html">中文</a>
       </nav>
     </div>
@@ -382,7 +453,30 @@
       </figure>
     </section>
 
-    <div class="home-space" aria-hidden="true"></div>
+    <section class="home-contact" id="contact" aria-labelledby="home-contact-label">
+      <p class="home-contact-kicker" id="home-contact-label">Contact &amp; Join Us</p>
+
+      <div class="home-contact-content">
+        <section>
+          <h2>Contact</h2>
+          <p><strong>Molecular Energy Lab</strong><br>Shanghai Institute of Organic Chemistry<br>Chinese Academy of Sciences</p>
+          <p>345 Lingling Road<br>Shanghai 200032, China</p>
+          <div class="home-contact-meta">
+            <p>Email<br><a href="mailto:xrlin@sioc.ac.cn">xrlin@sioc.ac.cn</a></p>
+            <p><a href="https://english.sioc.cas.cn/" target="_blank" rel="noopener">Shanghai Institute of Organic Chemistry →</a></p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Join Us</h2>
+          <p>Prospective postdoctoral researchers, graduate students, research assistants, and visiting students with backgrounds in organic synthesis, polymer chemistry, materials science, electrochemistry, modeling, or battery engineering are encouraged to contact us.</p>
+          <p>Please send a concise email describing your research background and interests, together with a curriculum vitae and representative work where appropriate. Specific openings, funding routes, and possible research directions can then be discussed individually.</p>
+          <div class="home-contact-meta">
+            <p>Applications and inquiries<br><a href="mailto:xrlin@sioc.ac.cn">xrlin@sioc.ac.cn</a></p>
+          </div>
+        </section>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
