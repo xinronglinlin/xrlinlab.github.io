@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:30:24Z",
+  "generatedAt": "2026-09-04T09:51:19Z",
   "windowDays": 30,
   "topics": [
     "Ion-conducting polymers and single-ion conductors",
@@ -22,6 +22,30 @@
     "Nature Sustainability"
   ],
   "papers": [
+    {
+      "title": "Machine Learning‐Driven Alloy Anode Accompanied by Interfacial Kinetic Compensation Design Toward High‐Rate Zinc Pouch Cells",
+      "authors": "Mingzhu Li, Shengwei Du, Shuquan Liang, Xin Wang, Guozhao Fang",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-09-04",
+      "doi": "10.1002/anie.5246689",
+      "link": "https://doi.org/10.1002/anie.5246689",
+      "abstract": "ABSTRACT Developing practical aqueous zinc metal batteries is crucial for safe grid energy storage. However, zinc anode imposes severe interfacial mass transfer and kinetic bottlenecks at high rates and high capacities, driven by thermodynamically competitive hydrogen evolution reaction and significant polarization. In this work, we establish a predictive design paradigm that resolves this dilemma by integrating active‑learning materials screening and a composition‑gradient alloy (GL) anode with an interfacial kinetic compensation. Moreover, the gradient grain boundaries preclude structural failure under high capacities arising from stress concentration at high rates. Consequently, GL anode achieves 20,000 cycles at 40 mA cm −2 and the cumulative capacity of 81.36 Ah at 80 mA cm −2 . The symmetric cell endures more than 400 h at 80% depth of discharge and 20 mA cm −2 , while pouch cells exceed 1000 h at 5 mAh cm −2 . Coupled with high‐loading vanadium‐based cathode (30 mg cm −2 , 4.5 mAh cm −2 ), the full cell retains 91% capacity after 1500 cycles. Notably, a 560 mAh pouch cell stable for 350 cycles over 90% capacity retention at a high rate of 20 mA cm −2 . This work offers a design concept of practical zinc anode with high‐rate stability for zinc pouch cells.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
+      "title": "Dual‐Interfacial Stabilization via Spatial‐Charge Synergistic Modulation for Durable Zinc‐Iodine Batteries",
+      "authors": "Jiayi He, Changfeng Lin, Baoquan Liu, Yubo Yang, Jing Li, Hui Zhang, Jinlin Yang, Tianyu Qiu, Xinlong Tian",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-09-04",
+      "doi": "10.1002/anie.8355145",
+      "link": "https://doi.org/10.1002/anie.8355145",
+      "abstract": "ABSTRACT Aqueous zinc−iodine (Zn−I 2 ) batteries show promise for large‐scale energy storage but are limited by the inadequate stability of the I 2 cathode and Zn anode. Herein, we propose a spatial‐charge synergistic modulation strategy to simultaneously suppress the polyiodide shuttle effect and Zn dendrite growth, implemented via a cation‐deficient, negatively charged Ti 0.87 □ 0.13 O 2 0.52− nanosheet functionalized separator. Specifically, the sub‐nanometer Ti vacancies within the nanosheets selectively exclude polyiodide anions while enabling rapid Zn 2+ transport through a size‐sieving effect. Moreover, the negatively charged layer effectively repels polyiodide anions and homogenizes the Zn 2+ ion flux via electrostatic interactions. Consequently, the functionalized separator enables the Zn||Zn cells to achieve a long lifespan of 1600 h at 10 mA cm −2 and 5 mAh cm −2 , and 300 h at a high depth of discharge of 85%. Furthermore, Zn−I 2 cells exhibit exceptional cycling stability over 32 000 cycles at 5 A g −1 . This work presents an effective separator design based on the structural modulation of two‐dimensional material, providing a viable route toward shuttle‐free and highly durable Zn−I 2 batteries.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
     {
       "title": "A Chemically Selective Fluorescent Probe Visualizes the Non‐Monotonic Evolution of the NaF‐Rich Interphase in Sodium‐Metal Batteries",
       "authors": "Xiaolin Guo, Zijun Wang, Yining Lv, Min Niu, Jiale Wan, Jin Ren, Zhijun Chen, Liwei Dong, Zuotao Lei",
@@ -55,6 +79,18 @@
       "summaryPromptVersion": 1
     },
     {
+      "title": "Correction to “A Bifunctional Descriptor Inspired by Electron‐Donating Ability for Regulating Dendrite Growth and Parasitic Reactions in Zinc‐Ion Batteries”",
+      "authors": "",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-09-02",
+      "doi": "10.1002/anie.5685998",
+      "link": "https://doi.org/10.1002/anie.5685998",
+      "abstract": "",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "Anisotropic Lattice Compression Enables Defect-Rich Lithium-Ion Transport Channels for Extremely Fast-Charging Lithium-Ion Batteries",
       "authors": "Xin Cheng, Huang Xiao, Wenjing Zhang, Min Liu, Cong Tian, Kaiquan He, Haibo Li, Fang Li, Guoxing Li",
       "journal": "Journal of the American Chemical Society",
@@ -85,6 +121,18 @@
       "summarySource": "crossref-abstract",
       "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
       "summaryPromptVersion": 1
+    },
+    {
+      "title": "Unveiling Electrode–Electrolyte Interfacial Synergy in CTAB‐Modulated Pd Single‐Atom Catalysts for Efficient H 2 O 2 Electrosynthesis",
+      "authors": "Weiping Xiao, Qin Zhao, Na Wang, Fengyan Han, Danil Bukhvalov, Xiaofei Yang",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-30",
+      "doi": "10.1002/anie.2707273",
+      "link": "https://doi.org/10.1002/anie.2707273",
+      "abstract": "ABSTRACT The design of high‐activity single‐atom catalysts (SACs) toward two‐electron oxygen reduction is dominated by regulating the adsorption energy of *OOH intermediates at active sites, whereas the critical factor of proton activity at the catalyst–electrolyte interface has received insufficient attention. Herein, an electrode–electrolyte synergistic strategy was employed to modulate the electronic structure of Pd single‐atom sites via the construction of a Pd/CeO 2 ‐MXene heterostructure and hydrogen bond strength using cetyltrimethylammonium bromide (CTAB) additive. X‐ray absorption spectroscopy (XAS) and density functional theory (DFT) calculations revealed that the real active sites are Pd single‐atom sites anchored via Pd‐O‐Ce bonding, which significantly reduces the free energies of the key reaction steps (H 2 O→*OOH→H 2 O 2 ). In situ attenuated total reflection surface‐enhanced infrared absorption spectroscopy (ATR‐SEIRAS) further verified that CTAB adsorbed at the reaction interface can enhance the hydrogen bond strength of interfacial water molecules, reduce the supply of interfacial *H species, and thereby effectively suppress H 2 O 2 decomposition. As a result, the Pd/CeO 2 ‐MXene+CTAB system achieves a low electron transfer number of 2.02 and a high H 2 O 2 selectivity of 98.8% at 0.5 V. This study provides a novel insight into the rational design of proton‐coupled electrocatalysts through the integration of interfacial hydrogen bond engineering and single‐atom catalysts.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
     },
     {
       "title": "Terminally Fluorinated Polyimide Interphase for Durable Lithium‐Rich Layered Oxide Cathodes",
@@ -179,6 +227,18 @@
       ]
     },
     {
+      "title": "Synchronous Interfacial Chemistry via a Fluorine‐Free Bifunctional Additive for Ultrastable Aqueous Zinc‐Iodine Batteries",
+      "authors": "Jiatong Li, Jian Qin, Minhao Dai, Yi Chen, Wei Xiao, Wenbin Li, Jingjing Wang, Xifei Li",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-26",
+      "doi": "10.1002/anie.7649417",
+      "link": "https://doi.org/10.1002/anie.7649417",
+      "abstract": "ABSTRACT The simultaneous interfacial instability at both electrodes of aqueous zinc‐iodine (Zn‐I 2 ) batteries remains a fundamental challenge, as conventional compartmentalized strategies often overlook their shared electrolyte environment. Here, maltol is employed as a fluorine‐free bifunctional additive to synchronize interfacial chemistry. At the zinc anode, maltol associates with water and preferentially adsorbs on the surface in a planar, cooperative configuration, reconstructing the inner Helmholtz plane (IHP) to suppress water‐/sulfate‐induced side reactions and regulate Zn nucleation/growth. At the iodine cathode, its multidentate oxygen sites anchor and destabilize I 3 − , restricting polyiodide migration and promoting reversible I 2 /I − conversion. The strategy is validated in two complementary Zn‐I 2 models. An I − catholyte cell achieved over 35,000 cycles with only 0.0007% capacity decay per cycle. In the solid iodine‐loaded porous carbon (I 2 @PC) model, a high‐loading cell delivered an areal capacity of approximately 2 mAh cm −2 and retained 83.8% capacity after 11,000 cycles. Moreover, a 0.54 Ah pouch cell provided over 250 Ah cumulative output at 5.4 mAh cm −2 and an N/P ratio of 5.37. This work demonstrates a sustainable molecular‐design strategy that synchronously stabilizes both electrodes, offering a holistic solution beyond conventional single‐electrode approaches for long‐lived, high‐performance aqueous Zn‐I 2 batteries.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "Non‐Entangled Chains Enable Rapid Na + Transport Through Ion‐Traps in Gel Polymer Electrolytes at Low Temperatures",
       "authors": "Cheng Huang, Xiaochuan Duan, Xinnan Zhang, Jianing Li, Rou Tan, Yulin Bai, Dongzheng Wu, Shaohui Guo, Jianmin Ma, Zhong Li, Xian‐Ming Zhang",
       "journal": "Angewandte Chemie International Edition",
@@ -253,6 +313,18 @@
       ]
     },
     {
+      "title": "Adaptive Solvation Evolution by Molecular Design Enables High‐Performance Wide‐Temperature Lithium‐Ion Batteries",
+      "authors": "Tianhao Lan, Yun Ji, Xin Fang, Yihui Liu, Haipeng You, Long Chen, Chunzhong Li",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-25",
+      "doi": "10.1002/anie.2577060",
+      "link": "https://doi.org/10.1002/anie.2577060",
+      "abstract": "ABSTRACT The solvation structure is a decisive factor for the performance of lithium‐ion batteries (LIBs) under extreme environments, and its evolution with temperature changes is particularly elusive. This work reports a strategy to regulate the coordination interactions between solvents, Li + , and anions through a local steric shielding effect of α‐methyl‐substituted solvents, thereby forming a temperature‐adaptive evolution of the solvation structure, ensuring efficient ion transport over the entire temperature range (from −80°C to 100°C). Practical pouch cells demonstrated outstanding performance: 1 Ah LiFePO 4 (LFP)||graphite (Gr) commercial pouch cells retained 87.4% capacity after 2000 cycles at 2 C and 25°C, and delivered stable discharge capacities down to −60°C (0.47 Ah). Meanwhile, the 1 Ah LiNi 0.8 Mn 0.1 Co 0.1 O 2 (NMC811)||Gr pouch cells maintained 83.2% capacity over 4000 cycles at 1 C and 25°C, while also delivering 0.49 Ah at −80°C and maintaining operational functionality even at 100°C. The strategy offers a practical route toward LIB electrolytes with broad temperature adaptability and long cycle life.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "A Fullerene-Based Interphase Confines Interfacial Electrons for Long-Lived Zinc Metal Anodes in Aqueous Electrolytes",
       "authors": "Baoshan Wu, Wei Tang, Tingkuo Zhang, Mingwei An, Ziyang Hao, Zuochang Chen, Hanrui Tian, Nan Zhao, Jianbiao Fan, Peng Du, Yang Wang, Panfeng Zhao, Xiaobin Niu",
       "journal": "Journal of the American Chemical Society",
@@ -290,6 +362,30 @@
       ]
     },
     {
+      "title": "Mechanistic Study of Structural Evolution and Lithium-Ion Transport in Water-in-Polymer-Salt Electrolyte with Rigid-Rod Polyanion",
+      "authors": "Feifan Ji, Jifeng Wang, Ying Wang",
+      "journal": "Macromolecules",
+      "publicationDate": "2026-08-24",
+      "doi": "10.1021/acs.macromol.6c01017",
+      "link": "https://doi.org/10.1021/acs.macromol.6c01017",
+      "abstract": "Abstract Conventional aqueous electrolytes are often restricted by a narrow electrochemical stability window (∼1.23 V), while water-in-salt electrolytes alleviate this limitation at the cost of excessive salt consumption and sluggish Li+ transport. To address this trade-off, poly(2,2′-disulfonyl-4,4′-biphenyline terephthalamide) (PBDT), a rigid-rod polyanion, is introduced to regulate Li+ solvation structure and transport behavior in water-in-polymer-salt electrolytes. All-atom molecular dynamics simulations reveal how incorporation of PBDT restricts free-water mobility and alters Li+ solvation environments through direct coordination of sulfonate groups. As a result, Li+ exists in three ion-association states (contact ion pairs (CIPs), solvent-separated ion pairs (SSIPs), and solvated Li+ ions), among which SSIP-Li+ participates in polymer-associated hopping pathways involving both along-chain and interchain migration, thereby providing molecular insight into Li+ transport regulation in concentrated electrolytes. These findings contribute to a molecular-level understanding of polyanion-regulated Li+ transport in aqueous electrolytes.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
+      "title": "Solvation‐Gradient Thin‐Film Composite Membranes Decouple Ferricyanide Rejection From Hydroxide Conduction in Alkaline Zinc–Iron Flow Batteries",
+      "authors": "Junhua Li, Dan Li, Yijing Dai, Zilin Zhao, Yuzhang Zhu, Jian Jin",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-23",
+      "doi": "10.1002/anie.9300778",
+      "link": "https://doi.org/10.1002/anie.9300778",
+      "abstract": "ABSTRACT The long‐standing trade‐off between ion selectivity and ionic conductivity in membrane materials stems from the difficulty in rapidly transporting ions through chemically homogeneous channels while simultaneously excluding large ions. Here, we report a solvation‐gradient membrane prepared via reaction‐diffusion‐coupled interfacial polymerization between piperazine and 1,3,5‐tris(bromomethyl)benzene. The resulting membrane comprised a dense outer selective layer approximately 35 nm thick (with a transport pore size of approximately 6 Å) and an NH‐rich inner layer approximately 400 nm thick. The outer layer imposes a high entry/desolvation barrier on large ions, thereby inhibiting their transport, whereas the NH‐rich region supports rapid OH − transport through re‐solvation and hydrogen‐bond reorganization. This depth‐dependent architecture spatially separates ferricyanide rejection from hydroxide conduction. Depth‐resolved spectroscopy and molecular dynamics simulations supported a depth‐dependent solvation environment and revealed stronger water/OH − interactions in the NH‐rich region. Optimization of poly(tertiary amine) (PTA) membranes achieved low Fe(CN) 6 3− permeability (8.07 × 10 −7 cm 2 h −1 ) and OH − conductivity (41.08 mS cm −1 ), enabling an alkaline zinc‐iron flow battery to achieve an energy efficiency of 89.94% at 80 mA cm −2 and stable cycling for over 800 h. This study suggests depth‐dependent solvation regulation as a useful design principle for alleviating the selectivity‐conductivity trade‐off in electrochemical membranes.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "A Stage‐Coupled View of Interfacial Reconstruction in Anode‐Free Sodium Metal Batteries",
       "authors": "Jiawen Dai, Rui Zhang, Shengan Wu, Yougen Tang, Haiyan Wang",
       "journal": "Angewandte Chemie International Edition",
@@ -297,6 +393,18 @@
       "doi": "10.1002/anie.3647021",
       "link": "https://doi.org/10.1002/anie.3647021",
       "abstract": "ABSTRACT Anode‐free sodium metal batteries (AFSMBs) remove the excess metal anode and increase projected cell‐level energy density, but they place reversibility on a transient negative‐electrode interface. In each cycle, Na is deposited on a foreign current collector and removed to a highly depleted state. Cell failure is governed by whether continuity can be preserved across a sequence of short‐lived interfacial states, including bulk coordination, interfacial desolvation, heterogeneous nucleation, metallic coalescence, Na isolation, and recurrent solid electrolyte interphase (SEI) renewal. AFSMBs are therefore better understood as dynamically reconstructed interfacial systems, where non‐uniformity introduced during interfacial entry can propagate through later plating and stripping. This review examines AFSMBs through three coupled stages: solvation‐controlled interfacial entry, current collector regulated Na reconstruction, and SEI renewal controlled by reaction–pathway selectivity and mechanical coherence. Current density, stripping depth, pressure, temperature, sodium inventory, and cell architecture are treated as boundary conditions that determine whether local interfacial gains persist under practical operation. By linking coordination chemistry, metallic continuity, interphase renewal, and device‐level constraints, this review provides a mechanistic framework for predictive AFSMB design.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
+      "title": "Ultrathin Membrane With Ion‐Specific Gating Enables Interfacial Decoupling of Conductivity–Selectivity for Aqueous Flow Batteries",
+      "authors": "Di Mu, Yu Xiong, Feiran Wang, Jiafeng Lei, Fei Ai, Jun Fan, Yi‐Chun Lu",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-22",
+      "doi": "10.1002/anie.2958917",
+      "link": "https://doi.org/10.1002/anie.2958917",
+      "abstract": "ABSTRACT Ion‐exchange membranes (IEMs) are essential for efficient and durable flow batteries, yet their inherent conductivity–selectivity trade‐off severely limits flow battery performance. Most conventional strategies to improve selectivity rely on regulating ion diffusion within ion‐exchange channels through size exclusion and electrostatic repulsion, inevitably compromising ionic conductivity. Here we shift the paradigm to ion partitioning at the membrane–electrolyte interface by establishing ion‐specific gating that selectively intercepts active species while preserving rapid charge carrier transport. The developed ultrathin (29 ± 2 µm) polar oxygen‐vacancy‐enhanced (POVE) membrane suppresses polysulfide crossover through strong chemisorption and a strengthened hydration layer, delivering over 3.4 times the selectivity of the base membrane at comparable conductivity and over 24.8 times the selectivity of commercial Nafion membranes. In the polysulfide–ferrocyanide flow battery, it achieved 82% energy efficiency at 40 mA cm −2 and sustained over 2000 cycles with negligible capacity decay, far exceeding 286 cycles for the base membrane and",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
@@ -388,6 +496,18 @@
       ]
     },
     {
+      "title": "Solvation Reconfiguration Enables Two‐Electron Iodine Chemistry Through Chloride Activation for High‐Energy Zn–Iodine Flow Batteries",
+      "authors": "Zhaoxin Li, Lingwen Liu, Jinhua Guo, Longjun Chang, Shuchang Liu, Zhenyu Jiang, Zhiyuan Xia, Xiumei Zhai, Qiang Fu, Yuanmiao Sun, Qing Li",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-19",
+      "doi": "10.1002/anie.4798889",
+      "link": "https://doi.org/10.1002/anie.4798889",
+      "abstract": "ABSTRACT Activating the I 0 /I + redox couple in aqueous Zn–iodine redox flow batteries (ZIRFBs) offers a promising route toward scalable energy storage with high voltage and high energy density. However, the hydrolytic instability of I + species in water severely limits its practical implementation. Although chloride can stabilize I + species through ICl 2 − formation, substantial side reactions persist in aqueous electrolytes because Cl − activity remains low even at high chloride concentrations. Here, we report a solvation‐reconfiguration strategy that regulates the chloride microenvironment to enhance Cl − activity and thereby stabilize I + species. Guided by solvent descriptors of high donor number and low hydrogen‐bond acidity, N,N‐dimethylformamide (DMF) was identified as the optimal cosolvent. DMF weakens Zn 2+ –Cl − association and disrupts chloride hydration, markedly increasing chloride activity even at low bulk Cl − concentration. As a result, the ZIRFB delivers stable cycling over 1000 cycles (∼1600 h) with negligible capacity decay, a record‐high Coulombic efficiency of 99.9%, and a high discharge energy density of 72.88 Wh L −1 based on the catholyte volume. This work establishes chloride‐activity regulation as an effective strategy for stabilizing reactive multielectron redox couples, opening new opportunities for safe, durable, and high‐energy aqueous flow batteries.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "Implanted Zn 2+ ‐Conducting Hydrogel Interphase Enables Highly Compacted Thick Iodine Electrodes for Ah‐Level Aqueous Zinc–Iodine Pouch Batteries",
       "authors": "Huadong Jiang, Chenxi Sun, Hong Lin, Minghao Zhang, Fanxiang Meng, Jinbao Zhao, Yang Yang",
       "journal": "Angewandte Chemie International Edition",
@@ -412,6 +532,19 @@
       ]
     },
     {
+      "title": "Enthalpy‐Entropy Molecular Design of Gel Polymer Electrolytes for Regulating Solvation Chemistry in Lithium–Sulfur Batteries",
+      "authors": "Zirui Guo, Zihui Song, Runyue Mao, Naiwen Hu, Chang Su, Shuo Zhuo, Xigao Jian, Fangyuan Hu",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-17",
+      "doi": "10.1002/anie.7695165",
+      "link": "https://doi.org/10.1002/anie.7695165",
+      "abstract": "ABSTRACT Gel polymer electrolytes (GPEs) show great promise in lithium–sulfur (Li–S) batteries, but their practical application is limited by the high enthalpy of Li + desolvation and the slow conversion rate of polysulfides, which disrupt the redox pathway and accelerate capacity decay. Here, we propose an enthalpy‐entropy molecular design strategy to integrate these processes into a unified electrolyte system. By regulating the solvation structures of Li + and polysulfides, we can both restrict available reaction pathways and control the coordination environment of polysulfides within the solvation structure. By modulating the solvation structure, we reduce the desolvation enthalpy of both Li + and polysulfides, thereby promoting uniform nucleation of Li 2 S. This pioneering design enables the resulting GPE with an ionic conductivity of up to 1.21 mS cm −1 at 22°C and a Li + transference number of 0.82, the resulting Li||Li symmetric cell can cycle stably for over 2250 h. Consequently, the cell exhibits an ultralow capacity fading rate of 0.043% per cycle over 1000 cycles at 2C and remained functional when assembled into a 1.8 Ah pouch‐cell (403.7 Wh kg −1 ). This study highlights the crucial role of enthalpy‐entropy molecular design strategies in GPEs.",
+      "matchedTopics": [
+        "Ion-conducting polymers and single-ion conductors",
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "Electronic conductivity of solid electrolytes causes physical self-discharge in all-solid-state batteries",
       "authors": "Changhong Wang, Rong Xu, Yu Zhong, Han Su, Suzhe Liang, Haoqi Ren, Jung Tae Kim, Huan Huang, Bing Xiao, Longan Jiao, Jiangping Tu, Xueliang Sun",
       "journal": "Nature Energy",
@@ -421,6 +554,18 @@
       "abstract": "",
       "matchedTopics": [
         "Solid-state batteries"
+      ]
+    },
+    {
+      "title": "“Armor Polymerization” Unlocks Polymer Electrolytes With Simultaneous Rapid Li + Conduction and High Solidification",
+      "authors": "Tianzhu Zhang, Song Duan, Bingsen Qin, Hongyao Wang, Sijie Liu, Tao Wang, Wei Yan, Jiujun Zhang, Yun Zheng",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-16",
+      "doi": "10.1002/anie.4583501",
+      "link": "https://doi.org/10.1002/anie.4583501",
+      "abstract": "ABSTRACT Polymer electrolytes offer significant promise for high‐performance quasi‐solid‐state batteries due to their simple processing and excellent electrode compatibility. Nevertheless, they are intrinsically constrained by a critical compromise: while mobile solvents enable higher ionic conductivity ( σ ), these solvents inherently weaken solidification and therefore undermine intrinsic safety. Herein, we propose an innovative “armor polymerization” strategy to simultaneously achieve rapid Li conduction and robust solidification. Employing a functionalized ionic covalent organic framework (iCOF) as structural “armor” for in situ polymerization, our strategy creates hierarchical, low‐energy‐barrier ion‑transport pathways with weakened Li + ‐polymer interactions, while immobilizing solvent molecules via hydrogen‑bond networks. The resulting electrolyte exhibits a σ of 7.6 × 10 −4 S cm −1 at 25°C, an elevated Li + transference number ( t Li+ ) of 0.66, and solid‑state characteristics with high solidification. Remarkably, Li||LiFePO 4 cells deliver a long cycling life with a high‐capacity retention of 92.2% and a nearly 100% Coulombic efficiency after 1500 cycles at 1C, as well as a 83.8% capacity retention after 2200 cycles at 2C. Furthermore, Li||NCM523 maintains an extremely high‐capacity retention of 99.7% after 210 cycles at 0.5C. This strategy provides a novel pathway for designing high‐performance, safe quasi‐solid‐state batteries through advanced electrolyte engineering.",
+      "matchedTopics": [
+        "Ion-conducting polymers and single-ion conductors"
       ]
     },
     {
@@ -545,6 +690,18 @@
       ]
     },
     {
+      "title": "Component Self‐Initiated Photopolymerization for Gel Polymer Electrolytes in Zinc–Air Batteries",
+      "authors": "Ping Li, Dagang Zhou, Boyi Fu, Lin Luo, Quan Liu, Wenli Yang, Mingming Deng, Jilan Long, Chi Huang, Qi Liu",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-08",
+      "doi": "10.1002/anie.3048454",
+      "link": "https://doi.org/10.1002/anie.3048454",
+      "abstract": "ABSTRACT Flexible zinc–air batteries (FZABs) require gel polymer electrolytes (GPEs) to ensure ionic transport, interfacial stability, and mechanical flexibility, yet their development is limited by trade‐offs among mechanical robustness, low‐temperature tolerance, and fabrication efficiency. Herein, a component self‐initiated photopolymerization strategy is developed to achieve rapid gelation within minutes under visible‐light irradiation without external initiators, providing an efficient route for fabricating high‐performance GPEs. Within a proton‐rich microenvironment, sodium citrate (SC) undergoes proton‐coupled electron transfer to generate radicals that initiate the copolymerization of vinyl monomers within a sodium alginate (SA) matrix, forming a double‐network hydrogel (AAS x ‐SA). Additionally, SC induces network densification via the Hofmeister effect and modulates electrochemical properties, resulting in mechanically robust, dendrite‐suppressing, and freeze‐resistant GPEs. Consequently, the optimized AAS25‐SA‐GPE exhibits an ionic conductivity of 109 mS·cm −1 at −40°C and a freezing point of −69.1°C, enabling stable operation of the AAS25‐SA‐based FZAB for over 4220 cycles at −40°C. This work establishes an electrolyte design strategy in which a single electrolyte component integrates photoinitiation, structural construction, and electrochemical regulation, transforming electrolyte additives into active building blocks.",
+      "matchedTopics": [
+        "Ion-conducting polymers and single-ion conductors"
+      ]
+    },
+    {
       "title": "An Electronically Coupled Interfacial Energy Descriptor for Predicting Coulombic Efficiency in Aqueous Zinc Batteries",
       "authors": "Yuwei Cao, Song Yuan, Jiaqi Wei, Shengkai Cao, Huarong Xia, Bao Jin, Yang Hang, Tianyi Wang, Yuying Wang, Hao Chen, Wanlin Guo, Xian Jun Loh, Lin Jiang, Xiaodong Chen",
       "journal": "Journal of the American Chemical Society",
@@ -580,14 +737,20 @@
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
+    },
+    {
+      "title": "Interfacial Charge‐Transfer Kinetics Regulate Na 2 S Deposition by Recycled V Single‐Atom Catalysts for Durable Na–S Batteries",
+      "authors": "Guangxuan Wu, Zhihui Zhou, Yeteng Lu, Zhoujie Lao, Yuhan Ma, Nan Xiao, Ning Wang, Congqin Zheng, Shuiyong Wang, Enzuo Liu, Xiang Zhang, Chunsheng Shi, Chunnian He, Wenbin Hu, Naiqin Zhao, Wanxiang Zhao, Biao Chen",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-08-06",
+      "doi": "10.1002/anie.7796630",
+      "link": "https://doi.org/10.1002/anie.7796630",
+      "abstract": "ABSTRACT Na 2 S, as the terminal discharge product of room‐temperature sodium–sulfur (Na–S) batteries, is electronically and ionically insulating. When it deposits as a compact film on the cathode, the cathode will become passivated, hindering electron transport and inhibiting further sulfur conversion reactions. Existing catalyst strategies promote the formation of Na 2 S thermodynamically by enhancing polysulfide adsorption, but this does not address the kinetics passivation issue. Here, we adopt the exchange current density ( j 0 ) as a kinetic descriptor of the Na 2 S nucleation mode. Finite‐element simulations reveal that increasing j 0 drives the nucleation pathway from progressive to instantaneous nucleation. The deposit morphology then evolves from a compact passivating film to uniformly dispersed nanoparticles, and ion and electron transport channels are preserved. This pathway prevents Na 2 S aggregation and electrode passivation, maintaining electrochemical activity at deep discharge. Guided by this kinetic insight, nitrogen‐doped porous carbon‐supported V single‐atom catalysts (NPC‐V SACs) with high apparent j 0 were fabricated, and instantaneous Na 2 S nucleation was achieved on their surfaces. The resulting Na–S battery retains 976.3 mAh g −1 after 200 cycles at 0.2 A g −1 , with a decay rate of only 0.08% per cycle. This work establishes a kinetic design perspective for regulating Na 2 S nucleation in durable Na–S batteries.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
     }
   ],
   "source": "Crossref",
-  "errors": [],
-  "summaryPipeline": {
-    "mode": "question-led-four-point-guide",
-    "promptVersion": 1,
-    "generatedThisRun": 6,
-    "method": "ChatGPT-assisted editorial curation"
-  }
+  "errors": []
 }
