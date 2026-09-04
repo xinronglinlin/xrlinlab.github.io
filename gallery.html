@@ -112,26 +112,37 @@
 
 <section class="gallery-section">
   <h2 class="section-label">People &amp; Lab Life</h2>
-  <div class="gallery-life-grid" aria-label="Placeholders for group and lab photographs">
-    <figure class="gallery-slot gallery-slot-featured"><div class="gallery-media-placeholder"><span>Group photograph</span></div><figcaption>The Molecular Energy Lab team in Shanghai · Date and occasion to be added</figcaption></figure>
-    <figure class="gallery-slot"><div class="gallery-media-placeholder"><span>Lab life</span></div><figcaption>A working day in the laboratory · Experimental details to be added</figcaption></figure>
-    <figure class="gallery-slot"><div class="gallery-media-placeholder"><span>Meetings &amp; events</span></div><figcaption>Group discussions, academic meetings, and shared milestones</figcaption></figure>
+  <div class="gallery-carousel" data-carousel aria-label="People and lab life photographs">
+    <div class="gallery-carousel-controls">
+      <button type="button" data-carousel-prev aria-label="Previous photograph">←</button>
+      <button type="button" data-carousel-next aria-label="Next photograph">→</button>
+    </div>
+    <div class="gallery-track" data-carousel-track>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Group photograph</span></div><figcaption>The Molecular Energy Lab team in Shanghai · Date and occasion to be added</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Lab life</span></div><figcaption>A working day in the laboratory · Experimental details to be added</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Meetings</span></div><figcaption>Group discussions and research meetings</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Conferences</span></div><figcaption>Academic conferences and scientific exchange</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Milestones</span></div><figcaption>Graduations, celebrations, and shared milestones</figcaption></figure>
+    </div>
   </div>
 </section>
 
 <section class="gallery-section">
-  <h2 class="section-label">From Materials to Cells &amp; Scientific Visuals</h2>
-  <p class="gallery-section-intro">A developing record of materials, experimental objects, assembled cells, and the visual language used to communicate our research.</p>
-  <div class="gallery-object-grid" aria-label="Placeholders for materials and battery-cell photographs">
-    <figure class="gallery-slot"><div class="gallery-media-placeholder gallery-media-square"><span>Materials</span></div><figcaption>Molecularly designed ion-conducting materials · Sample details to be added</figcaption></figure>
-    <figure class="gallery-slot"><div class="gallery-media-placeholder gallery-media-square"><span>Cell assembly</span></div><figcaption>From electrolyte preparation to electrochemical cell assembly</figcaption></figure>
-    <figure class="gallery-slot"><div class="gallery-media-placeholder gallery-media-square"><span>Battery cells</span></div><figcaption>Laboratory-built cells for solid-state and fast-charging studies</figcaption></figure>
-  </div>
-  <div class="gallery-subsection-label">Selected Scientific Visuals</div>
-  <div class="gallery-art-grid">
-    <figure class="gallery-art-feature"><img src="assets/images/97331a6194aed8b14a.webp" alt="Sequence-controlled polymers for solid-state batteries"><figcaption>Sequence-controlled polymers for solid-state lithium batteries</figcaption></figure>
-    <figure><img src="assets/images/9355c3595fbfbee433.png" alt="Single-ion polymer coating concept"><figcaption>Single-ion polymer coatings and interfacial charge transfer</figcaption></figure>
-    <figure><img src="assets/images/e7c3ab0f95314df13b.webp" alt="Scientific artwork from the laboratory publication archive"><figcaption>Scientific artwork from the laboratory publication archive</figcaption></figure>
+  <h2 class="section-label">Scientific Visuals</h2>
+  <p class="gallery-section-intro">Materials, experimental objects, assembled cells, and selected images used to communicate our research.</p>
+  <div class="gallery-carousel" data-carousel aria-label="Scientific visuals">
+    <div class="gallery-carousel-controls">
+      <button type="button" data-carousel-prev aria-label="Previous scientific visual">←</button>
+      <button type="button" data-carousel-next aria-label="Next scientific visual">→</button>
+    </div>
+    <div class="gallery-track" data-carousel-track>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Materials</span></div><figcaption>Molecularly designed ion-conducting materials · Sample details to be added</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Cell assembly</span></div><figcaption>From electrolyte preparation to electrochemical cell assembly</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-media-placeholder"><span>Battery cells</span></div><figcaption>Laboratory-built cells for solid-state and fast-charging studies</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/97331a6194aed8b14a.webp" alt="Sequence-controlled polymers for solid-state batteries"></div><figcaption>Sequence-controlled polymers for solid-state lithium batteries</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/9355c3595fbfbee433.png" alt="Single-ion polymer coating concept"></div><figcaption>Single-ion polymer coatings and interfacial charge transfer</figcaption></figure>
+      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/e7c3ab0f95314df13b.webp" alt="Scientific artwork from the laboratory publication archive"></div><figcaption>Scientific artwork from the laboratory publication archive</figcaption></figure>
+    </div>
   </div>
 </section>
 
@@ -147,5 +158,54 @@
 </section>
 </main>
 <footer class="site-footer"><div class="site-shell footer-row"><span>Molecular Energy Lab</span><span>Shanghai Institute of Organic Chemistry, CAS</span></div></footer>
+<script>
+document.querySelectorAll("[data-carousel]").forEach(function (carousel) {
+  var track = carousel.querySelector("[data-carousel-track]");
+  var previous = carousel.querySelector("[data-carousel-prev]");
+  var next = carousel.querySelector("[data-carousel-next]");
+  var timer;
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function distance() {
+    var slide = track.querySelector(".gallery-slide");
+    var styles = window.getComputedStyle(track);
+    return slide.getBoundingClientRect().width + (parseFloat(styles.columnGap) || 0);
+  }
+
+  function move(direction) {
+    var atStart = track.scrollLeft <= 4;
+    var atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+    if (direction > 0 && atEnd) {
+      track.scrollTo({left: 0, behavior: "smooth"});
+    } else if (direction < 0 && atStart) {
+      track.scrollTo({left: track.scrollWidth - track.clientWidth, behavior: "smooth"});
+    } else {
+      track.scrollBy({left: direction * distance(), behavior: "smooth"});
+    }
+  }
+
+  function stop() {
+    window.clearInterval(timer);
+  }
+
+  function start() {
+    stop();
+    if (!reduceMotion) timer = window.setInterval(function () { move(1); }, 4800);
+  }
+
+  previous.addEventListener("click", function () { move(-1); start(); });
+  next.addEventListener("click", function () { move(1); start(); });
+  carousel.addEventListener("mouseenter", stop);
+  carousel.addEventListener("mouseleave", start);
+  carousel.addEventListener("focusin", stop);
+  carousel.addEventListener("focusout", start);
+  track.addEventListener("pointerdown", stop);
+  track.addEventListener("pointerup", start);
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) stop(); else start();
+  });
+  start();
+});
+</script>
 </body>
 </html>
