@@ -79,18 +79,6 @@
       "summaryPromptVersion": 1
     },
     {
-      "title": "Correction to “A Bifunctional Descriptor Inspired by Electron‐Donating Ability for Regulating Dendrite Growth and Parasitic Reactions in Zinc‐Ion Batteries”",
-      "authors": "",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-09-02",
-      "doi": "10.1002/anie.5685998",
-      "link": "https://doi.org/10.1002/anie.5685998",
-      "abstract": "",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Anisotropic Lattice Compression Enables Defect-Rich Lithium-Ion Transport Channels for Extremely Fast-Charging Lithium-Ion Batteries",
       "authors": "Xin Cheng, Huang Xiao, Wenjing Zhang, Min Liu, Cong Tian, Kaiquan He, Haibo Li, Fang Li, Guoxing Li",
       "journal": "Journal of the American Chemical Society",
@@ -121,18 +109,6 @@
       "summarySource": "crossref-abstract",
       "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
       "summaryPromptVersion": 1
-    },
-    {
-      "title": "Unveiling Electrode–Electrolyte Interfacial Synergy in CTAB‐Modulated Pd Single‐Atom Catalysts for Efficient H 2 O 2 Electrosynthesis",
-      "authors": "Weiping Xiao, Qin Zhao, Na Wang, Fengyan Han, Danil Bukhvalov, Xiaofei Yang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-30",
-      "doi": "10.1002/anie.2707273",
-      "link": "https://doi.org/10.1002/anie.2707273",
-      "abstract": "ABSTRACT The design of high‐activity single‐atom catalysts (SACs) toward two‐electron oxygen reduction is dominated by regulating the adsorption energy of *OOH intermediates at active sites, whereas the critical factor of proton activity at the catalyst–electrolyte interface has received insufficient attention. Herein, an electrode–electrolyte synergistic strategy was employed to modulate the electronic structure of Pd single‐atom sites via the construction of a Pd/CeO 2 ‐MXene heterostructure and hydrogen bond strength using cetyltrimethylammonium bromide (CTAB) additive. X‐ray absorption spectroscopy (XAS) and density functional theory (DFT) calculations revealed that the real active sites are Pd single‐atom sites anchored via Pd‐O‐Ce bonding, which significantly reduces the free energies of the key reaction steps (H 2 O→*OOH→H 2 O 2 ). In situ attenuated total reflection surface‐enhanced infrared absorption spectroscopy (ATR‐SEIRAS) further verified that CTAB adsorbed at the reaction interface can enhance the hydrogen bond strength of interfacial water molecules, reduce the supply of interfacial *H species, and thereby effectively suppress H 2 O 2 decomposition. As a result, the Pd/CeO 2 ‐MXene+CTAB system achieves a low electron transfer number of 2.02 and a high H 2 O 2 selectivity of 98.8% at 0.5 V. This study provides a novel insight into the rational design of proton‐coupled electrocatalysts through the integration of interfacial hydrogen bond engineering and single‐atom catalysts.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
     },
     {
       "title": "Terminally Fluorinated Polyimide Interphase for Durable Lithium‐Rich Layered Oxide Cathodes",
@@ -308,8 +284,7 @@
       "link": "https://doi.org/10.1002/anie.3211208",
       "abstract": "ABSTRACT High‐voltage polymer electrolyte lithium metal batteries have long been constrained by the intrinsically low ionic conductivity of polymer electrolytes and unstable high‐voltage cathode interfaces, especially at low temperatures where ion transport and interfacial kinetics become sluggish. Here, we propose a descriptor‐guided dynamic solvation‐shell reconstruction strategy for poly(ethylene oxide) (PEO)‐based quasi‐solid electrolytes by introducing nitrile plasticizers with competitive Li + affinity and fast local Li + diffusivity. These nitrile ligands competitively enter the first Li + solvation shell, weaken persistent Li + ‐ether oxygen coordination, and shift Li + migration from polymer‐cage‐confined hopping to ligand‐exchange‐assisted transport. The optimized electrolyte achieves a room‐temperature ionic conductivity of 10.9 mS cm −1 , nearly three orders of magnitude higher than that of the pristine PEO electrolyte. Meanwhile, the nitrile‐containing solvation shell regulates interfacial decomposition pathways, suppresses oxidative PEO degradation in high‐voltage Li‖NCM811 cells, and promotes the formation of compact cathode electrolyte interphases. Benefiting from simultaneously enhanced bulk Li + transport and high‐voltage interfacial stability, the optimized electrolyte enables stable fast‐charging cycling and low‐temperature operation in Li‖NCM811 cells. This work establishes descriptor‐guided dynamic first‐solvation‐shell reconstruction as a molecular design principle for high‐conductivity, high‐voltage‐stable PEO‐based quasi‐solid electrolytes.",
       "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors",
-        "Fast charging and interfacial ion transport"
+        "Ion-conducting polymers and single-ion conductors"
       ]
     },
     {
@@ -357,18 +332,6 @@
       "doi": "10.1021/jacs.6c12417",
       "link": "https://doi.org/10.1021/jacs.6c12417",
       "abstract": "Abstract Lithium-ion batteries operating under low-temperature conditions suffer from sluggish ion transport and hindered interfacial desolvation, which limit fast-charging capability and cycling stability. Herein, a moderate solvation strategy is adopted, which enables a rational balance between bulk ionic transport and interfacial kinetics through tuning solvent–Li+–anion interactions. Notably, the as-designed moderately solvated electrolyte (MSE), employing dimethyl sulfite (DMS) and dimethyl ketone (DMK), is enriched with contact ion pairs (CIPs), which simultaneously preserves sufficient ion transport and reduced interfacial desolvation barrier, leading to well-balanced electrochemical kinetics with remarkably fast charging performance under low temperature. Graphite||LiCoO2 full cells achieved 82.8% capacity retention after 1500 cycles at 1 C rate at −20 °C, and even at −40 °C, reversible cycling can still be achieved at a record-breaking rate of 0.5 C. The 1 Ah pouch cells can also achieve over 90% capacity retention at −40 °C. This work reveals how the evolution of electrolyte solvation structures intrinsically governs electrochemical performance and provides new insights into electrolyte design principles for advanced low-temperature energy storage systems.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Mechanistic Study of Structural Evolution and Lithium-Ion Transport in Water-in-Polymer-Salt Electrolyte with Rigid-Rod Polyanion",
-      "authors": "Feifan Ji, Jifeng Wang, Ying Wang",
-      "journal": "Macromolecules",
-      "publicationDate": "2026-08-24",
-      "doi": "10.1021/acs.macromol.6c01017",
-      "link": "https://doi.org/10.1021/acs.macromol.6c01017",
-      "abstract": "Abstract Conventional aqueous electrolytes are often restricted by a narrow electrochemical stability window (∼1.23 V), while water-in-salt electrolytes alleviate this limitation at the cost of excessive salt consumption and sluggish Li+ transport. To address this trade-off, poly(2,2′-disulfonyl-4,4′-biphenyline terephthalamide) (PBDT), a rigid-rod polyanion, is introduced to regulate Li+ solvation structure and transport behavior in water-in-polymer-salt electrolytes. All-atom molecular dynamics simulations reveal how incorporation of PBDT restricts free-water mobility and alters Li+ solvation environments through direct coordination of sulfonate groups. As a result, Li+ exists in three ion-association states (contact ion pairs (CIPs), solvent-separated ion pairs (SSIPs), and solvated Li+ ions), among which SSIP-Li+ participates in polymer-associated hopping pathways involving both along-chain and interchain migration, thereby providing molecular insight into Li+ transport regulation in concentrated electrolytes. These findings contribute to a molecular-level understanding of polyanion-regulated Li+ transport in aqueous electrolytes.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
@@ -722,8 +685,7 @@
       "link": "https://doi.org/10.1021/jacs.6c10148",
       "abstract": "Abstract Designing halide solid electrolytes with high ionic conductivity and robust electrochemical stability is crucial for advanced all-solid-state sodium-ion batteries. Currently, most sodium-based halide conductors suffer from the limited ionic conductivity. In this work, we report a new fast-ion-conductive sulfide-chloride solid electrolyte Na1.0Zr0.5Al0.5Cl3.5S0.5 (NZACS), where highly conductive prismatic Na-ion coordination units were developed by Al3+/S2–-triggered glass–ceramic evolution of the P21/n phase. The resulting material exhibits a high ionic conductivity of 3.2 × 10–4 S cm–1 at room temperature and 1.0 × 10–3 S cm–1 at 60 °C, and a low activation energy of 0.35 eV. Moreover, the excellent formability and high electrochemical oxidative stability of the NZACS solid electrolyte ensure a tight junction between the electrolyte-electrode interface, thus delivering superior cycling stability and rate capability, 93% capacity retention after 150 cycles at 0.1C and 80% capacity retention after 800 cycles at 1C. This study establishes a new paradigm of precise local-structure engineering for the development of high-performance solid electrolytes.",
       "matchedTopics": [
-        "Solid-state batteries",
-        "Fast charging and interfacial ion transport"
+        "Solid-state batteries"
       ]
     },
     {

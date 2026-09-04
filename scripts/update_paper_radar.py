@@ -77,12 +77,12 @@ def matched_topics(item):
     abstract = clean(item.get("abstract"))
     title_text = re.sub(r"[‐‑‒–—−]", "-", title.lower())
     corpus = re.sub(r"[‐‑‒–—−]", "-", (title + " " + abstract).lower())
-    if re.match(r"^(author correction|correction|editorial):", title_text):
+    if re.match(r"^(author correction|correction(?: to)?|editorial)(?::|\b)", title_text):
         return []
 
     matched = []
     storage_context = bool(re.search(
-        r"batter|(?:^|[^a-z])electrolyte|anode|lithium[- ]rich layered oxide",
+        r"batter|anode|cathode|solid electrolyte interphase|lithium[- ]rich layered oxide",
         title_text,
     ))
     ion_material = bool(re.search(
