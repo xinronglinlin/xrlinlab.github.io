@@ -212,3 +212,5 @@ img{display:block;max-width:100%}
  .gallery-sioc-layout{grid-template-columns:1fr;gap:26px}
  .gallery-sioc-copy{padding-right:0;max-width:620px}
 }
+
+@media(min-width:901px){.gallery-page .gallery-slide{flex-basis:calc((100% - 30px)/2)}}
