@@ -201,6 +201,8 @@ def main():
             for field in ("summaryZh", "summarySource", "summaryGeneratedAt", "summaryPromptVersion"):
                 if old.get(field):
                     paper[field] = old[field]
+            if paper.get("summaryZh"):
+                paper["abstract"] = ""
             collected[key] = paper
     papers = sorted(collected.values(), key=lambda p: (p["publicationDate"], p["title"]), reverse=True)
     payload = {

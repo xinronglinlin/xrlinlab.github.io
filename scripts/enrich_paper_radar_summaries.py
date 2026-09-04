@@ -73,6 +73,7 @@ def main():
         try:
             summary, source = call_llm(paper, api_key, base_url, model)
             paper.update(summaryZh=summary, summarySource=source, summaryGeneratedAt=datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"), summaryPromptVersion=PROMPT_VERSION)
+            paper["abstract"] = ""
             changed += 1
             print(f"[{index}/{min(len(candidates),120)}] generated: {paper.get('title','')[:80]}")
         except Exception as exc:
