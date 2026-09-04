@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T08:56:05Z",
+  "generatedAt": "2026-09-04T09:22:40Z",
   "windowDays": 30,
   "topics": [
     "Ion-conducting polymers and single-ion conductors",
@@ -24,6 +24,18 @@
   ],
   "papers": [
     {
+      "title": "Synergic Regulation of Active Site Electron Polarization and Interlayer Electron Coupling in COFs for Photocatalytic Hydrogen Peroxide Synthesis",
+      "authors": "Ruihan Wang, Jiafu Shi, Bingchen Guo, Huiting Shan, Xinchi Ma, Yunjin Nie, Yu Chen, Wenyue Shi, Boyu Zhang, Shujing Zhang, Jing Li, Jianping Xie, Zhongyi Jiang",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-09-04",
+      "doi": "10.1002/anie.5283597",
+      "link": "https://doi.org/10.1002/anie.5283597",
+      "abstract": "ABSTRACT Covalent organic frameworks (COFs) are promising photocatalysts for the oxygen reduction reaction (ORR), yet reconciling the different electronic requirements in different elementary steps remains challenging. Herein, guided by the Sabatier principle and Marcus–Hush electron‐transfer theory, we report a PyaD COF with dual electronic regulation targeting both atomic active sites and the molecular skeleton. Specifically, moderately polarized active sites balance the adsorption/desorption step by avoiding overly strong intermediate binding and reducing the H 2 O 2 desorption barrier from 0.82 to 0.46 eV, while reinforced interlayer π–π electron coupling across the COF skeleton promotes electron transfer, prolonging the excited‐state lifetime by more than one order of magnitude. The dual electronic regulation affords a sacrificial‐agent‐free H 2 O 2 production rate of 4227.5 µmol g − 1 h − 1 , which is approximately 4 times and 2.8 times higher than those of unregulated and singly regulated COFs, respectively. Furthermore, a membrane‐based photo‐enzyme cascade reactor system achieves selective hydroxylation of ethylbenzene to synthesize 1‐phenylethanol, producing over 10 mmol g cat −1 L −1 within five irradiation cycles.",
+      "matchedTopics": [
+        "Organic molecular materials for electrochemical energy"
+      ]
+    },
+    {
       "title": "Regulating Hard Segment Aggregation in Polyurethane Elastomers via Multiple Hydrogen Bonding Motifs for Enhanced Mechanical Properties",
       "authors": "Junjie Wang, Huihui Ma, Chenxi Wang, Jieyi Chen, Xiaoyu Dong, Kang Qin, Guobing Zhang, Yunsheng Ding",
       "journal": "Macromolecules",
@@ -43,6 +55,18 @@
       "doi": "10.1021/jacs.6c09174",
       "link": "https://doi.org/10.1021/jacs.6c09174",
       "abstract": "Abstract Spatially inhomogeneous plasmonic heterostructures concentrate light into nanoscale volumes and offer powerful routes for plasmon-mediated solar energy conversion. However, how hot carriers evolve and lose energy under such extreme nanophotonic confinement, particularly during interfacial transfer, remains largely unexplored. Here, we demonstrate that rationally engineered plasmonic nanocavities with intense nanoscopic field localization provide a unique platform to bypass these energy-loss channels by enabling nonthermal charge injection on a sub-40 fs time scale. Using polarization-resolved and time-resolved multiphoton photoemission spectroscopy, we reveal that the intense localized fields arising from plasmon-cavity mode coupling establish an accelerated and direct electron transfer channel across the interface. This behavior is accompanied by a distinctive inversion of the polarization dependence and by photon-energy-independent spectral features, confirming charge injection occurring prior to thermalization. Furthermore, the emergence of three-photon photoemission indicates a fundamental reconfiguration of the hot carrier generation and relaxation landscape resulting from the nanoscopic electric field within the plasmonic nanocavity. These insights establish a microscopic understanding of how interfacial charge transfer contributes to the enhanced water-oxidation activity in plasmonic nanocavity systems, offering a guiding framework for the development of advanced plasmonic photocatalysts and optoelectronic interfaces.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
+      "title": "A Chemically Selective Fluorescent Probe Visualizes the Non‐Monotonic Evolution of the NaF‐Rich Interphase in Sodium‐Metal Batteries",
+      "authors": "Xiaolin Guo, Zijun Wang, Yining Lv, Min Niu, Jiale Wan, Jin Ren, Zhijun Chen, Liwei Dong, Zuotao Lei",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-09-04",
+      "doi": "10.1002/anie.3926577",
+      "link": "https://doi.org/10.1002/anie.3926577",
+      "abstract": "ABSTRACT Alkali‐metal fluorides enable robust solid‐electrolyte interphases (SEIs) in metal batteries owing to their wide electrochemical stability windows and high mechanical stiffness. However, the complexity and dynamic behavior of SEIs have long hindered direct, chemically resolved visualization of fluoride‐rich domains, which is essential for decoding inorganic interphase dynamics and guiding rational battery formation. Here, tetrakis(4‐carboxyphenyl)ethylene (H 4 TCPE) is used as a fluorescent probe for convenient, semi‐quantitative visualization of alkali‐metal fluoride‐rich interphases, enabled by a crystalline‐lattice‐specific matrix coordination‐induced emission effect mechanism. Under this mechanism, crystalline NaF exclusively activates H 4 TCPE fluorescence through strong hydrogen‐bonding and coordination interactions that lock the probe's rotation, whereas the probe remains non‐emissive on other SEI components because these phases fail to impose sufficient steric confinement. This chemical contrast enables ex situ and operando imaging and reveals an unexpected formation–breakdown–regeneration lifecycle of the NaF‐rich framework during cycling. This probe‐enabled semi‐quantitative tracking further identifies 1.0 mA cm −2 as the optimal formation current density, yielding the most continuous NaF‐rich framework, minimizing capacity loss, and ensuring stable cycling. Ultimately, this accessible, chemically selective optical strategy opens new avenues for probing fragile battery interphases and tailoring electrochemical protocols for high‐performance energy storage.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
