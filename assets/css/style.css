@@ -84,6 +84,7 @@ img{display:block;max-width:100%}
 .gallery-section{margin-top:92px}
 .gallery-section:first-of-type{margin-top:0}
 .gallery-section-intro{max-width:680px;margin:-7px 0 30px;color:#777;font-size:15px;line-height:1.72}
+.gallery-subsection-label{margin:58px 0 24px;padding-top:15px;border-top:1px solid var(--line);color:#666;font-family:"Futura PT",Futura,Poppins,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:12px;font-weight:500;letter-spacing:1.6px;text-transform:uppercase}
 .gallery-life-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);gap:34px 30px}
 .gallery-slot{margin:0}
 .gallery-slot-featured{grid-row:span 2}
