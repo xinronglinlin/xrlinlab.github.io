@@ -25,7 +25,6 @@ JOURNALS = {
     "Nature Sustainability": ["2398-9629"],
 }
 TOPICS = {
-    "Electrolytes": [r"\belectrolytes?\b", r"ionic liquid", r"solvation structure", r"ion transport", r"ionic conductivity"],
     "Ion-conducting polymers and single-ion conductors": [r"ion[- ]conducting polymer", r"single[- ]ion", r"polymer ion conductor", r"polyelectrolyte", r"\bionomer"],
     "Solid-state batteries": [r"solid[- ]state batter", r"solid electrolytes?", r"all[- ]solid[- ]state"],
     "Lithium-metal and anode-free batteries": [r"lithium[- ]metal", r"\bli metal\b", r"anode[- ]free", r"lithium deposition", r"lithium plating"],
