@@ -95,6 +95,8 @@ img{display:block;max-width:100%}
 .gallery-media-placeholder{display:grid;place-items:center;background:#f3f3f1;color:#9a9a96;font-family:"Futura PT",Futura,"Century Gothic","Avenir Next",Arial,sans-serif;font-size:11px;font-weight:400;letter-spacing:1.5px;text-transform:uppercase}
 .gallery-slide-image{display:grid;place-items:center;background:#fff}
 .gallery-slide-image img{width:100%;height:100%;object-fit:contain}
+.gallery-photo-carousel .gallery-slide-media{height:230px}
+.gallery-photo-carousel .gallery-slide-image img{object-fit:cover}
 .gallery-slide figcaption,.gallery-video-placeholder figcaption{margin-top:12px;color:#777;font-size:13px;line-height:1.5}
 .gallery-video-placeholder{margin:0}
 .gallery-video-cover{position:relative;overflow:hidden;background:#f3f3f1}
@@ -165,4 +167,8 @@ img{display:block;max-width:100%}
  .gallery-slide{flex-basis:84%}
  .gallery-slide-media{height:270px}
  .gallery-carousel-controls{margin-bottom:13px}
+}
+
+@media(max-width:700px){
+ .gallery-photo-carousel .gallery-slide-media{height:220px}
 }
