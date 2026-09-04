@@ -44,7 +44,11 @@
       "abstract": "ABSTRACT Alkali‐metal fluorides enable robust solid‐electrolyte interphases (SEIs) in metal batteries owing to their wide electrochemical stability windows and high mechanical stiffness. However, the complexity and dynamic behavior of SEIs have long hindered direct, chemically resolved visualization of fluoride‐rich domains, which is essential for decoding inorganic interphase dynamics and guiding rational battery formation. Here, tetrakis(4‐carboxyphenyl)ethylene (H 4 TCPE) is used as a fluorescent probe for convenient, semi‐quantitative visualization of alkali‐metal fluoride‐rich interphases, enabled by a crystalline‐lattice‐specific matrix coordination‐induced emission effect mechanism. Under this mechanism, crystalline NaF exclusively activates H 4 TCPE fluorescence through strong hydrogen‐bonding and coordination interactions that lock the probe's rotation, whereas the probe remains non‐emissive on other SEI components because these phases fail to impose sufficient steric confinement. This chemical contrast enables ex situ and operando imaging and reveals an unexpected formation–breakdown–regeneration lifecycle of the NaF‐rich framework during cycling. This probe‐enabled semi‐quantitative tracking further identifies 1.0 mA cm −2 as the optimal formation current density, yielding the most continuous NaF‐rich framework, minimizing capacity loss, and ensuring stable cycling. Ultimately, this accessible, chemically selective optical strategy opens new avenues for probing fragile battery interphases and tailoring electrochemical protocols for high‐performance energy storage.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：建立了对晶态NaF具有化学选择性的荧光探针，使钠金属电池中NaF富集固态电解质界面膜（solid–electrolyte interphase, SEI）能够被原位和非原位半定量成像。\n有意思的现象：NaF富集骨架在循环中并非单调累积，而是经历“形成—破坏—再生”；1.0 mA cm−2成膜电流得到的NaF网络最连续，并对应较低容量损失和较稳定循环。\n怎么解释：晶态NaF通过氢键和配位作用限制H4TCPE探针的分子转动，从而触发基质配位诱导发光；其他SEI组分不能提供足够空间限域，因此形成可区分NaF的光学对比。\n为什么重要：该方法把难以直接追踪的无机SEI演化转化为可视、可比较的信号，为判断成膜程序如何影响NaF网络连续性及后续界面稳定性提供了实验工具。",
+      "summarySource": "crossref-abstract",
+      "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
+      "summaryPromptVersion": 1
     },
     {
       "title": "Dual-Site Engineering Unlocks Spin Modulation and Local Field-Controlled Charge Switching in Triangulenes",
@@ -69,7 +73,11 @@
       "matchedTopics": [
         "Solid-state batteries",
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：提出以金属/金属氧化物界面的几何匹配和电流分布为筛选准则，并据此确定Y/Y2O3异质界面用于低温钠沉积，而不是依靠经验逐一筛选亲钠涂层。\n有意思的现象：Y/Y2O3修饰集流体在−40 °C仍可维持可逆钠沉积/剥离，并支持Na3V2(PO4)3全电池稳定循环，显示界面设计在极低温下仍能有效调节沉积行为。\n怎么解释：内建电场与适度亲钠性共同均化Na+通量；同时异质界面增强PF6−吸附，使界面反应偏向生成无机SEI组分。摘要据此将均匀沉积与界面稳定性联系起来，但未给出各因素的独立贡献。\n为什么重要：工作把低温金属负极调控从单一亲钠性扩展到结构匹配、电场和界面反应协同设计，为严苛温度下钠金属电池集流体筛选提供了可迁移的设计思路。",
+      "summarySource": "crossref-abstract",
+      "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
+      "summaryPromptVersion": 1
     },
     {
       "title": "Electrochemical Oxidative Carbonylation: Strong CO Binding Suppresses C–C Coupling and Steers Selectivity to Organic Carbonates",
@@ -93,7 +101,11 @@
       "abstract": "Abstract Enhancing mass-transport kinetics via lattice defect engineering holds great promise for high-performance rechargeable batteries. Herein, we design a defect-rich anode system by self-catalyzing the growth of graphdiyne (GDY) on the La2CuO4 (LCO) surface. Orbital interactions between GDY and metal atoms induce a lattice compression in LCO. The degree of overlap between pz orbitals of sp-hybridized carbon atoms in GDY and dz2 orbitals of metal atoms varies across different crystallographic planes, resulting in a plane-dependent anisotropic lattice compression. This anisotropy generates specific grain boundaries rich in lattice distortions and vacancies, which lower the energy barrier for lithium (Li)-ion transport and establish defect-enhanced diffusion pathways. Furthermore, we reveal that the reversible alkyne–alkene transition of GDY during discharge–charge processes triggers a lattice-rebound effect, which actively pumps Li ions into the lattice, further enhancing the Li-ion transport kinetics. Benefiting from these features, the LCO@GDY anode exhibits remarkable fast-charging performance and long-term cycling stability, delivering a high capacity of 151.4 mAh g–1 with a capacity retention of 84.9% after 15000 cycles at 10 A g–1. Moreover, the LCO@GDY||LiNi0.8Co0.1Mn0.1O2 full cell delivers a specific capacity of 141.9 mAh g–1 with negligible capacity decay after 1000 cycles at a high rate of 6 C (1 C = 210 mA g–1). We anticipate that these findings will guide the construction of advanced defect-rich fast-charging materials, leading to the development of next-generation, high-performance fast-charging batteries.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：利用石墨炔与La2CuO4的轨道相互作用诱导晶面依赖的各向异性晶格压缩，并提出石墨炔炔键–烯键可逆转变产生“晶格回弹泵送”，将静态缺陷通道与动态晶格响应结合。\n有意思的现象：所得负极在10 A g−1下循环15000次后仍保持151.4 mAh g−1和84.9%容量保持率；与高镍正极组成的全电池在6 C下循环1000次几乎无容量衰减。\n怎么解释：不同晶面上碳pz轨道与金属dz2轨道重叠程度不同，造成各向异性压缩并形成富畸变和空位的晶界，从而降低Li+迁移势垒；充放电诱导的晶格回弹被认为进一步促进Li+进入晶格。\n为什么重要：该结果提示快充电极中的离子输运不仅可以通过增加缺陷数量改善，还可利用界面轨道耦合控制缺陷的空间类型及其动态响应，为构建高倍率、长寿命负极提供新路径。",
+      "summarySource": "crossref-abstract",
+      "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
+      "summaryPromptVersion": 1
     },
     {
       "title": "Supramolecular Engineering of Dynamically Interlocked Dual‐Stiffness Interphase for Biomimetic Strong and Tough Double Network Aerogel",
@@ -129,7 +141,11 @@
       "abstract": "ABSTRACT NASICON‐type Na 3 Zr 2 Si 2 PO 12 (NZSP) is a promising solid electrolyte for all‐solid‐state sodium metal batteries, yet its practical performance is restricted by poor ceramic densification, sluggish grain‐boundary Na + transport, and unstable sodium‐metal interfaces. Herein, we report a reaction‐derived heterointerface engineering strategy guided by an adhesion‐migration dual criterion. Theoretical screening identifies TiO 2 as an optimal rigid oxide heterophase that combines favorable interfacial adhesion with a low Na + migration barrier at the NZSP interface. Instead of directly adding TiO 2 , Na 2 Ti 3 O 7 is introduced as a reactive sintering aid to generate TiO 2 ‐derived nanocrystals and Na‐containing species in situ during sintering, enabling simultaneous grain‐boundary reconstruction, sodium‐loss compensation, and ceramic densification. NZSP‐4 wt.% NTO (NZSP‐Ti4) shows 94.20% relative density, 1.65 mS cm −1 room‐temperature conductivity, and a 0.27 eV activation energy. It also enables a 1.55 mA cm −2 critical current density and over 1600 h of reversible Na cycling at 0.2 mA cm −2 . Coupled with an integrated NZSP/Na 3 V 2 (PO 4 ) 3 cathode architecture, liquid‐free and pressure‐free full cells deliver durable cycling and stable subzero operation. This work establishes a rational route for reactive grain‐boundary engineering in ceramic solid electrolytes.",
       "matchedTopics": [
         "Solid-state batteries"
-      ]
+      ],
+      "summaryZh": "新在哪里：以界面黏附和Na+迁移势垒为双重准则筛选TiO2异相，并用Na2Ti3O7反应型烧结助剂原位生成TiO2衍生纳米晶，同时处理晶界传输、钠损失与陶瓷致密化。\n有意思的现象：加入4 wt.% Na2Ti3O7后，NASICON电解质达到94.20%相对密度、1.65 mS cm−1室温离子电导率和0.27 eV活化能，并支持1.55 mA cm−2临界电流密度及超过1600 h的对称电池循环。\n怎么解释：烧结过程中形成的TiO2衍生纳米晶重构晶界，伴随生成的含钠物种补偿钠挥发并促进致密化；理论计算表明所得异质界面兼具较强黏附和较低Na+迁移势垒。\n为什么重要：该工作说明陶瓷固态电解质（solid-state electrolyte, SSE）的晶界优化不能只追求致密化，而应同步考虑界面结合和离子迁移，为反应型烧结助剂的理性选择提供了明确判据。",
+      "summarySource": "crossref-abstract",
+      "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
+      "summaryPromptVersion": 1
     },
     {
       "title": "Mechanistic Insights into Photo-Induced Bond Dissociation of a 2-(4-Nitrophenyl)-1H-indole-3-ylmethyl (NPIM) Derivative: A Case Study on Quantum Spin-Manipulation for Uncaging",
@@ -153,7 +169,11 @@
       "abstract": "ABSTRACT Lithium‐rich layered oxides (LLOs) deliver high energy density via coupled cationic/anionic redox, but high‐voltage oxygen activation generates radical‐rich interfaces that accelerate electrolyte decomposition, surface reconstruction, and mechanical failure. Although polyimide serves as an oxidation‐resistant interphase on LLO cathodes, its durability is limited by labile termini vulnerable to reactive oxygen species, whereas backbone fluorination compromises ionic transport. In this study, a terminally fluorinated polyimide (FPI) interphase is constructed on LLOs (LLO‐FPI) by introducing electron‐withdrawing ─CF 3 termini to elevate the interfacial electronic barrier, thereby mitigating oxidative attack and oxygen release while preserving backbone integrity. Terminal fluorination suppresses radical‐mediated degradation and parasitic oxidation, while the high‐modulus FPI interphase constrains stress‐driven particle cracking without sacrificing Li + kinetics. Consequently, LLO‐FPI exhibits exceptional long‐term cycling stability, retaining 80.8% capacity after 1000 cycles. A Si/C||LLO‐FPI pouch cell delivers 409 Wh kg −1 with 90.1% capacity retention over 100 cycles. These findings identify terminal fluorination as a versatile strategy for durable high‐energy‐density batteries.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：将含氟基团仅布置在聚酰亚胺链端，以提高界面电子势垒和抗氧化能力，同时避免主链氟化造成的Li+传输损失，针对富锂层状氧化物界面提出了位置选择性氟化策略。\n有意思的现象：端基氟化聚酰亚胺包覆的富锂正极循环1000次后保持80.8%容量；Si/C||富锂正极软包电池达到409 Wh kg−1，并在100次循环后保持90.1%容量。\n怎么解释：吸电子CF3端基抑制活性氧引发的聚合物降解、副反应和氧释放，高模量聚酰亚胺层同时限制应力诱导的颗粒开裂；摘要称其未明显牺牲Li+动力学，但未量化端基与主链效应的独立贡献。\n为什么重要：结果表明界面聚合物的取代位置与取代基本身同样关键，可在化学稳定性、机械保护和离子传输之间取得更合理平衡，为高电压正极人工界面设计提供具体分子变量。",
+      "summarySource": "crossref-abstract",
+      "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
+      "summaryPromptVersion": 1
     },
     {
       "title": "Breaking Low-Temperature Bottlenecks via p–d–π-Type Local Environment toward High-Performance Polymer-Based All-Solid-State Lithium Battery",
@@ -166,7 +186,11 @@
       "matchedTopics": [
         "Solid-state batteries",
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：在聚合物复合固态电解质中构建p–d–π型局域环境，将三锂盐形成的富阴离子缔合状态与镍酞菁提供的阳离子–π作用结合，同时调控体相Li+传输和电极界面反应。\n有意思的现象：电解质在25、0和−40 °C下的离子电导率分别达到1.31、0.70和0.10 mS cm−1；LiFePO4全固态电池在0 °C循环500次后容量保持率为100%，并可在−37.8 °C运行。\n怎么解释：FSI−、DFOB−和NFSA−的混合缔合削弱强离子缔合，镍酞菁的阳离子–π作用提供额外Li+迁移位点；离域π电子及Ni(3d)–O(2p)轨道杂化还被用于解释界面电荷转移和富LiF复合界面层的形成。\n为什么重要：工作把低温聚合物固态电池的体相传输与双界面稳定性放在同一分子环境中设计，为同时改善低温电导率、高倍率性能和长期循环提供了较完整的材料策略。",
+      "summarySource": "crossref-abstract",
+      "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
+      "summaryPromptVersion": 1
     },
     {
       "title": "4.8 V and All‐Climate (−60 to 55°C) All‐Solid‐State Batteries Enabled by Dual‐Phase Symbiotic Halide Solid Electrolytes",
@@ -1372,7 +1396,7 @@
   "summaryPipeline": {
     "mode": "question-led-four-point-guide",
     "promptVersion": 1,
-    "generatedThisRun": 0,
+    "generatedThisRun": 6,
     "method": "ChatGPT-assisted editorial curation"
   }
 }
