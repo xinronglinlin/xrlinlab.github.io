@@ -29,7 +29,6 @@ TOPICS = {
     "Solid-state batteries": [r"solid[- ]state batter", r"solid electrolytes?", r"all[- ]solid[- ]state"],
     "Lithium-metal and anode-free batteries": [r"lithium[- ]metal", r"\bli metal\b", r"anode[- ]free", r"lithium deposition", r"lithium plating"],
     "Fast charging and interfacial ion transport": [r"fast[- ]charg", r"extreme fast charg", r"high[- ]rate charg", r"interfacial ion transport", r"charge[- ]transfer", r"interphase", r"sand['’]s time"],
-    "Organic molecular materials for electrochemical energy": [r"organic molecular material", r"covalent organic framework", r"\bCOFs?\b", r"redox[- ]active organic", r"organic electrode", r"molecular design"],
 }
 
 def clean(value):
