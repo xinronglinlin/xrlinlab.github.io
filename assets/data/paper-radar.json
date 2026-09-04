@@ -1,0 +1,27 @@
+{
+  "generatedAt": null,
+  "windowDays": 30,
+  "topics": [
+    "Electrolytes",
+    "Ion-conducting polymers and single-ion conductors",
+    "Solid-state batteries",
+    "Lithium-metal and anode-free batteries",
+    "Fast charging and interfacial ion transport",
+    "Organic molecular materials for electrochemical energy"
+  ],
+  "journals": [
+    "Science",
+    "Nature",
+    "Nature Materials",
+    "Nature Chemistry",
+    "Nature Energy",
+    "Nature Nanotechnology",
+    "Joule",
+    "Chem",
+    "Journal of the American Chemical Society",
+    "Angewandte Chemie International Edition",
+    "Macromolecules",
+    "Nature Sustainability"
+  ],
+  "papers": []
+}

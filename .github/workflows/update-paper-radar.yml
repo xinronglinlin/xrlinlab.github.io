@@ -1,0 +1,43 @@
+name: Update Paper Radar
+
+on:
+  schedule:
+    - cron: "20 22 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "paper-radar.html"
+      - "assets/js/paper-radar.js"
+      - "scripts/update_paper_radar.py"
+      - ".github/workflows/update-paper-radar.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-radar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Fetch and filter recent papers
+        run: python3 scripts/update_paper_radar.py
+      - name: Commit updated paper data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/paper-radar.json
+          if git diff --cached --quiet; then
+            echo "Paper data is unchanged."
+            exit 0
+          fi
+          git commit -m "Update Paper Radar data"
+          git push origin HEAD:main
