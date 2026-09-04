@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:58:45Z",
+  "generatedAt": "2026-09-04T10:04:42Z",
   "windowDays": 30,
   "topics": [
     "Ion-conducting polymers and single-ion conductors",
@@ -1038,12 +1038,5 @@
     }
   ],
   "source": "Crossref",
-  "errors": [],
-  "bibliographyStyle": "Angewandte Chemie",
-  "summaryPipeline": {
-    "mode": "question-led-four-point-guide",
-    "promptVersion": 1,
-    "generatedThisRun": 10,
-    "method": "ChatGPT-assisted editorial curation"
-  }
+  "errors": []
 }
