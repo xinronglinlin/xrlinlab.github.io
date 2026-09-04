@@ -45,6 +45,26 @@ document.addEventListener("DOMContentLoaded", function () {
     (paper.matchedTopics || []).forEach(function (topic) { tags.appendChild(element("span", "radar-paper-tag", topic)); });
     article.appendChild(tags);
     if (paper.abstract) article.appendChild(element("p", "radar-paper-abstract", paper.abstract));
+    if (paper.summaryZh) {
+      var guide = element("div", "radar-summary");
+      var label = element("div", "radar-summary-label", "AI 中文导读");
+      if (paper.summarySource === "title-only") label.appendChild(element("span", "radar-summary-caveat", "基于标题"));
+      guide.appendChild(label);
+      String(paper.summaryZh).split(/\r?\n/).filter(Boolean).forEach(function (line) {
+        var match = line.match(/^(.+?)[？?]?\s*[：:]\s*(.+)$/);
+        var row = element("p", "radar-summary-text");
+        row.lang = "zh-CN";
+        if (match) {
+          var strong = element("strong", "", match[1] + "：");
+          row.appendChild(strong);
+          row.appendChild(document.createTextNode(match[2]));
+        } else {
+          row.textContent = line;
+        }
+        guide.appendChild(row);
+      });
+      article.appendChild(guide);
+    }
     return article;
   }
 
@@ -53,7 +73,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var papers = (data.papers || []).filter(function (paper) {
       return active === "All" || (paper.matchedTopics || []).indexOf(active) !== -1;
     });
-    status.textContent = papers.length + " paper" + (papers.length === 1 ? "" : "s") + (data.generatedAt ? " · Updated " + new Date(data.generatedAt).toLocaleDateString("en") : "");
+    var guideCount = papers.filter(function (paper) { return Boolean(paper.summaryZh); }).length;
+    status.textContent = papers.length + " paper" + (papers.length === 1 ? "" : "s") + " · " + guideCount + " Chinese guide" + (guideCount === 1 ? "" : "s") + (data.generatedAt ? " · Updated " + new Date(data.generatedAt).toLocaleDateString("en") : "");
     if (!papers.length) {
       list.appendChild(element("p", "radar-empty", "No matching papers in the current archive."));
       return;

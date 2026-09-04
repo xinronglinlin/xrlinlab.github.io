@@ -10,6 +10,7 @@ on:
       - "paper-radar.html"
       - "assets/js/paper-radar.js"
       - "scripts/update_paper_radar.py"
+      - "scripts/enrich_paper_radar_summaries.py"
       - ".github/workflows/update-paper-radar.yml"
 
 permissions:
@@ -30,6 +31,12 @@ jobs:
           fetch-depth: 0
       - name: Fetch and filter recent papers
         run: python3 scripts/update_paper_radar.py
+      - name: Generate Chinese research guides
+        env:
+          PAPER_RADAR_LLM_API_KEY: ${{ secrets.PAPER_RADAR_LLM_API_KEY || secrets.OPENAI_API_KEY }}
+          PAPER_RADAR_LLM_BASE_URL: ${{ vars.PAPER_RADAR_LLM_BASE_URL || 'https://api.openai.com/v1' }}
+          PAPER_RADAR_LLM_MODEL: ${{ vars.PAPER_RADAR_LLM_MODEL || 'gpt-5-mini' }}
+        run: python3 scripts/enrich_paper_radar_summaries.py
       - name: Commit updated paper data
         run: |
           git config user.name "github-actions[bot]"

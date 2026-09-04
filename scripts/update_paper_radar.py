@@ -81,6 +81,16 @@ def matched_topics(item):
 def main():
     end = date.today()
     start = end - timedelta(days=WINDOW_DAYS - 1)
+    existing = {}
+    if OUTPUT.exists():
+        try:
+            previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            existing = {
+                (paper.get("doi") or re.sub(r"[^a-z0-9]+", "", paper.get("title", "").lower())): paper
+                for paper in previous.get("papers", []) if isinstance(paper, dict)
+            }
+        except (OSError, json.JSONDecodeError):
+            existing = {}
     collected = {}
     errors = []
     for journal, issns in JOURNALS.items():
@@ -99,7 +109,7 @@ def main():
                 continue
             doi = clean(item.get("DOI")).lower()
             key = doi or re.sub(r"[^a-z0-9]+", "", title.lower())
-            collected[key] = {
+            paper = {
                 "title": title,
                 "authors": authors(item),
                 "journal": journal,
@@ -109,6 +119,11 @@ def main():
                 "abstract": clean(item.get("abstract")),
                 "matchedTopics": topics,
             }
+            old = existing.get(key, {})
+            for field in ("summaryZh", "summarySource", "summaryGeneratedAt", "summaryPromptVersion"):
+                if old.get(field):
+                    paper[field] = old[field]
+            collected[key] = paper
     papers = sorted(collected.values(), key=lambda p: (p["publicationDate"], p["title"]), reverse=True)
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
