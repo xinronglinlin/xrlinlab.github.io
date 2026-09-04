@@ -19,6 +19,54 @@ document.addEventListener("DOMContentLoaded", function () {
     return new Intl.DateTimeFormat("en", {month: "long", day: "numeric", year: "numeric", timeZone: "UTC"}).format(date);
   }
 
+  var journalAbbreviations = {
+    "Science": "Science",
+    "Nature": "Nature",
+    "Nature Materials": "Nat. Mater.",
+    "Nature Chemistry": "Nat. Chem.",
+    "Nature Energy": "Nat. Energy",
+    "Nature Nanotechnology": "Nat. Nanotechnol.",
+    "Joule": "Joule",
+    "Chem": "Chem",
+    "Journal of the American Chemical Society": "J. Am. Chem. Soc.",
+    "Angewandte Chemie International Edition": "Angew. Chem. Int. Ed.",
+    "Macromolecules": "Macromolecules",
+    "Nature Sustainability": "Nat. Sustain."
+  };
+
+  function initialsName(name) {
+    var words = String(name || "").trim().split(/\s+/);
+    if (words.length < 2) return name;
+    var family = words.pop();
+    return words.map(function (word) {
+      return word.split("-").filter(Boolean).map(function (part) { return part.charAt(0).toUpperCase() + "."; }).join("-");
+    }).join(" ") + " " + family;
+  }
+
+  function citationAuthors(paper) {
+    if (paper.authorsCitation) return paper.authorsCitation;
+    return String(paper.authors || "").split(",").map(initialsName).join(", ");
+  }
+
+  function citationNode(paper) {
+    var citation = element("p", "radar-paper-citation");
+    var authorsText = citationAuthors(paper);
+    if (authorsText) citation.appendChild(document.createTextNode(authorsText + ", "));
+    citation.appendChild(element("em", "", journalAbbreviations[paper.journal] || paper.journal || "Journal"));
+    var year = String(paper.publicationDate || "").slice(0, 4);
+    if (year) {
+      citation.appendChild(document.createTextNode(" "));
+      citation.appendChild(element("strong", "", year));
+    }
+    if (paper.volume) {
+      citation.appendChild(document.createTextNode(", "));
+      citation.appendChild(element("em", "", paper.volume));
+    }
+    if (paper.page) citation.appendChild(document.createTextNode(", " + paper.page));
+    citation.appendChild(document.createTextNode("."));
+    return citation;
+  }
+
   function renderFilters() {
     filters.replaceChildren();
     ["All"].concat(data.topics || []).forEach(function (topic) {
@@ -39,8 +87,16 @@ document.addEventListener("DOMContentLoaded", function () {
     link.rel = "noopener noreferrer";
     title.appendChild(link);
     article.appendChild(title);
-    article.appendChild(element("p", "radar-paper-authors", paper.authors || "Authors unavailable"));
-    article.appendChild(element("p", "radar-paper-journal", [paper.journal, paper.publicationDate].filter(Boolean).join(" · ")));
+    article.appendChild(citationNode(paper));
+    if (paper.doi) {
+      var doiLine = element("p", "radar-paper-doi");
+      var doiLink = element("a", "", "DOI: " + paper.doi);
+      doiLink.href = "https://doi.org/" + paper.doi;
+      doiLink.target = "_blank";
+      doiLink.rel = "noopener noreferrer";
+      doiLine.appendChild(doiLink);
+      article.appendChild(doiLine);
+    }
     var tags = element("div", "radar-paper-tags");
     (paper.matchedTopics || []).forEach(function (topic) { tags.appendChild(element("span", "radar-paper-tag", topic)); });
     article.appendChild(tags);

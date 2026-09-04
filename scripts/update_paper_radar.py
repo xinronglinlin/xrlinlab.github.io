@@ -60,11 +60,36 @@ def authors(item):
             names.append(name)
     return ", ".join(names)
 
+def author_initials(item):
+    formatted = []
+    for author in item.get("author") or []:
+        family = clean(author.get("family"))
+        given = clean(author.get("given"))
+        if not family:
+            name = clean(author.get("name"))
+            if name:
+                formatted.append(name)
+            continue
+        groups = []
+        for group in given.split():
+            parts = [part for part in group.split("-") if part]
+            if parts:
+                groups.append("-".join(f"{part[0].upper()}." for part in parts))
+        initials = " ".join(groups)
+        formatted.append(f"{initials} {family}".strip())
+    return ", ".join(formatted)
+
+def first_page(item):
+    value = clean(item.get("page") or item.get("article-number"))
+    if not value:
+        return ""
+    return re.split(r"[-–—]", value, maxsplit=1)[0].strip()
+
 def fetch_issn(issn, start, end):
     params = {
         "filter": f"from-online-pub-date:{start},until-online-pub-date:{end},issn:{issn},type:journal-article",
         "rows": "1000",
-        "select": "DOI,title,author,container-title,published-online,published-print,published,issued,URL,abstract,ISSN",
+        "select": "DOI,title,author,container-title,published-online,published-print,published,issued,URL,abstract,ISSN,volume,issue,page,article-number",
         "mailto": "xinronglinlin@gmail.com",
     }
     url = "https://api.crossref.org/works?" + urlencode(params)
@@ -161,8 +186,12 @@ def main():
             paper = {
                 "title": title,
                 "authors": authors(item),
+                "authorsCitation": author_initials(item),
                 "journal": journal,
                 "publicationDate": pub_date.isoformat(),
+                "volume": clean(item.get("volume")),
+                "issue": clean(item.get("issue")),
+                "page": first_page(item),
                 "doi": doi,
                 "link": f"https://doi.org/{doi}" if doi else clean(item.get("URL")),
                 "abstract": clean(item.get("abstract")),
