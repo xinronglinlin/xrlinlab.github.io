@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:51:19Z",
+  "generatedAt": "2026-09-04T09:52:58Z",
   "windowDays": 30,
   "topics": [
     "Ion-conducting polymers and single-ion conductors",
@@ -61,6 +61,18 @@
       "summarySource": "crossref-abstract",
       "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
       "summaryPromptVersion": 1
+    },
+    {
+      "title": "The Creation of a Dual‐End Interface in Li─S Cathode by Anchoring Independent Metal Atoms on Graphdiyne",
+      "authors": "Jingxiang Yang, Changshui Huang, Jingchi Gao, Xingru Yan, Zhaozhong Wang, Ruiqiao Wu, Xinlong Fu, Yi Wang, Feng He, Hongjie Zhang, Yuliang Li",
+      "journal": "Angewandte Chemie International Edition",
+      "publicationDate": "2026-09-03",
+      "doi": "10.1002/anie.2060850",
+      "link": "https://doi.org/10.1002/anie.2060850",
+      "abstract": "ABSTRACT Conventional strategies to address sluggish polysulfide conversion and the shuttle effect have primarily focused on interactions between sulfur anions and catalytic centers, while largely neglecting the enrichment and transport of lithium ions at the cathode. Herein, we report a niobium (Nb) atomic catalyst anchored on graphdiyne (Nb‐GDY) that enables a unique dual‐end binding mechanism for the simultaneous regulation of polysulfide conversion and lithium‐ion transport kinetics. Density functional theory calculations reveal pronounced electronic coupling between Nb─S and Li─C pairs, creating synergistic binding sites that immobilize LiPSs while lowering the energy barriers for their transformation. This mechanism is corroborated by x‐ray photoelectron spectroscopy and comprehensive in situ characterizations, which demonstrate significantly accelerated electrode kinetics and efficient Li + flux. Consequently, the Nb‐GDY‐based cathode exhibits exceptional high‐rate capability and long‐term durability, achieving a high capacity of 724 mAh g −1 at 10 C and maintaining stable operation over 1200 cycles at 5 C with a low‐capacity decay of 0.025% per cycle. Our research ingeniously combines dual ends binding, activating the synergistic interaction between atoms and the substrate, providing a new concept for the management of multi‐species transport for high energy density Li−S batteries.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
     },
     {
       "title": "Geometry‐Guided Screening of Metal/Oxide Heterointerfaces Enables Superior Sodium Metal Batteries at −40 °C",
@@ -227,6 +239,18 @@
       ]
     },
     {
+      "title": "Engineering the Interfacial Microenvironment of Fe–N–C Cathode to Boost Proton Conduction for High-Performance Fuel Cells",
+      "authors": "Jinjing Tao, Yongjin Ruan, Yusheng Liu, Pengbo Wang, Ming Yang, Changpeng Liu, Xiaozheng Duan, Minhua Shao, Jianbing Zhu, Meiling Xiao, Wei Xing",
+      "journal": "Journal of the American Chemical Society",
+      "publicationDate": "2026-08-26",
+      "doi": "10.1021/jacs.6c10041",
+      "link": "https://doi.org/10.1021/jacs.6c10041",
+      "abstract": "Abstract While atomically dispersed Fe–N–C catalysts represent a compelling nonplatinum alternative for the oxygen reduction reaction (ORR), their practical deployment in proton-exchange membrane fuel cells (PEMFCs) remains severely constrained by a poorly defined catalyst–ionomer–reactant triple-phase interface, which drastically impedes efficient proton transfer within the cathode catalyst layer. Herein, we report a rational interfacial microenvironment engineering strategy that exploits noncovalent interactions between oxygenated functional groups on carbon nanotubes (CNTs) and ionomer side chains to precisely modulate the catalyst–ionomer interfacial structure. The incorporation of oxygen-containing moieties effectively promotes water enrichment at the catalyst–ionomer interface, strengthens intermolecular interactions among water moieties, and facilitates the establishment of a hydrogen-bonded water network. This interconnected network significantly reduces proton transport resistance, boosting the proton conductivity of the Fe–N–C cathode layer by a factor of 2.3 relative to the conventional architecture. Coarse-grained molecular dynamics simulations substantiate that oxygen-functionalized CNTs facilitate long-range proton hopping, directly contributing to the measured conductivity enhancement. As a result, the optimized PEMFC delivers a remarkable peak power density of 1.63 W cm–2 and an exceptional current density of 53 mA cm–2 at 0.9ViR-free, surpassing the U.S. Department of Energy (DOE) 2025 target of 44 mA cm–2. This work establishes a generalized interfacial microenvironment modulation strategy to overcome proton transport limitations in nonplatinum ORR catalysts, opening a new avenue toward advanced fuel cell electrocatalysts.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "Enabling Fast Charging of Lithium‐Ion Batteries With Regioisomeric Nitrile Additives for Interphase Regulation",
       "authors": "Chen Liu, Zehao Cui, Arumugam Manthiram",
       "journal": "Angewandte Chemie International Edition",
@@ -373,6 +397,18 @@
       ]
     },
     {
+      "title": "Synergistic Surface and Interface Regulation of Ultralow-Pt-Loading Cathodes for Low-Alkalinity AEMWEs",
+      "authors": "Fei-Yue Gao, Jing-Wen DuanMu, Haifeng Shen, Xiaogang Sun, Yao Zheng, Shi-Zhang Qiao",
+      "journal": "Journal of the American Chemical Society",
+      "publicationDate": "2026-08-22",
+      "doi": "10.1021/jacs.6c12859",
+      "link": "https://doi.org/10.1021/jacs.6c12859",
+      "abstract": "Abstract Anion exchange membrane water electrolysis (AEMWE) requires operating under low-alkalinity conditions with minimal platinum (Pt) loading for practical and cost-effective deployment. However, these conditions impose severe cathodic penalties by aggravating interfacial transport limitations and intensifying the kinetic burden on sparse active sites. Here, we achieve synergistic surface and interface regulation of ultralow-Pt-loading cathodes by interfacing Pt/C with a crystalline melamine–isophthalic acid hydrogen-bonded organic framework (MA–IPA HOF). This fixed framework provides spatially defined IPA and MA motifs that serve distinct surface and interfacial functions. Oxygen-containing IPA motifs tune Pt-surface reaction chemistry by promoting OH adsorption and transfer while weakening H-intermediate binding, whereas nitrogen-rich MA motifs reshape the interfacial electrostatic and water environment to enrich less constrained water species. As a result, the MA–IPA HOF simultaneously relieves the surface kinetic burden and improves the local interfacial reaction environment, thereby lowering the cathodic overpotential under low-alkalinity, ultralow-Pt-loading conditions. Implemented in a continuous-flow AEMWE with a Pt loading of only 0.03 mg cm–2, the HOF-engineered cathode delivers 8.0 A cm–2 at 2.0 V and 3.40 A cm–2 at 1.8 V in 1 wt % KOH. It further maintains continuous operation for 2000 h with a low degradation rate of 29.1 μV h–1, placing it among the most active and durable PGM-based AEMWE cathodes reported under dilute-alkaline and ultralow-noble-metal-loading conditions.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
       "title": "Engineering Li + Kinetic‐Buffering and Anion‐Anchoring Interphase via One‐Step Sequential In Situ Polymerization for Stable Solid Li Metal Batteries",
       "authors": "Zelin Lv, Xiaoxiao Li, Jiawei Tian, Yongle Yan, Lei Zhang, Ran Wang, Yang Gao, Xutao Liang, Lifeng Hou, Yinghui Wei, Shi Wang, Zhong Jin, Qian Wang",
       "journal": "Angewandte Chemie International Edition",
@@ -478,6 +514,18 @@
       "doi": "10.1002/anie.6865881",
       "link": "https://doi.org/10.1002/anie.6865881",
       "abstract": "ABSTRACT Increasing the compaction density of dry‐processed thick iodine cathodes is essential for enhancing energy density, yet remains hindered by sluggish reaction kinetics and aggravated polyiodide shuttling. Herein, we report an implanted Zn 2+ ‐conducting (PAMPS‐Zn, poly(zinc 2‐acrylamido‐2‐methylpropane sulfonate)) hydrogel interphase via in situ ultraviolet‐induced polymerization, which enables local Zn 2+ buffering, enhanced Zn 2+ transport, and suppression of polyiodide migration in highly compacted dry‐processed iodine cathodes. Abundant sulfonate groups in polymeric chains serve as immobilized anionic sites that coordinate Zn 2+ and provide a local Zn 2+ reservoir, which mitigates interfacial Zn 2+ depletion. Meanwhile, the interconnected Zn 2+ ‐conducting hydrogel network facilitates Zn 2+ transport through the thick electrode, reducing reliance on conventional electrolyte‐permeation‐mediated ion transport in dry‐processed electrodes, which is intrinsically limited by the hydrophobic nature of the PTFE binder and high ionic tortuosity. Importantly, the negatively charged, water‐regulated hydrogel interphase also suppresses polyiodide diffusion through electrostatic repulsion and reduced water‐driven dissolution. Consequently, under high compaction conditions (∼0.5 g cm −3 ), Zn–I 2 batteries incorporating PAMPS‐Zn interphase achieve a high areal capacity of 9.6 mAh cm −2 at 0.5 C and an ultralong lifespan exceeding 4400 cycles at 5 C. Notably, Ah‐level Zn‐I 2 pouch cells (∼1.2 Ah) achieve stable operation for 850 cycles, providing compelling proof‐of‐concept validation of this strategy.",
+      "matchedTopics": [
+        "Fast charging and interfacial ion transport"
+      ]
+    },
+    {
+      "title": "Interfacial Chemistry of Storage-Induced Degradation in High-Nickel Cathodes",
+      "authors": "Jun Pan, Abdullah Bin Faheem, Bixian Zhong, Yifan Xu, Leonardo Cancellara, Pei Zhao, Evgeny Senokos, Okkyun Seo, Jian Yang, Dongshuang Wu, Haobo Li, Fuqiang Huang",
+      "journal": "Journal of the American Chemical Society",
+      "publicationDate": "2026-08-18",
+      "doi": "10.1021/jacs.6c06113",
+      "link": "https://doi.org/10.1021/jacs.6c06113",
+      "abstract": "Abstract Interfacial instability in electrochemical systems remains a fundamental challenge, particularly in high-nickel layered oxides where reactive surfaces drive parasitic chemistry even under near-equilibrium conditions. Here, we elucidate the chemical origins of storage-induced degradation in LiNi0.8Mn0.1Co0.1O2 cathodes, showing that electrolyte decomposition and interfacial Ni dissolution are correlated processes that govern capacity loss during storage. Building on this mechanistic insight, we develop a data-driven framework for engineering cathode–electrolyte interphases (CEIs) by integrating density functional theory with machine-learning interatomic potentials. This approach enables rapid evaluation of molecular descriptors for a diverse set of electrolyte additives. Unsupervised clustering highlights lithium bis(oxalato)borate (LiBOB) and lithium trifluoromethanesulfinate as effective CEI-forming additives. Experimental validation confirms that incorporating 0.05 M LiBOB significantly stabilizes the interface, improving capacity retention from 82% to 95.5% after 28 days of storage at 60 °C, with consistent behavior in a pouch cell. Furthermore, interfacial stability is assessed using distribution-of-relaxation-time analysis, providing a practical descriptor for evaluating CEI evolution. This work establishes a generalizable, data-driven strategy for understanding and controlling interfacial reactivity in metastable electrochemical systems.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
