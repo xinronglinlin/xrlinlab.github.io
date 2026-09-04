@@ -23,18 +23,6 @@
   ],
   "papers": [
     {
-      "title": "Bypassing Thermalization Losses through Ultrafast Interfacial Charge Transfer in Plasmonic Nanocavities for Water Oxidation",
-      "authors": "Yuying Gao, Christian Höhn, Jiajun Wang, Markus Wollgarten, Holger Kropf, Fengtao Fan, Can Li, Roel van de Krol, Dennis Friedrich",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-09-04",
-      "doi": "10.1021/jacs.6c09174",
-      "link": "https://doi.org/10.1021/jacs.6c09174",
-      "abstract": "Abstract Spatially inhomogeneous plasmonic heterostructures concentrate light into nanoscale volumes and offer powerful routes for plasmon-mediated solar energy conversion. However, how hot carriers evolve and lose energy under such extreme nanophotonic confinement, particularly during interfacial transfer, remains largely unexplored. Here, we demonstrate that rationally engineered plasmonic nanocavities with intense nanoscopic field localization provide a unique platform to bypass these energy-loss channels by enabling nonthermal charge injection on a sub-40 fs time scale. Using polarization-resolved and time-resolved multiphoton photoemission spectroscopy, we reveal that the intense localized fields arising from plasmon-cavity mode coupling establish an accelerated and direct electron transfer channel across the interface. This behavior is accompanied by a distinctive inversion of the polarization dependence and by photon-energy-independent spectral features, confirming charge injection occurring prior to thermalization. Furthermore, the emergence of three-photon photoemission indicates a fundamental reconfiguration of the hot carrier generation and relaxation landscape resulting from the nanoscopic electric field within the plasmonic nanocavity. These insights establish a microscopic understanding of how interfacial charge transfer contributes to the enhanced water-oxidation activity in plasmonic nanocavity systems, offering a guiding framework for the development of advanced plasmonic photocatalysts and optoelectronic interfaces.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "A Chemically Selective Fluorescent Probe Visualizes the Non‐Monotonic Evolution of the NaF‐Rich Interphase in Sodium‐Metal Batteries",
       "authors": "Xiaolin Guo, Zijun Wang, Yining Lv, Min Niu, Jiale Wan, Jin Ren, Zhijun Chen, Liwei Dong, Zuotao Lei",
       "journal": "Angewandte Chemie International Edition",
@@ -51,18 +39,6 @@
       "summaryPromptVersion": 1
     },
     {
-      "title": "Dual-Site Engineering Unlocks Spin Modulation and Local Field-Controlled Charge Switching in Triangulenes",
-      "authors": "Liwei Wang, Wenlong E, James Lawrence, Xinnan Peng, Yu Teng, Xiaoyu Sheng, Tianhao Yang, Hsin-Zon Tsai, Ting Chen, Dong Wang, Jishan Wu, Pavel Jelínek, Wenping Hu, Jiong Lu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-09-03",
-      "doi": "10.1021/jacs.6c08110",
-      "link": "https://doi.org/10.1021/jacs.6c08110",
-      "abstract": "Abstract Open-shell nanographenes, featuring highly tunable and correlated magnetic states, constitute a promising platform for engineering graphene nanomagnets towards molecular-scale spintronics and quantum information technologies. However, their magnetic states are largely dictated by topological constraints and strong electronic correlations, limiting independent control of spin and charge degrees of freedom. Here, we introduce a structural dual-site engineering strategy that integrates intrinsic spin modulation with adsorption- and field-controlled charge state tuning in a single magnetic nanographene, enabling a level of multifunctional control not previously demonstrated. We design and synthesize nitrogen, sulfur-co-engineered [3]triangulene (N,S-Tri), incorporating a central nitrogen dopant and an edge sulfur substitution with complementary functions. The central nitrogen modifies the occupation of the frontier π states and thereby tunes the molecular spin configuration, while the edge sulfur site weakly participates in the low-energy π-state and simultaneously acts as a tunable chemical anchor that regulates molecule–substrate coupling and charge transfer. Using low-temperature scanning probe microscopy, we directly visualize switching from neutral to cationic states, driven by adsorption-site variation on Au(111), or reversible switching by local electrostatic gating. This dual-functional design moves beyond static doping or interface charge transfer in graphene nanomagnets, enabling field-controlled dynamic modulation of spin and charge states, and opening new opportunities for device-oriented applications where molecule–electrode interactions and electrostatic field control play central roles.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Geometry‐Guided Screening of Metal/Oxide Heterointerfaces Enables Superior Sodium Metal Batteries at −40 °C",
       "authors": "Yang Yang, Congcong Liu, Yongshi Yu, Yu Yao, Xi Ke, Shengnan He, Zhijun Wu, Hongge Pan, Xianhong Rui, Yan Yu",
       "journal": "Angewandte Chemie International Edition",
@@ -71,25 +47,12 @@
       "link": "https://doi.org/10.1002/anie.3543240",
       "abstract": "ABSTRACT Despite their high theoretical energy density, sodium metal batteries (SMBs) remain limited by unstable interfacial chemistry and sluggish Na + transport kinetics, particularly under ultralow‐temperature conditions. Herein, guided by a geometry‐driven design principle linking structural matching at metal/metal‐oxide heterointerfaces with current density distribution, we identify a Y/Y 2 O 3 heterostructure as an optimal surface modification layer and fabricate it on commercial aluminum foil via magnetron sputtering. The resulting Y/Y 2 O 3 heterojunction, featuring a built‐in electric field and moderate sodiophilicity, homogenizes Na + flux, and directs reversible deposition. Meanwhile, the heterointerface facilitates PF 6 − adsorption, directing interfacial reactions toward the generation of inorganic solid electrolyte interphase components, which contributes to improved interfacial stability under ultralow‐temperature conditions. Consequently, the Y/Y 2 O 3 ‐modified current collector promotes highly reversible Na plating/stripping, enabling Na@Y/Y 2 O 3 @Al||Na 3 V 2 (PO 4 ) 3 full cells to retain robust cycling stability at −40 °C. The Y/Y 2 O 3 heterointerface design provides an effective platform for enabling durable SMB operation under harsh ultralow‐temperature conditions.",
       "matchedTopics": [
-        "Solid-state batteries",
         "Fast charging and interfacial ion transport"
       ],
       "summaryZh": "新在哪里：提出以金属/金属氧化物界面的几何匹配和电流分布为筛选准则，并据此确定Y/Y2O3异质界面用于低温钠沉积，而不是依靠经验逐一筛选亲钠涂层。\n有意思的现象：Y/Y2O3修饰集流体在−40 °C仍可维持可逆钠沉积/剥离，并支持Na3V2(PO4)3全电池稳定循环，显示界面设计在极低温下仍能有效调节沉积行为。\n怎么解释：内建电场与适度亲钠性共同均化Na+通量；同时异质界面增强PF6−吸附，使界面反应偏向生成无机SEI组分。摘要据此将均匀沉积与界面稳定性联系起来，但未给出各因素的独立贡献。\n为什么重要：工作把低温金属负极调控从单一亲钠性扩展到结构匹配、电场和界面反应协同设计，为严苛温度下钠金属电池集流体筛选提供了可迁移的设计思路。",
       "summarySource": "crossref-abstract",
       "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
       "summaryPromptVersion": 1
-    },
-    {
-      "title": "Electrochemical Oxidative Carbonylation: Strong CO Binding Suppresses C–C Coupling and Steers Selectivity to Organic Carbonates",
-      "authors": "Weiyan Ni, Aditya Menon, Yiqing Chen, Rong Xia, Bosi Peng, Zeyan Liu, Li-Yu Wang, Xiaoliang Wang, Rui Kai Miao, Xiao-Yan Li, Huajie Ze, David Sinton, Omar Farha, Chia-Min Yang, Linsey C. Seitz, Ke Xie, Edward H. Sargent",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-09-02",
-      "doi": "10.1021/jacs.6c04323",
-      "link": "https://doi.org/10.1021/jacs.6c04323",
-      "abstract": "Abstract Electrochemical oxidative carbonylation offers a route to the synthesis of organic carbonates such as dimethyl carbonate (DMC), but its practical implementation is hindered by a competing C–C coupling pathway to dimethyl oxalate (DMO), the origins of which remain poorly understood. Here we study how selectivity in methanol carbonylation is influenced by tuning the adsorption of key surface intermediates. We find, by modulating the interfacial environment using ionomers and isotopically substituted solvents, that strong CO adsorption suppresses C–C coupling and directs the reaction toward carbonate formation. Enhancing methoxy binding promotes deep methoxylation that benefits the overall methanol carbonylation reaction and DMC production. We propose that adsorbed methoxycarbonyl, once viewed as an undesired intermediate, in fact serves as a branching point from which the carbonate and oxalate pathways diverge. Guided by knowledge of these descriptors, we develop a composite catalyst that leverages metal–support interactions, strengthening CO binding and simultaneously accelerating alcohol dissociation, thereby increasing selectivity by 3 orders of magnitude relative to a benchmark Pd catalyst and achieving a Faradaic efficiency of 98% for DMC production.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
-      ]
     },
     {
       "title": "Anisotropic Lattice Compression Enables Defect-Rich Lithium-Ion Transport Channels for Extremely Fast-Charging Lithium-Ion Batteries",
@@ -108,30 +71,6 @@
       "summaryPromptVersion": 1
     },
     {
-      "title": "Supramolecular Engineering of Dynamically Interlocked Dual‐Stiffness Interphase for Biomimetic Strong and Tough Double Network Aerogel",
-      "authors": "Zi‐Meng Han, Hua Tu, Xiang Zhao, Wen‐Bin Sun, Fang‐Chuan Li, Qing‐Fang Guan, Shu‐Hong Yu",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-09-01",
-      "doi": "10.1002/anie.7495552",
-      "link": "https://doi.org/10.1002/anie.7495552",
-      "abstract": "ABSTRACT Resolving the fundamental modulus‐toughness trade‐off in organic‐inorganic hybrids remains a formidable challenge in supramolecular chemistry and materials science. Herein, we present a molecular‐level design of a dynamically interlocked dual‐stiffness interphase to break this limit, utilizing an aramid nanofiber/silica double‐network architecture. Unlike traditional physical blending, this interphase is governed by a bidirectional hydrogen‐bonding network. Through deep spectroscopic investigations, we reveal that this strong interfacial interaction triggers an intramolecular proton transfer and electronic redistribution within the ANFs. More intriguingly, this supramolecular interaction drives a rare and critical structural phase transition within the inorganic network, transforming flexible six‐membered siloxane rings (SiO) 6 into rigid four‐membered rings (SiO) 4 . Macroscopically, this chemical interphase is integrated into a biomimetic skin‐core aerogel fiber. The bimodal chemical interactions—static anchoring and dynamic silanol‐mediated slippage—synergistically endow the hybrid with an ultrahigh modulus (1.15 GPa) and exceptional toughness (8.1 MJ m −3 ), while preserving intrinsic extreme‐temperature stability. This chemically driven dynamic phase‐reconfiguration mechanism establishes a universal theoretical framework for interphase engineering, offering profound insights for the precise construction of high‐performance multifunctional nanocomposites.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Mapping the Chemical Space of TADF Sensitizers Coupled with Virtual Screening for Narrowband Hyperfluorescence OLEDs",
-      "authors": "Yayin Deng, Yimin Wu, Xingliang Wang, Xiaoyu Liu, Zhengyang Bin, Jingsong You",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-09-01",
-      "doi": "10.1021/jacs.6c15924",
-      "link": "https://doi.org/10.1021/jacs.6c15924",
-      "abstract": "Abstract Developing efficient thermally activated delayed fluorescence (TADF) sensitizers for narrowband red hyperfluorescence organic light-emitting diodes (HF-OLEDs) remains a major challenge because long-wavelength sensitization requires the simultaneous optimization of a small singlet–triplet energy gap (ΔEST), a low singlet excited-state energy (ES1), and a high solid-state photoluminescence quantum yield (ΦPL). Unlike their successful blue and green counterparts, red HF-OLEDs are still largely reliant on noble-metal phosphorescent sensitizers. Here, we establish a donor–acceptor–linker chemical-space mapping framework coupled with virtual screening to enable the rapid discovery of metal-free TADF sensitizers suitable for narrowband red HF-OLEDs while circumventing conventional iterative trial-and-error molecular optimization. Screening a virtual library of 160 molecular architectures identifies linker topology, rather than donor–acceptor identity alone, as the key structural determinant of excited-state energetics, with the 1,8-disubstituted naphthalene scaffold emerging as a privileged motif that simultaneously minimizes ΔEST and ES1. Guided by these insights, a gram-scalable modular synthesis furnishes a family of peri-naphthalene-based, spatially confined through-space charge-transfer (TSCT) TADF sensitizers exhibiting emission maxima reaching 667 nm, ultralow ΔEST values below 0.01 eV, and solid-state ΦPL values of up to 98% through aggregation-induced emission (AIE). When paired with all-carbon polycyclic aromatic hydrocarbon (PAH) emitters, these sensitizers deliver narrowband red HF-OLEDs with a maximum external quantum efficiency (EQE) of 27.6%, setting a benchmark for all-carbon PAH-based red HF-OLEDs. Moreover, the same TSCT platform is readily extendable to shorter-wavelength systems, as demonstrated by yellow PAH-based HF-OLEDs with an outstanding maximum EQE of 27.7%.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Na 2 Ti 3 O 7 ‐Assisted Grain‐Boundary Tailoring of NASICON Electrolytes for Room‐to‐Subzero‐Temperature All‐Solid‐State Sodium Metal Batteries",
       "authors": "Hongyi Liao, Yang Yang, Huaguang Ma, Congcong Liu, Yu Yao, Xi Ke, Wubin Du, Zhijun Wu, Hongge Pan, Xianhong Rui, Yan Yu",
       "journal": "Angewandte Chemie International Edition",
@@ -146,18 +85,6 @@
       "summarySource": "crossref-abstract",
       "summaryGeneratedAt": "2026-09-04T09:45:01.610Z",
       "summaryPromptVersion": 1
-    },
-    {
-      "title": "Mechanistic Insights into Photo-Induced Bond Dissociation of a 2-(4-Nitrophenyl)-1H-indole-3-ylmethyl (NPIM) Derivative: A Case Study on Quantum Spin-Manipulation for Uncaging",
-      "authors": "Kenta Kuroishi, Ryuei Hayashi, Ryoko Oyama, Shunsuke Tanaka, Kotaro Ogawa, Yuta Murotani, Ryusuke Matsunaga, Jun Yoshinobu, Manabu Abe",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-31",
-      "doi": "10.1021/jacs.6c13942",
-      "link": "https://doi.org/10.1021/jacs.6c13942",
-      "abstract": "Abstract Photolabile protecting groups (PPGs) are indispensable tools for spatiotemporally controlled release of reactive functional groups. Recently, we proposed a quantum spin-manipulation (QSM-1) strategy that employs triplet ground-state cations to render ion-pair recombination spin-forbidden, thereby enhancing the uncaging quantum yield. In this study, the photodissociation mechanism of a 2-(4-nitrophenyl)-1H-indole-3-ylmethyl (NPIM) photocage bearing a benzoate leaving group was investigated to evaluate the effectiveness of a triplet excited-state-mediated QSM pathway (QSM-2). Spectroscopic analyses revealed that the excited state of NPIM possesses a relatively small singlet–triplet energy gap (ΔEST = 5.3 kcal mol–1), enabling efficient intersystem crossing (ISC) from the intramolecular charge-transfer singlet excited state to the triplet excited state. Oxygen-quenching experiments demonstrated that photodissociation proceeds predominantly from the triplet excited state. Time-resolved absorption spectroscopy identified the singlet excited state (τ = 1.6 ns), triplet excited state (τ = 2.3 μs), and NPIM radical intermediate (τ = 1.5 ms). In situ infrared analysis directly detected benzoic acid, an oxidized NPIM product, and CO2 generated from the benzoyl radical, supporting a homolytic bond-cleavage mechanism. Ultrafast time-resolved infrared spectroscopy of the NPIM chromophore revealed formation of a twisted intramolecular charge-transfer state that promotes ISC by reducing ΔEST. Density functional theory calculations further indicate that C–O bond homolysis from the triplet excited state is energetically feasible and is driven by relief of excited-state antiaromaticity. These results establish that uncaging of NPIM derivatives proceeds through triplet-state homolysis and demonstrate the validity of the QSM-2 strategy for designing efficient photochemical release systems.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
     },
     {
       "title": "Terminally Fluorinated Polyimide Interphase for Durable Lithium‐Rich Layered Oxide Cathodes",
@@ -184,8 +111,7 @@
       "link": "https://doi.org/10.1021/jacs.6c11263",
       "abstract": "Abstract Polymer-based composite solid electrolytes (CSEs) suffer from extremely slow bulk/interface Li+ transport and poor interfacial stability at room temperature (RT) and low temperature (LT) in all-solid-state lithium batteries (ASSLBs). Herein, we design a novel p–d–π-type local environment in polymer CSEs to break the bulk/interfacial Li+ kinetic bottlenecks and construct LT high-performance ASSLBs. The customized anion-rich association state from ternary lithium salts (FSI–, DFOB–, and NFSA–) breaks the strong ion-association environment, and the cations–π interactions trigged by nickel phthalocyanine supplies extra Li+ transport sites, which considerably enhances the ionic conductivity (25 °C: 1.31 mS·cm–1; 0 °C: 0.70 mS·cm–1; −40 °C: 0.10 mS·cm–1). Moreover, the delocalized π-electrons and Ni(3d)–O(2p) orbital hybridization accelerate the interfacial charge transference and the formation of LiF–LiNxOy/B–O/B–F-rich interphases, greatly improving the dual-interface compatibility and long-term stability. ASSLBs with the LiFePO4 cathode demonstrate large rate capacity (115.6 mAh·g–1@6.0C), superhigh cycling stability (90.3% retention after 1000 cycles at 4.0C) at RT, and prominent LT performance (0 °C: 106.52 mAh·g–1@1.0C, 100% retention after 500cycles; −20 °C: 100% retention after 200 cycles at 0.2C). The pouch cell shows a capacity retention of 90.75% after 700 cycles at 3.0C. ASSLBs employing LiNi0.9Co0.05Mn0.05O2 cathode display a 100% retention after 500 cycles at 1.0C, and it can work even at −37.8 °C. This work addresses the critical challenges of polymer ASSLBs in high-rate and LT and should promote their practical applications.",
       "matchedTopics": [
-        "Solid-state batteries",
-        "Fast charging and interfacial ion transport"
+        "Solid-state batteries"
       ],
       "summaryZh": "新在哪里：在聚合物复合固态电解质中构建p–d–π型局域环境，将三锂盐形成的富阴离子缔合状态与镍酞菁提供的阳离子–π作用结合，同时调控体相Li+传输和电极界面反应。\n有意思的现象：电解质在25、0和−40 °C下的离子电导率分别达到1.31、0.70和0.10 mS cm−1；LiFePO4全固态电池在0 °C循环500次后容量保持率为100%，并可在−37.8 °C运行。\n怎么解释：FSI−、DFOB−和NFSA−的混合缔合削弱强离子缔合，镍酞菁的阳离子–π作用提供额外Li+迁移位点；离域π电子及Ni(3d)–O(2p)轨道杂化还被用于解释界面电荷转移和富LiF复合界面层的形成。\n为什么重要：工作把低温聚合物固态电池的体相传输与双界面稳定性放在同一分子环境中设计，为同时改善低温电导率、高倍率性能和长期循环提供了较完整的材料策略。",
       "summarySource": "crossref-abstract",
@@ -213,104 +139,7 @@
       "link": "https://doi.org/10.1002/anie.1576222",
       "abstract": "ABSTRACT Electrolyte engineering based on solvent fluorination has proven effective for stabilizing lithium (Li) metal batteries by weakening the Li + ‐solvent interaction. However, the influence of fluorination on the chemical reactivity of an electrolyte toward Li metal remains poorly understood. Here, the effects of fluorination are systematically investigated by increasing the degree of fluorination (from 2 to 5 substituents) of the terminal alkyl moieties of the 1‐ethoxy‐2‐methoxyethane (EME) and 1‐(2‐methoxyethoxy)propane (MEP) backbones (denoted F2EME, F4MEP, and F5MEP). Fluorination‐induced corrosion deviates from that suggested by conventionally calculated lowest unoccupied molecular orbital (LUMO)‐based rationales; instead, it is quantitatively described by the local pK a as a site‐specific thermodynamic descriptor of the fluorination‐induced electronic effect. Among the three derivatives, F4MEP is identified as the optimal solvent; it is sufficiently fluorinated to promote the formation of an anion‐rich solvation structure for an inorganic‐rich, protective Li metal interphase, yet it is not severely corrosive as it is not over‐fluorinated. Consequently, an F4MEP‐based 20 µm‐Li||LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) full‐cell retains 80% of its capacity over 368 cycles. This study establishes the local pK a as a descriptor for evaluating the solvent corrosiveness and highlights the necessity of optimizing the degree of fluorination for high‐performance Li metal battery electrolytes.",
       "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Iron‐Photocatalyzed Alkene Chloroaminoxylation: A Platform for Orthogonally Activatable Building Blocks",
-      "authors": "Amrita Chaudhuri, Meghana Aladahalli Shekar, Mohammad Zafar, Marianne Engeser, Gregor Schnakenburg, Ala Bunescu",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-29",
-      "doi": "10.1002/anie.5509453",
-      "link": "https://doi.org/10.1002/anie.5509453",
-      "abstract": "ABSTRACT We report the development of an iron‐photocatalyzed 1,2‐chloroaminoxylation of alkenes that installs two orthogonal and independently activatable synthetic handles, a chlorine atom and an alkoxyamino group, across a diverse range of alkene substrates. The reaction is driven by iron's ability to generate chlorine radicals via photoinduced chloride‐to‐iron charge transfer, followed by addition across the carbon–carbon double bond and subsequent trapping by TEMPO derivatives. This operationally simple protocol exhibits broad functional group tolerance, exquisite chemo‐ and regioselectivity and efficiently converts a wide range of C═C bonds, such as styrene derivatives, unactivated alkenes, and Michael acceptors, into synthetically valuable chlorooxygenated scaffolds. The resulting products can be engaged with various nucleophiles through distinct modes of reactivity: the TEMPO‐derived alkoxyamino moiety undergoes photoredox activation, while the C–Cl bond participates in nucleophilic substitution. This dual‐reactivity platform enables a programmable incorporation of two different nucleophiles under complementary activation conditions, providing streamlined access to structurally diverse architectures. Comprehensive mechanistic studies, integrating reaction kinetics, UV–vis spectroscopy, high‐resolution mass spectrometry (HRMS), x‐ray crystallographic characterization of key catalytic intermediates, cyclic voltammetry (CV), and chronoamperometry, elucidate the underlying reaction pathway and reveal key features of the iron catalytic cycle.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Ultrafast Proton-Coupled Electron Transfer Reactions at Unit Quantum Yield",
-      "authors": "Rui Liu, Zachary X. W. Widel, Jiaqi Zhu, Jarrett P. Mansergh, Aubrey R. Caplin, Samuel I. Mann, Ian Bakanas, Nicholas F. Polizzi, Peng Zhang, William F. DeGrado, David N. Beratan, Michael J. Therien",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-28",
-      "doi": "10.1021/jacs.6c11637",
-      "link": "https://doi.org/10.1021/jacs.6c11637",
-      "abstract": "Abstract Proton-coupled electron transfer (PCET) reactions mediate essential biological energy-conversion processes, yet dynamical experiments that distinguish concerted electron/proton motion from sequential electron-transfer/proton-transfer pathways are unprecedented on ultrafast time scales. Here we report a tightly coupled donor–spacer–acceptor assembly, NDI-Sp-PhOH/BI, that enables direct interrogation of light-triggered and ultrafast PCET dynamics. Photoexcitation of the naphthalene diimide chromophore drives charge separation forming NDI radical anion and benzimidazolium phenoxy radical (PhO•/BIH+) products with a 440 fs time constant, followed by thermal charge recombination on a 5 ps time scale. Transient visible/near-infrared and mid-infrared spectroscopies independently track electron and proton motion and reveal coincident formation and decay of the charge-separated PCET products, excluding detectable phenol radical cation or phenoxide intermediates expected for sequential electron transfer-proton transfer (ET-PT) pathways. Surface-hopping quasiclassical trajectory simulations demonstrate rapid proton relocation coupled to evolution from locally excited to charge-transfer states, congruent with a concerted mechanism. These combined spectroscopic and computational results establish NDI-Sp-PhOH/BI as an archetype for ultrafast, concerted PCET occurring with unit quantum yield; further, because this platform provides distinct electronic and vibrational spectroscopic handles in its ground, electronically excited, and charge-separated states, it provides new opportunities to characterize mechanistic crossover in biomimetic PCET systems.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Porous Solid Electrolyte Reactors for Function‐Oriented Off‐Electrode Electrosynthesis",
-      "authors": "Xiu Lin, Leonhard Tannesia, Li An, Zhichuan J. Xu",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-28",
-      "doi": "10.1002/anie.5622879",
-      "link": "https://doi.org/10.1002/anie.5622879",
-      "abstract": "ABSTRACT Electrosynthesis offers an attractive route to sustainable chemical manufacturing when coupled with renewable electricity. As electrosynthesis capability advances towards high‐purity products, the traditional proximity of reaction products to the electrode surface, where the reaction happens, increasingly becomes a limiting factor. In addition, the formation and transport of reactive species are confined in the same chamber, resulting in electrolyte contamination of the product. Porous solid electrolyte (PSE) reactors address this spatial constraint by introducing an additional ion‐conductive middle layer between the cathode and anode, enabling a versatile off‐electrode space for product formation and transportation. Here, we frame PSE reactors as function‐oriented platforms for off‐electrode electrosynthesis, in which the PSE middle layer serves as a functional reaction space that enables ionic recombination, reaction‐environment regulation, and improved management of reactive intermediates. By linking the underlying ionic‐species transport mechanisms and reactor design principles, we establish a structure‐transport‐function framework for understanding how PSE reactors extend electrosynthesis beyond the electrode surface confinement and guide the rational design of scalable electrosynthesis reactors as on‐site chemical manufacturing platforms.",
-      "matchedTopics": [
-        "Solid-state batteries"
-      ]
-    },
-    {
-      "title": "Ni–Ir Interaction Enables a Dark Reactive State in Nickel Catalysis",
-      "authors": "Yeseul Han, Dongyoung Kim, Sangmin Jeong, Myeongsik Shin, Kyeongmin Nam, Seonju You, Seoyoung Lee, Kichan Park, Jinrok Oh, Hwi Yul Jo, Cheolhee Yang, Soohyun Kim, Minjeong Ki, Jaehyun Park, Sunam Kim, Minseok Kim, Rory Ma, Jae Hyuk Lee, Seung Jun Hwang, Kyung Hwan Kim",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-28",
-      "doi": "10.1021/jacs.6c12462",
-      "link": "https://doi.org/10.1021/jacs.6c12462",
-      "abstract": "Abstract Nickel–iridium metallophotoredox catalysis has emerged as an effective strategy for promoting C–C and C–heteroatom bond-forming reactions, overcoming the often sluggish reductive elimination from Ni(II) intermediates, thereby expanding the synthetic utility of nickel catalysis. Despite extensive study, however, its precise mechanism has remained largely unresolved because of the experimental difficulty of disentangling the two catalytic centers and the complex electronic structure of nickel. Here, we directly probe the ultrafast electronic dynamics of both metal centers using element-specific femtosecond time-resolved X-ray absorption spectroscopy at an X-ray free-electron laser (XFEL). We identify a transient higher-energy triplet metal-to-ligand charge-transfer (3MLCT) state of nickel that appears exclusively in the presence of the iridium photocatalyst, providing evidence for the energy transfer within a preassociated Ni–Ir complex. Comparison with quantum calculations further shows that this state promotes access to a repulsive Ni–C σ–σ* state, thereby suggesting a possible excited-state pathway relevant to reductive elimination. These findings reveal how the iridium photocatalyst activates the nickel catalytic cycle and highlight selective population of optically dark yet reactive excited states as a general strategy for enabling otherwise inaccessible reaction pathways.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Manganese Single-Atom-Engineered TiO2 Enables High-Performance Pt Catalysts for Proton Exchange Membrane Fuel Cells",
-      "authors": "Zewen Zhuang, Jinghong Chen, Yushan Guo, Jingliang Bao, Kaili Wang, Chao Zhang, Zinan Zhang, Xin Tan, Kaian Sun, Wei Yan, Jiujun Zhang",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-28",
-      "doi": "10.1021/jacs.6c10619",
-      "link": "https://doi.org/10.1021/jacs.6c10619",
-      "abstract": "Abstract The instability of carbon supports in platinum (Pt)-based catalysts under high potentials severely hinders the long-term performance of the corresponding proton exchange membrane fuel cells (PEMFCs). Developing robust oxide supports that can simultaneously stabilize Pt nanoparticles and regulate their intrinsic catalytic properties remains an important challenge. In this work, we report a single-atom engineering strategy to strengthen metal–support interactions and construct a Mn single-atom-modified TiO2-supported Pt catalyst (Pt/Mn1–TiO2) to significantly improve the performance of PEMFCs. The atomically dispersed Mn sites induce pronounced interfacial charge transfer, leading to an optimized electronic structure and a downshifted d-band center of Pt, thereby modulating the adsorption of oxygenated intermediates and enhancing intrinsic oxygen reduction reaction (ORR) activity. Meanwhile, the strengthened interfacial anchoring can effectively suppress Pt oxidation, migration, and agglomeration, resulting in a superior structural stability. As a result, Pt–Mn1/TiO2 exhibits a high half-wave potential of 0.937 V (vs RHE) and significantly enhanced mass/specific activities in acidic media. In a practical H2–O2 fuel cell, it delivers a peak power density of 2.37 W cm–2, outperforming commercial Pt/C, while maintaining minimal performance degradation during long-term operation. This work provides a general strategy for achieving synergistic enhancement of activity and durability in oxide-supported Pt catalysts via single-atom interfacial engineering.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Enhanced Photocatalytic C–N Coupling by Synergistic Facet and Spin-State Modulation in Mixed-Valent WO x",
-      "authors": "Shaoquan Li, Shanshan Wu, Wenli Su, Zixian Li, Jinhao Li, Geoffrey I.N. Waterhouse, Lihong Liu, Wenkai Zhang, Dermot O’Hare, Yufei Zhao, Xue Duan",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-27",
-      "doi": "10.1021/jacs.6c09316",
-      "link": "https://doi.org/10.1021/jacs.6c09316",
-      "abstract": "Abstract Urea is an essential chemical widely used in agriculture and consumer products, yet its conventional Bosch–Meiser synthesis is energy-intensive and carbon-intensive. Photocatalytic urea synthesis from N2, CO2, and H2O offers a sustainable alternative, but efficient C–N coupling is fundamentally limited by the trade-off between intermediate stability and surface migration needed for efficient C–N coupling processes. Strong adsorption of intermediates limits diffusion, whereas weak adsorption causes premature desorption, restricting the C–N coupling efficiency. Facet and spin-state engineering provide a promising route to balance intermediate stabilization, mobility, and interfacial charge transfer. Herein, we prepared oxygen-deficient WOx (x = 2.33–2.90) photocatalysts, including nanorods (WO2.33(100)) and nanosheets (WO2.90(001)), by a facile hydrothermal and plasma-treatment method. WO2.33(100) delivered a high photocatalytic urea production rate of 1451.38 μg g–1 h–1 under UV irradiation (λ = 365 nm) in a microflow reactor, representing a 3.2-fold enhancement over WO2.90(001) and ranking among the most efficient urea-synthesis photocatalysts reported to date. Mechanistic studies, including isotope labeling, in situ ATR-FTIR, and DFT calculations, reveal that facet-confined oxygen vacancies stabilize low-spin WIII (d3) centers, which simultaneously optimize N2 adsorption while preserving the surface mobility of *NO intermediates, thereby enabling efficient C–N coupling. This work establishes a facet-confined oxygen-vacancy strategy for spin-state regulation of surface intermediates and C–N coupling pathways, providing a general strategy for improved photocatalytic urea synthesis for smart agriculture.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Asymmetric Sulfhydryl-Substituted Squaraine Fluorophores for Sustained SIM Imaging in Live Cells",
-      "authors": "Yibo Zhou, Pin Shang, Huiqiu Shi, Jun Zhang, Fan Li, Zhihe Qing, Tony D. James",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-27",
-      "doi": "10.1021/jacs.6c06633",
-      "link": "https://doi.org/10.1021/jacs.6c06633",
-      "abstract": "Abstract Recognized for its excellent temporal and spatial resolution, structured illumination microscopy (SIM) requires photostable fluorophores to enable dynamic imaging. Squaraine fluorophores are promising candidates for fluorescence imaging because of their intriguing photophysical properties. However, traditional squaraine fluorophores, based on an oxocyclobutenolate ring with a symmetric structure, suffer from poor photostability, limiting their application in SIM super-resolution imaging, especially for sustained tracking of biological events. To address this issue, we developed a strategy for improving the photostability of squaraine by synthesizing asymmetric molecular antennae and substituting the hydroxyl with sulfhydryl. The enhancement of intramolecular charge transfer (ICT) in the asymmetric structure enhances resistance to photobleaching, and the thiolation prolongs the fluorescence lifetime, resulting in a highly stable squaraine with remarkable optical performance. As such, we used our asymmetric thio-squaraine for tracking the dynamic changes of mitochondria during interactions between mitochondria and lysosomes. Significantly, our design strategy enables the synthesis of various thio-squaraine derivatives with superior photostability, long emission wavelengths, and high brightness, broadening the potential applicability of squaraine fluorophores in the field of SIM imaging.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "A d e ‐ n ovo Approach Towards Divergent [3+2π/σ] Photocycloadditions of Nitrones via Assembly‐Controlled Kinetic Electron Transfer Gating",
-      "authors": "Nayan Saha, Rajesh Kancherla, Jorge Escorihuela, Shana Chandran, Mrinal K. Bera, Magnus Rueping, Burkhard König",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-27",
-      "doi": "10.1002/anie.2936884",
-      "link": "https://doi.org/10.1002/anie.2936884",
-      "abstract": "ABSTRACT Three‐dimensional, conformationally rigid molecular architectures are increasingly valued in chemical biology and drug discovery, yet their syntheses often rely on step‐intensive or metal‐mediated methods. Herein, we report a metal‐free, redox‐neutral photocatalytic approach that enables otherwise challenging divergent [3+2π/σ] photocycloadditions of nitrones under mild conditions. Visible‐light excitation of an acridinium photocatalyst promotes cycloaddition of nitrones with alkynes to furnish densely substituted 4‐isoxazolines, prototypical “Flatland” heterocycles, while engagement of bicyclo[1.1.0]butanes triggers rapid skeletal reorganization to deliver oxa–aza–bicycloheptanes that escape flatland into three‐dimensional chemical space. Both product classes are synthetically challenging under conventional thermal or metal‐catalyzed conditions. The transformation tolerates a wide range of functional groups and provides access to bioisosterically relevant structural motifs. Synthetic photocatalysis is typically designed around thermodynamic considerations, yet the role of electron transfer kinetics in controlling reactivity remains underdeveloped. We establish kinetic electron transfer gating as a general design principle whereby substrate assembly directs charge transfer toward otherwise disfavoured partners, overriding thermodynamic preferences. Mechanistic investigations, in conjunction with density functional theory (DFT) calculations, support a unified photocatalytic manifold and clarify the origin of the divergent reactivity, thereby providing a platform for various downstream transformations.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
+        "Lithium-metal and anode-free batteries"
       ]
     },
     {
@@ -338,18 +167,6 @@
       ]
     },
     {
-      "title": "Tumor Microenvironment-Triggered Nanocrystal-to-Nanocrystal Transformation for RNA-Boosted Photo-STING Therapy",
-      "authors": "Peijuan Zhang, Shuai Chen, Ziwei Zhao, Jianbin Zhong, Yunfeng Li, Pei Zhou, Qifei Shen, Pingshi Wang, Jiahui Wang, Xianshao Zou, Lingjie Meng, Dongfeng Dang",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-26",
-      "doi": "10.1021/jacs.6c03436",
-      "link": "https://doi.org/10.1021/jacs.6c03436",
-      "abstract": "Abstract Photosensitizers in nanocrystals have emerged as promising avenues for immune stimulation through enhanced reactive oxygen species (ROS) generation relative to their amorphous structures. However, their rigid molecular packing severely restricts the molecular variations necessary for stimuli-responsive conversion in the crystalline state, resulting in challenges for these nanocrystals to undergo dynamic and on-demand immune regulation, particularly under the tumor microenvironment (TME) stimulation. Herein, we address this challenge by developing 2TZP, a photosensitizer engineered with a synergistic proton-capturing motif that confers a narrow pH response range within the TME. This design enables a specific and complete acid-triggered nanocrystal-to-nanocrystal (NCNC) transformation, from hexagonal prism to cuboid prism, directly activated by TME (pH 6.5) with a narrow response range of 0.70 pH units. This process involves significant conformational distortion, subtle rotation, and slippage within the preserved crystalline lattice, which is favored by sensitive responsiveness, sufficient free volume, and crystal lattice similarity before and after nanocrystal transformation. Crucially, this mechanism serves a dual purpose. It intensifies the twisted intramolecular charge transfer (TICT) effect, boosting intersystem crossing (ISC), while simultaneously unveiling latent RNA binding to form an electron reservoir pump and thereby enhancing ROS generation. Thus, the transformed 2TZP nanocrystals further potentiate their ability to target the nucleolus, causing oxidative damage to the nucleolus and leading to pronounced nuclear disruption and enhanced dsDNA leakage. This then effectively ensures potent, on-demand activation of the cGAS-STING immune pathway while concurrently inducing robust immunogenic cell death (ICD) under an acidic TME. This work not only demonstrates a model of NCNC transformation within the TME, but also establishes a design principle to couple structural regulation with dynamic, on-demand function amplification for potential photoimmunotherapy.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Synergistic Molecular and Polymer Network Design Enables Stable LiPF 6 ‐Based Gel Polymer Electrolytes for Lithium Metal Batteries",
       "authors": "Min Wang, Mengjie Li, Junru Wu, Yuefeng Meng, Lili Lin, Yadong Wang, Hao Du, Xinran Geng, Zhiqiang Fu, Cuiping Han, Baohua Li",
       "journal": "Angewandte Chemie International Edition",
@@ -358,20 +175,7 @@
       "link": "https://doi.org/10.1002/anie.6028878",
       "abstract": "ABSTRACT High‐voltage lithium metal batteries suffer from severe interfacial degradation and electrolyte decomposition, limiting cycling stability and practical application. In conventional LiPF 6 ‐based electrolytes containing fluoroethylene carbonate (FEC), LiPF 6 decomposition generates Lewis‐acid species that trigger FEC defluorination and HF formation, causing progressive interphase degradation. Here we report a multifunctional gel polymer electrolyte (MGPE) that integrates solvation regulation with polymer‐network confinement and interrupts the PF 5 –FEC degradation pathway via strong PF 6 − binding. The fluorinated aromatic additive 1,1,2,2‐tetrafluoroethoxybenzene modulates the Li + solvation structure and promotes preferential formation of a stable cathode‐electrolyte interphase, enhancing oxidative stability up to 5.0 V. Meanwhile, in situ polymerization of 3,5‐bis(trifluoromethyl)styrene constructs a fluorinated aromatic network with strong affinity toward PF 6 − , suppressing Lewis‑acidic PF 5 formation. The synergistic interplay between solvation regulation, PF 5 suppression, and fluorinated‐network confinement steers interphase evolution toward dense LiF‐rich layers on both electrodes, enabling Li||LiCoO 2 cells to retain 82.6% capacity after 400 cycles at 4.5 V and 90.3% after 200 cycles at a cathode loading of ∼11 mg cm −2 . Furthermore, 1.3 Ah pouch cells (N/P = 1.1) show 80.7% capacity retention after 30 cycles under practical conditions. This work provides an electrolyte‐engineering strategy to suppress PF 5 ‐induced degradation and stabilize interphase evolution, enabling safer high‐energy lithium metal batteries.",
       "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Solvent‐Directed Modulation of Stacking Isomers in Single‐Crystal One‐Dimensional Covalent Organic Frameworks",
-      "authors": "Tonghai Wang, Baoqiu Yu, Liqin Hao, Wenbo Zhou, Yujie Liu, Peng Cheng, Yao Chen, Zhenjie Zhang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-26",
-      "doi": "10.1002/anie.7177046",
-      "link": "https://doi.org/10.1002/anie.7177046",
-      "abstract": "ABSTRACT Stacking isomerism in covalent organic frameworks (COFs) has long remained elusive, with no unambiguous single‐crystal structure confirmation to date. Herein, we present the first definitive structural resolution of stacking isomers in one‐dimensional COFs, enabled by a solvent‐directed modulation strategy. Two distinct stacking isomers were obtained: one exhibiting AA′‐stacking (synthesized in mesitylene) and the other featuring an ABCD quadruple stacking mode (synthesized in anisole/n‐butanol). Their atomic structures were determined by continuous rotation electron diffraction (cRED) at resolutions of 0.98 and 1.02 Å, respectively, with all non‐hydrogen atoms directly located. Compared to the AA′‐stacked isomer, the ABCD‐stacked counterpart displays broader optical absorption, a narrower bandgap, and approximately twofold higher charge‐separation efficiency, resulting in significantly enhanced visible‐light photocatalytic activity for H 2 O 2 production and N‐benzylbenzaldimine synthesis. Mechanistic studies reveal that the ABCD stacking configuration narrows the bandgap, weakens electron localization, and substantially increases the dipole moment, thereby inducing strong interlayer charge transfer and polarization effects.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
+        "Lithium-metal and anode-free batteries"
       ]
     },
     {
@@ -382,43 +186,6 @@
       "doi": "10.1002/anie.1625450",
       "link": "https://doi.org/10.1002/anie.1625450",
       "abstract": "ABSTRACT Polymer electrolytes are promising for all‐climate rechargeable batteries due to their safety and compatibility with high‐energy‐density battery systems. However, topological traps induced by chain entanglement become a major transport bottleneck limiting continuous ion motion and interfacial charge transfer as temperature and liquid‐phase content decrease. Here, we unveil that temperature‐dependent ion‐traps in the entangled gel polymer are a key factor for slow Na + transport at low temperatures. Specifically, we propose a low‐temperature‐tolerant gel polymer electrolyte, denoted as non‐entangled poly(1,3‐dioxolane) (NPDOL), which promotes sodium bis(trifluoromethylsulfonyl)imide (NaTFSI) dissociation and provides homogeneous coordination sites for continuous Na + transport. Meanwhile, the non‐entangled, high‐entropy polymer framework decreases chain relaxation time and expands free volume, thereby reducing the density of ion‐traps and enhancing Na + diffusion kinetics. Furthermore, reduced ion‐trap density improves the Na + transference number ( t Na+ = 0.85), resulting in a thin and uniform solid electrolyte interphase (SEI) with improved interfacial Na + charge‐transfer. The NPDOL electrolyte exhibits high ionic conductivity ( σ ) of 0.25 mS cm −1 at ‐50°C, enabling Na//NPDOL//Na 3 V 2 (PO 4 ) 3 full cells to deliver nearly 100% capacity retention at ‐40°C. This strategy of reducing chain entanglement to suppress Na + traps widens the low‐temperature operational window of batteries, paving the way for high‐performance energy storage systems.",
-      "matchedTopics": [
-        "Solid-state batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Light‐Activated Dual‐Site Pathway Enables Efficient Hydrogen Release From Dodecahydro‐N‐ethylcarbazole",
-      "authors": "Yumo Li, Xiaoyue Zhang, Chaoqun Li, Tian Xu, Guanglin Xia, Dalin Sun, Xuebin Yu",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-26",
-      "doi": "10.1002/anie.1230832",
-      "link": "https://doi.org/10.1002/anie.1230832",
-      "abstract": "ABSTRACT Dodecahydro‐N‐ethylcarbazole (12H‐NEC) is a promising liquid organic hydrogen carrier (LOHC), yet its practical application is still constrained by slow dehydrogenation kinetics and extreme reliance on external heating even over most effective Pd‐based catalysts. Here we identify that the hydrogen removal step with a high barrier is the precise kinetic bottleneck of 12H‐NEC dehydrogenation, which remains underexplored. To effectively overcome this limitation, we report a light‐activated dual‐site hydrogen removal pathway using Pd nanoparticles supported on defective N‐doped TiO 2 . Under irradiation, charge transfer from the support to Pd weakens Pd‐H interactions, while accumulated holes on the support promote hydrogen spillover to Ti defect sites, generating weakened Ti‐H species alongside Pd‐H. This thereby initiates a new hydrogen formation dual‐site pathway by combining Pd‐H and Ti‐H with an overall dehydrogenation barrier of 0.46 eV only, 0.74 eV lower than the conventional thermal Pd‐localized pathway, resulting in a 42‐fold higher H 2 release rate relative to dark conditions at 140°C. Even under concentrated natural sunlight without external heating, near‐complete dehydrogenation with a capacity of 5.65 wt.% H 2 within 1 h is achieved from 12H‐NEC. This work charts a promising course for practical hydrogen storage applications of LOHCs without secondary energy input.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "From Passive Cocoon to Active Metamorphosis: High‐Current‐Driven Evolution of Silicon for Ultrastable Anodes",
-      "authors": "Kaixiang Chen, Yujian Shen, Chaolong Yang, Mengqi Ma, Wenhong Ruan",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-26",
-      "doi": "10.1002/anie.3879325",
-      "link": "https://doi.org/10.1002/anie.3879325",
-      "abstract": "ABSTRACT The commercial viability of silicon anodes in lithium‐ion batteries remains heavily impeded by severe volume expansion, unstable solid‐electrolyte interphases (SEI), and the necessity for restrictive low‐current pre‐lithiation. While improving initial Coulombic efficiency (ICE), low‐current activation accelerates progressive capacity decay over extended cycling and prevents fast‐charging. Furthermore, conventional nanostructuring operates on a paradigm of mere passive containment, leaving root electrochemical instabilities fundamentally unresolved. Inspired by butterfly metamorphosis, we introduce a biomimetic electrochemical paradigm. Analogous to endogenous enzymes driving transformation within a protective cocoon, we employ an initial high current as an “electrochemical enzyme” to trigger the controlled size reduction of Si confined within a covalent organic framework (COF) “cocoon.” Regulated by this architecture, the high‐current pulse drives controlled Si pulverization, synchronously realizing in situ pre‐lithiation and generating a stable amorphous Li‐Si phase via a comprehensively elucidated synergistic mechanism. Benefiting from this structural evolution, the engineered anode exhibits superior robustness. It retains 74.5% and 71.9% capacity over 2000 cycles at 10 000 and 20 000 mA g −1 , respectively, and successfully accommodates extreme fast charging (118 s). By conceptualizing a transition from passive containment to active in situ regulation, this study unveils a transformative design paradigm for high‐energy, high‐power battery materials.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Engineering the Interfacial Microenvironment of Fe–N–C Cathode to Boost Proton Conduction for High-Performance Fuel Cells",
-      "authors": "Jinjing Tao, Yongjin Ruan, Yusheng Liu, Pengbo Wang, Ming Yang, Changpeng Liu, Xiaozheng Duan, Minhua Shao, Jianbing Zhu, Meiling Xiao, Wei Xing",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-26",
-      "doi": "10.1021/jacs.6c10041",
-      "link": "https://doi.org/10.1021/jacs.6c10041",
-      "abstract": "Abstract While atomically dispersed Fe–N–C catalysts represent a compelling nonplatinum alternative for the oxygen reduction reaction (ORR), their practical deployment in proton-exchange membrane fuel cells (PEMFCs) remains severely constrained by a poorly defined catalyst–ionomer–reactant triple-phase interface, which drastically impedes efficient proton transfer within the cathode catalyst layer. Herein, we report a rational interfacial microenvironment engineering strategy that exploits noncovalent interactions between oxygenated functional groups on carbon nanotubes (CNTs) and ionomer side chains to precisely modulate the catalyst–ionomer interfacial structure. The incorporation of oxygen-containing moieties effectively promotes water enrichment at the catalyst–ionomer interface, strengthens intermolecular interactions among water moieties, and facilitates the establishment of a hydrogen-bonded water network. This interconnected network significantly reduces proton transport resistance, boosting the proton conductivity of the Fe–N–C cathode layer by a factor of 2.3 relative to the conventional architecture. Coarse-grained molecular dynamics simulations substantiate that oxygen-functionalized CNTs facilitate long-range proton hopping, directly contributing to the measured conductivity enhancement. As a result, the optimized PEMFC delivers a remarkable peak power density of 1.63 W cm–2 and an exceptional current density of 53 mA cm–2 at 0.9ViR-free, surpassing the U.S. Department of Energy (DOE) 2025 target of 44 mA cm–2. This work establishes a generalized interfacial microenvironment modulation strategy to overcome proton transport limitations in nonplatinum ORR catalysts, opening a new avenue toward advanced fuel cell electrocatalysts.",
       "matchedTopics": [
         "Ion-conducting polymers and single-ion conductors"
       ]
@@ -461,18 +228,6 @@
       ]
     },
     {
-      "title": "A general strategy towards multicolour fluorogenic peptides for wash-free bioassays",
-      "authors": "Man Sing Wong, Lorena Mendive-Tapia, Utsa Karmakar, Lovelesh Vashist, Zandile Nare, Karolina Tokarczyk, Kohei Iijima, Kazuya Kikuchi, Syed Ali Abbas Abedi, Xiaogang Liu, Marc Vendrell",
-      "journal": "Nature Chemistry",
-      "publicationDate": "2026-08-26",
-      "doi": "10.1038/s41557-026-02228-0",
-      "link": "https://doi.org/10.1038/s41557-026-02228-0",
-      "abstract": "Abstract Peptide-based fluorescent probes are valuable tools for live-cell imaging, but conventional labelling approaches often require washing or long incubation, limiting their signal-to-noise ratios. Fluorogenic amino acids (FgAAs) can overcome these limitations, yet their rational design remains challenging owing to the lack of generalizable quenching principles and synthetic routes compatible with diverse fluorophores. Here we developed a general strategy to convert constitutively bright fluorophores into turn-on FgAAs through intramolecular tryptophan-induced quenching. Computational analysis showed that quenching is governed by photoinduced electron transfer or twisted intramolecular charge transfer mechanisms, with adaptability across ultraviolet-to-near-infrared fluorophore scaffolds. We synthesized a large library of multicolour FgAAs and integrated them into solid-phase peptide synthesis to generate turn-on probes for real-time microscopy in live cells. We then designed fluorogenic peptides targeting programmed cell death protein 1 (PD-1), enabling T cell targeted drug screening and identifying avasimibe as a small-molecule modulator of PD-1 activity. This work establishes a rational strategy for designing multicolour FgAAs for peptide engineering, imaging and drug discovery.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "A Dual‐Interface Stabilizing Additive for High‐voltage Sodium Metal Batteries",
       "authors": "Minyi Zou, Yuanchang Ye, Yingxia Dong, Haihua Li, Junkai Shi, Bomao Huang, Changhong Li, Pengcheng Xue, Ruirui Zhao, Liang Ma, Junpeng Xie, Qifeng Zheng",
       "journal": "Angewandte Chemie International Edition",
@@ -481,32 +236,6 @@
       "link": "https://doi.org/10.1002/anie.5330124",
       "abstract": "ABSTRACT High‐voltage sodium metal batteries (SMBs) suffer from fast degradation stemming from the interfacial incompatibility between electrolytes and electrodes. In this study, potassium 3‐pyridyltrifluoroborate (KPBF 3 ) is proposed as a dual‐interface electrolyte additive, where the pyridine moiety can effectively modulate the anion's electronic structure, lowering its lowest unoccupied molecular orbital energy level and enhancing its binding affinity for Na + . This promotes the preferential reductive decomposition of PBF 3 − , forming a robust NaF‐rich solid electrolyte interphase that suppresses Na dendrite growth. Simultaneously, the cleavage of B─F bonds facilitates the formation of a thin and uniform NaF‐rich cathode electrolyte interphase (CEI), significantly suppressing electrolyte oxidation and greatly improving the high‐voltage stability. Consequently, Na||Na symmetric cells achieve an ultra‐long cycling life of 6000 h at 5 mA cm −2 , while Na||Cu cells exhibit a high average Coulombic efficiency (ACE) of 99.89%. Moreover, Na||Na 3 V 2 (PO 4 ) 2 F 3 cells demonstrate 90.8% capacity retention over 10000 cycles at 10 C and 4.3 V, and 90.0% retention after 2500 cycles at 4.4 V. Notably, this additive also enables SMBs with a low N/P ratio of 2.65 to deliver a high capacity retention of 88.4% after 1000 cycles.",
       "matchedTopics": [
-        "Solid-state batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Photocontrolled Isomerization Pathways of Tolylsulfonyl- and Pyrene-Linked Norbornadiene Systems Driven by Absorption Band Targeting",
-      "authors": "Dazhong Sun, Daniel Krappmann, Christoph Oleszak, Jonas Lienert, Chavdar Slavov, Andreas Hirsch, Josef Wachtveitl",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-25",
-      "doi": "10.1021/jacs.6c14776",
-      "link": "https://doi.org/10.1021/jacs.6c14776",
-      "abstract": "Abstract Norbornadiene (NBD) photoswitches are promising for molecular solar energy and information storage, as they isomerize to quadricyclane (QC) after absorbing irradiation energy. Here, we report pyrene-linked tolylsulfonyl-substituted NBD hybrids that enable wavelength-selective back-isomerization from QC to NBD. Using femtosecond-to-microsecond transient absorption spectroscopy in the deep-UV range, direct observation of QC formation could resolve the temporal windows of competing mechanisms, which confirm that the wavelength-dependent isomerization proceeds through two ultrafast charge-transfer (CT) pathways and longer-lived radical ion pair intermediates. Furthermore, chromophore coupling converts charge recombination from a loss channel into a productive process by enabling triplet energy transfer, leading to comparatively high quantum yields in both the switching directions. In a symmetric bis-NBD architecture, early CT productivity is reduced, and the mechanism shifts toward triplet-dominated isomerization, demonstrating how molecular symmetry redistributes pathway branching. Selective excitation of the QC unit or the pyrene chromophore biases singlet versus triplet channels, providing wavelength-dependent control over reaction efficiency. These results establish pathway engineering across singlet and triplet manifolds as a strategy for designing NBD systems for solar energy storage and optically addressable molecular information technologies.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Eliminating Interfacial Stress Concentration Enables High‐Energy and High‐Safety Gel Polymer Lithium Metal Pouch Cells",
-      "authors": "Wenran Wang, Haipeng Zhu, Qiangfeng Zhang, Pei Huang, Yongheng Wu, Gang Zhou, Chunxiao Zhang, Weifeng Wei",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-25",
-      "doi": "10.1002/anie.5503056",
-      "link": "https://doi.org/10.1002/anie.5503056",
-      "abstract": "ABSTRACT Interfacial stress concentration not only degrades electrochemical performance during cycling but also poses critical safety risks under extreme abuse conditions. Upon nail penetration, localized stress accumulation can trigger catastrophic mechanical failure and rapid thermal runaway. Herein, we report a gel polymer electrolyte (NFGPE) engineered to delocalize interfacial stress through a dual‐anchoring polymer framework. The design integrates tri(2‐acryloyloxyethyl) isocyanurate (TAIC) and N‐[4‐cyano‐3‐(trifluoromethyl)phenyl]methacrylamide (CTFMA) into a mechanically robust, highly cross‐linked network. CTFMA can not only act as rigid molecular spacers to compensate for volumetric shrinkage of TAIC and relieve stress accumulation, but also anchor onto the cathode surface using its electron‐deficient cyano groups to selectively attract anions and repel solvent molecules, thereby promoting the formation of a thin, inorganic‐rich cathode‐electrolyte interphase (CEI). Meanwhile, TAIC spontaneously adsorbs onto the lithium anode, facilitating the formation of a stable, inorganic‐rich solid‐electrolyte interphase (SEI). The bilateral anchoring structure of the crosslinking monomer, combined with the highly supportive structure, ensures void‐free, intimate electrode||electrolyte contact across both interfaces, effectively delocalizing interfacial stress throughout the cell. The resulting NFGPE‐based coin cell can stably operate from −20°C to 70°C, the lithium metal pouch cells ensure a high‐energy density of 528.7 Wh kg −1 , and pass nail penetration tests without thermal runaway.",
-      "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
         "Fast charging and interfacial ion transport"
       ]
     },
@@ -519,21 +248,8 @@
       "link": "https://doi.org/10.1002/anie.3211208",
       "abstract": "ABSTRACT High‐voltage polymer electrolyte lithium metal batteries have long been constrained by the intrinsically low ionic conductivity of polymer electrolytes and unstable high‐voltage cathode interfaces, especially at low temperatures where ion transport and interfacial kinetics become sluggish. Here, we propose a descriptor‐guided dynamic solvation‐shell reconstruction strategy for poly(ethylene oxide) (PEO)‐based quasi‐solid electrolytes by introducing nitrile plasticizers with competitive Li + affinity and fast local Li + diffusivity. These nitrile ligands competitively enter the first Li + solvation shell, weaken persistent Li + ‐ether oxygen coordination, and shift Li + migration from polymer‐cage‐confined hopping to ligand‐exchange‐assisted transport. The optimized electrolyte achieves a room‐temperature ionic conductivity of 10.9 mS cm −1 , nearly three orders of magnitude higher than that of the pristine PEO electrolyte. Meanwhile, the nitrile‐containing solvation shell regulates interfacial decomposition pathways, suppresses oxidative PEO degradation in high‐voltage Li‖NCM811 cells, and promotes the formation of compact cathode electrolyte interphases. Benefiting from simultaneously enhanced bulk Li + transport and high‐voltage interfacial stability, the optimized electrolyte enables stable fast‐charging cycling and low‐temperature operation in Li‖NCM811 cells. This work establishes descriptor‐guided dynamic first‐solvation‐shell reconstruction as a molecular design principle for high‐conductivity, high‐voltage‐stable PEO‐based quasi‐solid electrolytes.",
       "matchedTopics": [
-        "Solid-state batteries",
-        "Lithium-metal and anode-free batteries",
+        "Ion-conducting polymers and single-ion conductors",
         "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Cascade C−H Activation−Annulation Polymerization toward Fluorescent Polycyclic Heteroaromatic Polyelectrolytes with Multiple Functionalities",
-      "authors": "Kang Wang, Haiyan Huang, Jun Zhu, Jinchuan Zhang, Dong Wang, Ben Zhong Tang, Ting Han",
-      "journal": "Macromolecules",
-      "publicationDate": "2026-08-25",
-      "doi": "10.1021/acs.macromol.6c01279",
-      "link": "https://doi.org/10.1021/acs.macromol.6c01279",
-      "abstract": "Abstract Fluorescent main-chain charged polyelectrolytes (MCCPs) have emerged as a highly attractive class of multifunctional materials. However, their structural diversity remains severely limited by synthetic challenges. Herein, we report a cascade C−H activation−annulation polymerization (CAAP) strategy that can in situ generate MCCPs bearing multisubstituted N-doped cationic benzo[c,d]fluoranthene units via successive C−C/C−N formation in a straightforward manner. The CAAP reactions of readily available 2-arylbenzimidazoles and internal alkynes proceed efficiently under mild conditions, producing a series of high-molecular-weight fluorescent MCCPs (absolute Mw up to 174,300) in high yields of up to 99.2%. Benefiting from the unique structures, the obtained MCCPs show excellent solution processability and film-forming ability along with readily tunable aggregate-state fluorescence through variations in the surrounding substituents and counterion types. These properties enable them to serve as efficient energy donors for Förster resonance energy transfer, and their thin films can be processed into fluorescent photopatterns. Moreover, the fluorescent conjugated MCCPs exhibit efficient reactive oxygen species generation capability, enabling light-enhanced antimicrobial activity through the photodynamic effect, particularly against Gram-negative bacteria.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
       ]
     },
     {
@@ -574,30 +290,6 @@
       ]
     },
     {
-      "title": "Adaptive Assembly of Dative B←N Frameworks for Dimension‐Controlled Hetero‐Engineering",
-      "authors": "Zhuoyan Dong, Heng Wu, Qianni Peng, Difeng Yang, Shengchang Xiang, Yuanchao Lv, Zhangjing Zhang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-24",
-      "doi": "10.1002/anie.1750323",
-      "link": "https://doi.org/10.1002/anie.1750323",
-      "abstract": "ABSTRACT Luminescent heterostructures with spatially resolved emission hold great promise for optoelectronic applications, yet dimension‐controlled hetero‐assembly for stimuli‐responsive heterostructures remains a significant challenge owing to the uncertain integration of distinct components. Herein, we reported an adaptive assembly strategy in dative B←N framework, enabling dimension‐controlled synthesis of luminescent heterostructures with stimuli‐responsive properties. The conformational flexibility of boroxine units permit the epitaxial ligand to form the similar conformation as the seed ligand, triggering the adaptive hetero‐assembly between different frameworks. Moreover, the structural similarity on side chains of seed and epitaxial ligands determines the spatial matching degree at heterointerface, and thus adjusting the structural types of ligand side chains enables precise regulation of both the interfacial lattice matching and assembly orientation, thereby constructing one‐dimensional and two‐dimensional B←N framework heterostructures. The resulting heterostructures exhibit spatially‐resolved stimuli‐responsive emission by inheriting intramolecular charge transfer of ligands, functioning as photonic barcode labels with multi‐level authentication capability. These findings provide insights into optical heterostructures that combine tunable dimensionality with responsive functionality.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Deuterated Aprotic Electrolytes Enable Rechargeable Lithium Batteries With High (Electro)Chemical and Thermal Stability",
-      "authors": "Yu‐Hui Zhu, Shuang‐Jie Tan, Zhi‐Wei Yuan, Ya‐Hui Wang, Xu‐Sheng Zhang, Yao Zhao, Shuang‐Yan Lang, Ying Zhang, Rui Wen, Chunli Bai, Yu‐Guo Guo, Sen Xin",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-23",
-      "doi": "10.1002/anie.6024891",
-      "link": "https://doi.org/10.1002/anie.6024891",
-      "abstract": "ABSTRACT Electrolytes with exceptional (electro)chemical and thermal stability are essential prerequisites for high‐energy‐density rechargeable lithium batteries. Conventional aprotic ether and ester solvents contain polarizable C─H bonds that trigger parasitic proton transfer reactions on the high‐voltage cathode surface, driving exothermic electrolyte decomposition and impairing battery cycling stability and safety. Here, we show that deuterium substitution at polarizable C–H moieties introduces kinetic and thermodynamic isotope effects to retard proton transfer and lower solvent oxidation Gibbs free energy. Consequently, the deuterated electrolytes exhibit improved anodic stability and mitigated decomposition during high‐voltage charge–discharge of layered oxide cathodes, forming a compact and robust cathode–electrolyte interphase with suppressed CO 2 release. The deuterated solvents also have lower combustion enthalpies than their protiated analogs, which translates to substantially reduced heat generation as confirmed by calorimetric measurements. Using deuterated tetrahydrofuran and dimethyl carbonate as model solvents, we validate that such electrolytes enable reversible cathode electrochemistry, as well as markedly improved cycling performance and thermal safety of Li||LiNi 0.8 Co 0.1 Mn 0.1 O 2 batteries. This subatomic modification strategy offers a rational electrolyte design framework toward high‐performance batteries.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "A Stage‐Coupled View of Interfacial Reconstruction in Anode‐Free Sodium Metal Batteries",
       "authors": "Jiawen Dai, Rui Zhang, Shengan Wu, Yougen Tang, Haiyan Wang",
       "journal": "Angewandte Chemie International Edition",
@@ -606,7 +298,6 @@
       "link": "https://doi.org/10.1002/anie.3647021",
       "abstract": "ABSTRACT Anode‐free sodium metal batteries (AFSMBs) remove the excess metal anode and increase projected cell‐level energy density, but they place reversibility on a transient negative‐electrode interface. In each cycle, Na is deposited on a foreign current collector and removed to a highly depleted state. Cell failure is governed by whether continuity can be preserved across a sequence of short‐lived interfacial states, including bulk coordination, interfacial desolvation, heterogeneous nucleation, metallic coalescence, Na isolation, and recurrent solid electrolyte interphase (SEI) renewal. AFSMBs are therefore better understood as dynamically reconstructed interfacial systems, where non‐uniformity introduced during interfacial entry can propagate through later plating and stripping. This review examines AFSMBs through three coupled stages: solvation‐controlled interfacial entry, current collector regulated Na reconstruction, and SEI renewal controlled by reaction–pathway selectivity and mechanical coherence. Current density, stripping depth, pressure, temperature, sodium inventory, and cell architecture are treated as boundary conditions that determine whether local interfacial gains persist under practical operation. By linking coordination chemistry, metallic continuity, interphase renewal, and device‐level constraints, this review provides a mechanistic framework for predictive AFSMB design.",
       "matchedTopics": [
-        "Solid-state batteries",
         "Fast charging and interfacial ion transport"
       ]
     },
@@ -624,18 +315,6 @@
       ]
     },
     {
-      "title": "Non-Faradaic Promotion of Pd-Catalyzed Benzaldehyde Hydrogenation Induced by Cathodic Potential",
-      "authors": "Julia B. Moreira, Alexander D. von Rueden, Thuy T. Le, Benjamin A. Jackson, Simuck F. Yuk, Mal-Soon Lee, Laura C. Meyer, Rachit Khare, Donald M. Camaioni, Huamin Wang, Sungmin Kim, Udishnu Sanyal, Oliver Y. Gutiérrez, Johannes A. Lercher",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-21",
-      "doi": "10.1021/jacs.6c04594",
-      "link": "https://doi.org/10.1021/jacs.6c04594",
-      "abstract": "Abstract Pd-catalyzed hydrogenation of benzaldehyde to benzyl alcohol in the aqueous phase is significantly enhanced relative to open-circuit conditions when H2 pressure and an external cathodic potential are applied simultaneously. This dual-mode operation affords hydrogenation rates up to 6-fold higher than those observed under open-circuit conditions. The rate enhancement exceeds the expected charge-transfer contribution by at least a factor of 2 at all investigated potentials, indicating a non-Faradaic promotion effect. Combined experimental and theoretical analyses suggest that cathodic polarization increases the quasi-equilibrium surface coverage of a hydroxy intermediate formed via a proton-coupled electron transfer step preceding the rate-determining addition of the second hydrogen atom. At more negative potentials, where this coverage saturates, further rate acceleration likely arises from modulation of the standard free energies of intermediates and transition states along the rate-determining pathway, thereby lowering the apparent standard activation free energy.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Nanofiber-Reinforced Composite Polymer Electrolyte Enables Continuous Lithium-Ion Transport and Anion-Rich Solvation Structure for 670 Wh kg–1 Lithium Batteries",
       "authors": "Peiran Bian, Xingchen Song, Zhaozhong Wang, Jie Zhu, Yutong Ding, Jinping Zhang, Yuhu Li, Yansong Liu, Genglin Lou, Aihong Li, Chenxi Li, Yong Li, Hongtao Zhang, Yongsheng Chen",
       "journal": "Journal of the American Chemical Society",
@@ -644,31 +323,7 @@
       "link": "https://doi.org/10.1021/jacs.6c09551",
       "abstract": "Abstract Solid-state electrolytes are highly promising for high-energy lithium-metal batteries, yet their practical applications are severely restricted by insufficient oxidative stability, sluggish Li+ transport, and unstable electrode/electrolyte interphases under high-voltage operation. Herein, we report an in situ fabricated composite polymer electrolyte, denoted as LAFE, which integrates a designed main-chain fluorinated polyether matrix with an interconnected three-dimensional framework of Li- and F-codoped hydroxyapatite nanofibers (LANs). Distinct from conventional particle-filled composite electrolytes, the lithium-active LAN framework forms continuous Li+-conducting pathways while simultaneously providing abundant interfacial migration sites through strong Li+–LAN interactions, coupling bulk conduction with site-mediated Li+ hopping. The Li+-affinity contrast between LANs and the fluorinated polyether further induces heterogeneous Li-rich and Li-deficient domains, reconstructing the local solvation environment toward an anion-rich structure. This solvation regulation expands the electrochemical stability window to 3.0–5.7 V and promotes preferential anion-derived inorganic-rich LiF/Li3N/B–O-containing SEI and CEI layers, thereby suppressing Li dendrite growth, electrolyte oxidation, and high-voltage cathode degradation while strengthening abuse tolerance by immobilizing the electrolyte within a solidified framework. Consequently, LAFE enables Li||LiNi0.8Co0.1Mn0.1O2 cells to operate stably for 1000 cycles under 4.5–4.7 V and 5 C. At the pouch-cell level, 7 Ah Li||LiCoO2 and 10 Ah Li||Li-rich Mn-based oxide cells deliver energy densities of 677 Wh kg–1 and 632 Wh kg–1, respectively, while 5 Ah Li|| Ni0.8Co0.1Mn0.1O2 pouch cells pass nail penetration without leakage or combustion. This work establishes a lithium-active composite-electrolyte design principle for high-voltage, high-rate, and safe high-energy lithium-metal batteries.",
       "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Migration-Coupled Local Fluoride Relaxation in Li2– x La(1+ x )/3Nb2O6F Single Crystals",
-      "authors": "Takeshi Yajima, Chika Takazawa, Taisuke Sato, Yasutoshi Iriyama",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-21",
-      "doi": "10.1021/jacs.6c08912",
-      "link": "https://doi.org/10.1021/jacs.6c08912",
-      "abstract": "Abstract High Li–ion conductivity is difficult to achieve in chemically robust solid electrolytes, especially oxides and oxyfluorides, because their rigid, less polarizable anion frameworks generally give rise to high migration barriers. The pyrochlore-type oxyfluoride Li2–xLa(1+x)/3Nb2O6F (LLNOF) is an unusual example that combines high bulk Li–ion conductivity with a low activation energy, but the origin of this behavior has remained unclear, largely because no single-crystal study has been available. Here we report the first growth of millimeter-sized LLNOF single crystals and establish nearly isotropic bulk Li–ion conduction. The bulk Li–ion conductivity increases with decreasing x, reaching 16.3 mS cm–1 at 25 °C, while the activation energy decreases systematically. Single-crystal X-ray diffraction and maximum entropy method analyses reveal that the cubic pyrochlore framework is retained, while the electron-density distribution around the F site contains a directional off-centered component toward neighboring 16d sites. This component is resolved as a density maximum at 150 K and remains as a shoulder at the same displacement at room temperature, indicating that the local off-centered component persists but is thermally averaged. Together, these observations support a local rearrangement of the fluoride environment coupled to Li/vacancy exchange. They identify migration-coupled local fluoride relaxation as a viable mechanism for low-barrier Li–ion transport in chemically robust solids lacking highly polarizable anion frameworks.",
-      "matchedTopics": [
-        "Solid-state batteries"
-      ]
-    },
-    {
-      "title": "Interfacial Water Networks Regulate Solid–Liquid Contact Electrification",
-      "authors": "Jianing Dong, Zhi Zhu, Liang Peng, Yuankai Jin, Zhi-Ming Zhang, Shouwei Gao, Fanfei Yu, Lihan Jin, Feng Ru Fan, Wanghuai Xu, Zuankai Wang",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-21",
-      "doi": "10.1021/jacs.6c14324",
-      "link": "https://doi.org/10.1021/jacs.6c14324",
-      "abstract": "Abstract Elucidating the mechanisms of solid–liquid contact electrification (CE) is pivotal for advancing technologies such as water-based energy harvesting, digital microfluidics, self-powered sensing systems, and chemical synthesis. Despite extensive progress, current research has primarily focused on identifying charge carriers, while the regulatory role of interfacial water remains poorly understood. Here, we demonstrate that interfacial water serves as an active regulator of solid–liquid CE through its structure and interactions with solid surfaces. By systematically tuning interfacial water environments, we reveal that water–water interactions within the hydrogen-bond (H-bond) network and water–solid interactions at the interface cooperatively regulate CE efficiency. In situ interfacial characterization and theoretical calculations show that modifying interfacial water structures alters molecular configurations and strengthens water–solid coupling, thereby facilitating interfacial charge transfer. Furthermore, we develop a mid-infrared (MIR)-driven vibrational excitation strategy for regulating interfacial water structures, leading to enhanced CE performance and improved hydrogen peroxide production in a contact-electro-catalysis system. This work establishes the interfacial water structure as an important factor governing solid–liquid CE and provides a novel strategy for controlling water-mediated interfacial charge transfer.",
-      "matchedTopics": [
+        "Ion-conducting polymers and single-ion conductors",
         "Fast charging and interfacial ion transport"
       ]
     },
@@ -721,54 +376,6 @@
       ]
     },
     {
-      "title": "Precise Energy‐Level Engineering of X ‐Shaped D–A Dyads for 1.16 s Anti‐Kasha 3 CT Room‐Temperature Phosphorescence",
-      "authors": "Guiyin Luo, Daihe Zhou, Chuanhao Liu, Yuling He, Binhao Li, Wenxiao Deng, Yanju Luo, Xuemei Pu, Zhiyun Lu, Yan Huang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-20",
-      "doi": "10.1002/anie.4247008",
-      "link": "https://doi.org/10.1002/anie.4247008",
-      "abstract": "ABSTRACT The development of charge‐transfer organic room‐temperature phosphorescence ( 3 CT‐ORTP) materials with second‐level lifetime remains a significant challenge. Herein, we report a molecular engineering strategy using X ‐shaped donor–acceptor (D–A) dyads to achieve long‐lived 3 CT‐RTP. Two isomers, axially symmetric a DOF‐DBCz and centrosymmetric c DOF‐DBCz, were synthesized by bridging 7H‐benzo [c] carbazole (D) and 2,6‐Difluorobenzonitrile (A). The X ‐shaped architecture expands through‐space charge transfer (TSCT) pathways while lowering 3 CT energy levels via LUMO delocalization across the bridging and dual acceptor units. Notably, the para ‐substitution in c DOF‐DBCz results in a shorter D–A distance—as evidenced by NMR spatial shielding—which enhances robust TSCT interactions and minimizes non‐radiative loss. As a result, c DOF‐DBCz achieves an anti‐Kasha 3 CT‐RTP τ Ph of 1.16 s and a Φ Ph of 31% in PMMA. Furthermore, it serves as a dual‐functional photoinitiator and in situ defect indicator in transparent coatings, requiring lower dosages and achieving faster curing to corresponding 3 LE‐RTP material. This study highlights symmetry‐modulated D–A proximity as an effective design strategy for long‐lived organic multi‐D–A phosphors.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Molecular-Ionic Hybrid Modulates Intermediate Evolution from CO2 to Methanol at High Current Density",
-      "authors": "Pengsong Li, Xiang-Da Zhang, Yuqing Hou, Yong Wang, Ganwen Zhang, Changlong Zhu, Xinchen Kang, Peng Liu, Xiaolong Wang, Qinggong Zhu, Buxing Han",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-20",
-      "doi": "10.1021/jacs.6c11699",
-      "link": "https://doi.org/10.1021/jacs.6c11699",
-      "abstract": "Abstract Electrochemical conversion of CO2 to methanol offers compelling route for sustainable carbon utilization. Although cobalt phthalocyanine (CoPc) is recognized as promising catalyst for this reaction, achieving high methanol selectivity at high current density remains a critical challenge, due to insufficient stabilization of *CO intermediate and sluggish hydrogenation kinetics. Here we report a molecular-ionic hybrid catalyst constructed by integrating amino-functionalized CoPc with imidazolium-based ionic liquid (IL) on carbon nanotubes (CoPc-NH2 + IL/CNT). The hybrid catalyst achieves a methanol Faradaic efficiency of 75.0% with a partial current density of 300 mA cm–2. This outstanding performance originates from the cooperative interplay between CoPc-NH2 and imidazolium cations. The imidazolium serves as a CO2 adsorption reservoir that enriches and delivers CO2 to Co centers for activation, while simultaneously inducing a more electron-deficient Co center that stabilizes diverse *CO adsorption states for deep hydrogenation. In parallel, imidazolium cations reorganize interfacial hydrogen-bond networks, accelerate water dissociation and proton supply, and facilitate charge transfer to reaction intermediates through an electronic relay effect. These synergistic effects suppress the competing CO pathway and selectively steer CO2 electroreduction toward methanol at high current densities. The effectiveness of this molecular-ionic coupling is further validated across a range of imidazolium cations, demonstrating the generality of this microenvironment-engineering strategy.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Interplay between Structural Reorganization and Metal – Ligand Covalency in the Distinct Excited States of [M(diimine)(dithiolate)] Complexes",
-      "authors": "Shuri A. Francis, Hyeongtaek Lim, Benjamin I. Poulter, Wenhui Hu, Reagan X. Hooper, Elizabeth S. Ryland, Kacie J. Nelson, Sumana L. Raj, Cali L. Antolini, Gourab Chatterjee, Leland B. Gee, Tim B. van Driel, Jing Yang, David A. Shultz, Kelly J. Gaffney, Martin L. Kirk, Amy A. Cordones",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-20",
-      "doi": "10.1021/jacs.6c08363",
-      "link": "https://doi.org/10.1021/jacs.6c08363",
-      "abstract": "Abstract This work identifies the impact of covalent metal–ligand interactions on the excited states of planar [M(diimine)(dithiolate)] complexes (M = Pt, Ni) with bipyridyl (bpy) and benzene-1,2-dithiolate (bdt) ligands. The long-lived excited states of the Pt(II) complexes have long been surmised to have metal-and-dithiolate ligand → diimine ligand charge transfer (MLL’CT) character due to disproportionately strong metal–dithiolate orbital mixing, whereas the nature of the shorter-lived excited states of the nonluminescent Ni(II) complexes has not been investigated. Time-resolved Pt 2p (L3-edge) X-ray absorption near-edge structure (XANES) spectroscopy is presented herein to definitively prove that strong orbital overlap between the metal center and dithiolate ligand yields the MLL’CT character of the long-lived excited state in [Pt(bpy)(bdt)]. For [Ni(bpy)(bdt)], ultrafast transient Ni 1s (K-edge) XANES is used to resolve the electronic and structural relaxation dynamics following MLL’CT excitation. Combined with electronic structure calculations, the results show that the low-lying Ni 3dyz orbital in [Ni(bpy)(bdt)] facilitates subpicosecond formation of a metastable triplet excited state with ligand field state symmetry (3LF). Tetrahedral structural relaxation dynamically alters the differential Ni–diimine and Ni–dithiolate covalencies and thereby modulates the resulting excited state charge distribution. The Ni-and-bpy → bdt charge transfer character of the fully relaxed 3LF state is found to reverse the directionality of the ligand-to-ligand charge transfer established for the 3MLL’CT state of the Pt congener. Altogether, these results demonstrate that inequivalent metal–ligand covalencies in mixed-ligand donor–acceptor complexes could be applied to control excited state charge distributions within photoactive transition metal complexes.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Functional Carbon-Directed Synthesis of High-Entropy Alloys with Tuned Structure for Catalysis",
-      "authors": "Yi Ma, Kun Fu, Qi Yang, Jun Qi, Xuehan Xing, Xiaoyu Bei, Qi Yu, Chenchen Yang, Xixian Li, Yang-Yang Zhang, Jun Li, Jieshan Qiu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-20",
-      "doi": "10.1021/jacs.6c09541",
-      "link": "https://doi.org/10.1021/jacs.6c09541",
-      "abstract": "Abstract The synthesis of nanoscale high-entropy alloys (nHEAs) with customized elements is severely constrained by the intrinsic immiscibility of metal elements, leading to phase separation. Current methods for making nHEAs via high-temperature treatment or liquid metals often suffer from element selection or particle size control. Herein, we report a carbon-directed methodology that overcomes these limitations by directly modulating the mixing enthalpy. We establish a linear correlation between mixing enthalpy and charge transfer, providing a mechanistic pathway to circumvent element immiscibility. Specifically, hydrogen-substituted graphdiyne (HsGDY), characterized by its unique sp1–sp2 cohybridization, acts as an electron redistributor to exchange electrons with metal atoms, thereby driving the mixing enthalpy toward zero to form nHEAs. This enables HsGDY to outperform conventional sp2 carbons in mediating interface interactions for the growth of nHEAs with tuned particle sizes. This approach is universal, validated by the precise synthesis of 5–15-element nHEAs with ultrasmall size (∼3 nm) at a relatively low temperature of 423 K. The resulting nHEAs exhibit exceptional catalytic activity and stability for the hydrogen evolution reaction (HER), surpassing state-of-the-art benchmarks. This carbon-directed synthesis paradigm paves a new way to high-entropy alloys for catalysis and beyond.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Tailoring Energy Landscapes for Vehicular Transport in Single-Ion Conducting Organo-Ionic Solids",
       "authors": "Carson O. Zellmann-Parrotta, Xiaoxu Ruan, J. David Bazak, Libby Katzman, Dong-Min Kim, Bryan D. McCloskey, Tod A. Pascal, Brett A. Helms",
       "journal": "Journal of the American Chemical Society",
@@ -778,18 +385,6 @@
       "abstract": "Abstract Single-ion conducting organo-ionic (ORION) solids with concomitantly high carrier concentration and cation mobility are highly sought after as electrolytes for batteries, yet largely out of reach due to the abundance and static character of contact ion pairs, which inhibit long-range cation transport. Here, we show how glyme-based organic ligands reduce the prevalence of contact ion pairs in sodium-ion conducting ORION solids created from tetrameric bis(sulfonylimides), opening the door to vehicular transport with tunable energy landscapes. Activation barriers to Na+ transport were reduced by &gt;50%─from 117.2 to 52.2 kJ·mol–1─when the stoichiometric number of L-type ether ligands relative to Na+ ions was increased, up to four. Within this preferred regime, 1,2-dimethoxyethane delivered the highest ionic conductivity─0.28 mS·cm–1 at 60 °C─due to the lower effective mass for the mobile charge carrier. Molecular dynamics simulations and 23Na-NMR experiments showed contact ion pairs are effectively converted into vehicular Na+ species through the addition of glyme ligands, improving sodium conduction. Electrophoretic NMR measurements show mobility of the anionic tetramer under high field strength (9.1 × 10–11 m2 V–1 s–1) is remarkably low, providing a high cationic transference number of t+ = 0.84.",
       "matchedTopics": [
         "Ion-conducting polymers and single-ion conductors"
-      ]
-    },
-    {
-      "title": "Self‐Assembled Molecules Based on a Spiro‐Core and Conjugated Linkers Enable 21% Efficiency in Organic Solar Cells",
-      "authors": "Ruhang Wang, Tingkuo Zhang, Huanyu Zhao, Jihong Wu, Fengzhi Wang, Da Liu, Kang Wang, Kangqiao Ma, Mingwei An, Tao Zhang, Zhenyu Chen, Yang Wang, Deping Qian",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-19",
-      "doi": "10.1002/anie.9288707",
-      "link": "https://doi.org/10.1002/anie.9288707",
-      "abstract": "ABSTRACT Conventional carbazole‐derived self‐assembled monolayers (SAMs) are widely utilized as hole‐transport layers in organic solar cells (OSCs). However, the planar structure of the carbazole core, combined with the conformational flexibility and insulating nature of the alkyl linkers, often results in inadequate SAM coverage, loose molecular packing, and inefficient charge transport, thereby limiting device performance and operational stability. In this work, we develop a novel SAM molecule, SAF‐Ph‐PA, by employing a sterically bulky spiro core as the backbone and replacing the conventional flexible alkyl linker with a rigid phenylene group. Compared to its alkyl‐linked counterpart SAF‐PA, this newly designed SAM exhibits denser and more ordered molecular packing, as well as enhanced hole extraction and charge transfer efficiencies. In OSCs based on the PM6:BTP‐eC9 system, SAF‐Ph‐PA achieves an excellent power conversion efficiency (PCE) of 20.3%, representing one of the highest reported values for this binary system. Furthermore, SAF‐Ph‐PA demonstrates outstanding performance in devices incorporating a PM6:FTCC‐Br:BTP‐eC9 blend, achieving a peak PCE of 21.0% (certified 20.68%). These findings highlight the critical importance of a synergistic design strategy that integrates both the head group and the linker in SAM engineering, paving the way toward further efficiency enhancements in OSCs.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
       ]
     },
     {
@@ -805,42 +400,6 @@
       ]
     },
     {
-      "title": "Hierarchical Interfacial Engineering of Gas Diffusion Electrodes for Acidic CO2 Electroreduction in Membrane Electrode Assemblies",
-      "authors": "Anmol Mathur, Yansheng Liu, Zhengyuan Li, Tianchen Li, Lingyu Zhang, Thi Vo, Yayuan Liu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-19",
-      "doi": "10.1021/jacs.6c11052",
-      "link": "https://doi.org/10.1021/jacs.6c11052",
-      "abstract": "Abstract Acidic CO2 electroreduction in membrane electrode assemblies suppresses parasitic carbonate formation and improves carbon utilization. Yet, practical implementations remain hindered by proton accumulation and alkali cation buildup that give rise to failure modes associated with hydrogen evolution, salt precipitation, and catalyst flooding. Here, we report a multiscale interfacial design for gas diffusion electrodes that addresses these challenges across multiple length scales. Our design employs a multilayer architecture in which a microscale hydrophobic porous silica overlayer sits below a nanoscale quaternary ammonium polyelectrolyte coating. The former regulates electrolyte intrusion via capillary pressure while the latter electrostatically restricts cation accumulation. Incorporation of a hydrophilic macromolecular component into the polyelectrolyte further induces complexation-driven charge densification while simultaneously establishing percolating water channels that enhance interfacial hydration and reduce cell voltage. Our design provides CO Faradaic efficiencies of 99% sustained over 162 h, with single-pass CO2 conversion efficiency of 77% at 200 mA cm–2, on a model Ag catalyst. Furthermore, we show that the design readily generalizes across catalyst platforms and translates to scale, delivering stable operation in a 25 cm2 electrolyzer with CO production rates of ∼62 mL min–1. Lastly, techno-economic analysis projects a pathway to cost-competitive CO production, highlighting hierarchical interfacial engineering as an effective strategy for acidic CO2 electrolysis at industrially relevant scales.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
-      ]
-    },
-    {
-      "title": "Interfacial Chemistry of Storage-Induced Degradation in High-Nickel Cathodes",
-      "authors": "Jun Pan, Abdullah Bin Faheem, Bixian Zhong, Yifan Xu, Leonardo Cancellara, Pei Zhao, Evgeny Senokos, Okkyun Seo, Jian Yang, Dongshuang Wu, Haobo Li, Fuqiang Huang",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-18",
-      "doi": "10.1021/jacs.6c06113",
-      "link": "https://doi.org/10.1021/jacs.6c06113",
-      "abstract": "Abstract Interfacial instability in electrochemical systems remains a fundamental challenge, particularly in high-nickel layered oxides where reactive surfaces drive parasitic chemistry even under near-equilibrium conditions. Here, we elucidate the chemical origins of storage-induced degradation in LiNi0.8Mn0.1Co0.1O2 cathodes, showing that electrolyte decomposition and interfacial Ni dissolution are correlated processes that govern capacity loss during storage. Building on this mechanistic insight, we develop a data-driven framework for engineering cathode–electrolyte interphases (CEIs) by integrating density functional theory with machine-learning interatomic potentials. This approach enables rapid evaluation of molecular descriptors for a diverse set of electrolyte additives. Unsupervised clustering highlights lithium bis(oxalato)borate (LiBOB) and lithium trifluoromethanesulfinate as effective CEI-forming additives. Experimental validation confirms that incorporating 0.05 M LiBOB significantly stabilizes the interface, improving capacity retention from 82% to 95.5% after 28 days of storage at 60 °C, with consistent behavior in a pouch cell. Furthermore, interfacial stability is assessed using distribution-of-relaxation-time analysis, providing a practical descriptor for evaluating CEI evolution. This work establishes a generalizable, data-driven strategy for understanding and controlling interfacial reactivity in metastable electrochemical systems.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Dinuclear Complexes of Linear, Two-Coordinate Iron(II) and Cobalt(II): Geometric Control over Magnetic Exchange between Anisotropic Metal Centers",
-      "authors": "Hyunchul Kwon, Leander I. Held, Mykhaylo Ozerov, Ryan A. Murphy, Khetpakorn Chakarawet, Priya Patel, T. David Harris, Nicholas F. Chilton, Jeffrey R. Long",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-18",
-      "doi": "10.1021/jacs.6c07793",
-      "link": "https://doi.org/10.1021/jacs.6c07793",
-      "abstract": "Abstract Magnetic exchange coupling between high-anisotropy spin centers is a key requirement for single-molecule magnets with high operating temperatures. Here, we report the synthesis and characterization of the dinuclear iron(II) and cobalt(II) complexes [(iPr3Si)(Dipp)NFe]2(m-(NSiMe3)2C6Me3H) (m-Fe2), [(iPr3Si)(Dipp)NFe]2(p-(NSiMe3)2C6Me4) (p-Fe2), and [(iPr3Si)(Dipp)NCo]2(p-(NSiMe3)2C6Me4) (p-Co2), with each metal center residing in a linear, two-coordinate geometry. In these complexes, the two high-magnetic-anisotropy metal centers are linked through a meta- or para-bis(amido)arene, which mediates ferro- or antiferromagnetic superexchange, respectively. Variable-temperature magnetic susceptibility data reveal antiferromagnetic coupling in the para-substituted complexes, giving S = 0 ground states with exchange constants of −3.56(5) cm–1 for p-Fe2 and −9.82(15) cm–1 for p-Co2. In stark contrast, the meta-linker in m-Fe2 mediates weak ferromagnetic exchange (+0.44(1) cm–1), leading to an S = 4 ground state. Here, the coexistence of ferromagnetic coupling and strong single-ion anisotropy gives rise to single-molecule-magnet behavior with a relaxation barrier of 139 cm–1, the highest yet reported for a multinuclear transition metal complex, and the coupling markedly suppresses the fast through-barrier quantum relaxation that plagues related mononuclear species. To gain a microscopic understanding of the magnetic exchange in this family of complexes, we employed a combination of far-infrared magnetospectroscopy and computation. While a spin-only model reproduces the spectroscopic energy levels well, the substantial unquenched orbital angular momentum at the FeII and CoIIcenters inspired a fully ab initio treatment of the electronic structure, crystal-field splitting, and exchange constants. These calculations indicate that both the sign and the magnitude of the exchange constant depend strongly on the linker geometry.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
-      ]
-    },
-    {
       "title": "Revealing Excited-State Electrochemical Reaction Pathways at Solid Electrolyte Interphases by Ab Initio Nonadiabatic Molecular Dynamics",
       "authors": "Zhan Shi, Linjie Chen, Zhi Li, Siqi Shi, Chuanyu Zhao, Oleg V. Prezhdo, Chenru Duan, Haojun Jia, Qijing Zheng, Jin Zhao",
       "journal": "Journal of the American Chemical Society",
@@ -849,20 +408,7 @@
       "link": "https://doi.org/10.1021/jacs.6c12254",
       "abstract": "Abstract Electrode potential controls electrochemical reactivity by governing interfacial electron-transfer processes at electrified interfaces. Under varying electrochemical potentials, injected electrons may access different electronic states of interfacial electrolyte complexes, potentially driving distinct nonequilibrium excited-state reaction pathways. Conventional electrochemical frameworks primarily focus on equilibrium reaction energetics, while the nonequilibrium dynamics following interfacial electron transfer remain largely unexplored. Here, we investigate such ultrafast interfacial reaction dynamics using ab initio nonadiabatic molecular dynamics (NAMD) simulations within the Ehrenfest dynamics framework. Using ethylene carbonate (EC) as a prototypical electrolyte solvent in Li-ion batteries, we show that electron injection into different electronic states of solvated Li+ complexes can drive qualitatively distinct nonadiabatic reaction pathways on femtosecond-to-picosecond time scales. Furthermore, local solvation environments and interactions between neighboring reaction units substantially modify the reaction landscape and the resulting decomposition channels relevant to solid electrolyte interphase formation. This work establishes a microscopic nonequilibrium perspective on electrochemical reactivity and suggests that excited-state dynamics may play an important role in interfacial electrochemical reactions beyond conventional ground-state descriptions.",
       "matchedTopics": [
-        "Solid-state batteries",
         "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Interfacial Adhesion Mechanism of Anionic Polyelectrolyte Brushes Induced by Oppositely Charged Macromolecular Counterions",
-      "authors": "Jinwoo Park, Daniel Rosenmann, Wei Chen, Matthew Tirrell",
-      "journal": "Macromolecules",
-      "publicationDate": "2026-08-17",
-      "doi": "10.1021/acs.macromol.6c01421",
-      "link": "https://doi.org/10.1021/acs.macromol.6c01421",
-      "abstract": "Abstract Polyelectrolyte brushes are widely used as model systems for investigating electrostatic interactions at soft interfaces and to achieve exceptional lubrication properties. Previous studies have primarily focused on their behavior in the presence of multivalent counterions, which induce brush collapse, ionic crosslinking, and pronounced changes in interfacial structures. However, interactions between polyelectrolyte brushes and oppositely charged macromolecular counterions, such as polycations, remain poorly understood. Here, we prepare well-defined polystyrene sulfonate (PSS) brushes fabricated via surface-initiated grafting and employ surface forces apparatus measurements to investigate their interactions with oppositely charged polycations. In contrast to multivalent ions, polycations do not induce noticeable brush collapse, but instead generate significant adhesion between symmetric PSS brush layers. This adhesion increases with both contact time and applied load, eventually reaching a steady plateau, indicating that the interaction is governed not simply by electrostatic screening but by the gradual formation of polycation-mediated bridging under confinement. Furthermore, the introduction of monovalent Na+ ions disrupts the adhesive interaction even at very low concentrations, suggesting that the bridging function of the adsorbed polycation is highly sensitive to competitive ionic screening. In comparison, measurements with trivalent counterions reveal the expected brush collapse behavior but minimal dependence of adhesion on contact time, highlighting a clear mechanistic distinction from the polymeric counterion case. Collectively, these results demonstrate that molecular size, configurational restriction, and confinement-induced rearrangement, rather than charge valency alone, govern the interaction behavior of macromolecular counterions at brush interfaces. This work provides new insight into the molecular origins of adhesion and the regulation of interfacial interactions in charged polymer brush systems.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
       ]
     },
     {
@@ -878,30 +424,6 @@
       ]
     },
     {
-      "title": "Decoupling the Impact of Surface Functionalization over Pt at the Cathode on Kinetics and Mass Transport in PEMFCs",
-      "authors": "Linke Fu, Sishan Feng, Lulu Tang, Kaiyue Zhao, Zixuan Yu, Qiwen Sun, Hai-Wei Liang, Xiaoxia Chang, Bingjun Xu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-17",
-      "doi": "10.1021/jacs.6c11994",
-      "link": "https://doi.org/10.1021/jacs.6c11994",
-      "abstract": "Abstract Proton exchange membrane fuel cells (PEMFCs) are critical for clean energy conversion, yet their performance is often constrained by the Pt–ionomer interface at the cathode. The sulfonate groups in Nafion, the most widely used ionomer, poison Pt active sites and form a dense layer that impedes oxygen transport. Here, we present an interface-specific molecular modulation strategy using 7-ethyltheophylline (ETP) to address both limitations. An “ETP-first” preparation method ensures preferential ETP adsorption on Pt before ionomer addition, enabling controlled surface functionalization. We demonstrate that ETP competitively displaces poisoning sulfonate groups while intrinsically activating Pt sites. Crucially, we uncover a decoupling between reaction kinetics and mass transport: peak mass activity (0.33 A mgPt–1, ∼50% enhancement) occurs at low ETP loadings (0.15%), whereas pressure-independent oxygen transport resistance (RNP) decreases monotonically with increasing ETP loading up to 1.0%. This divergence leads to distinct optima for H2–O2 versus H2–air performance─the former primarily governed by kinetics, the latter by kinetics at high voltages and by mass transport at high current densities. These findings reveal that molecular modifiers can independently tune kinetics and transport at the Pt–ionomer interface, offering a new dimension for PEMFC optimization beyond conventional catalyst design.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
-      ]
-    },
-    {
-      "title": "Author Correction: Electrostatic regulation of solvation chemistry enables ampere-hour-scale high-energy lithium metal batteries",
-      "authors": "Haikuo Zhang, Long Chen, Junyi Hua, Ruhong Li, Haotian Zhu, Baochen Ma, Shuoqing Zhang, Runjie Zhou, Yuntong Ma, Shoulei Hu, Wujun Zhang, Tao Zhou, Ling Lv, Linzhe Wu, Yuan Yu, Lixin Chen, Yong Li, Rui Guo, Feng Guo, Chao Le, Yanbin Shen, Tao Deng, Xiulin Fan",
-      "journal": "Nature Nanotechnology",
-      "publicationDate": "2026-08-17",
-      "doi": "10.1038/s41565-026-02277-z",
-      "link": "https://doi.org/10.1038/s41565-026-02277-z",
-      "abstract": "",
-      "matchedTopics": [
-        "Lithium-metal and anode-free batteries"
-      ]
-    },
-    {
       "title": "Toward Robust Anion‐Derived Interphases: A Novel Ternary‐Solvent Electrolyte for High‐Voltage Fast‐Charging Sodium Batteries",
       "authors": "Qingyuan Yang, Qian Wang, Yongtian Li, Yong Ji, Dong Li, Qinghua Tian, Xinming Fan",
       "journal": "Angewandte Chemie International Edition",
@@ -909,18 +431,6 @@
       "doi": "10.1002/anie.3464448",
       "link": "https://doi.org/10.1002/anie.3464448",
       "abstract": "ABSTRACT Conventional carbonate electrolytes suffer from severe oxidative decomposition and unstable interphases for NaNi 1/3 Fe 1/3 Mn 1/3 O 2 (NaNFM) cathode under high‐voltage and fast‐charging condition. Herein, an anion‐derived interphase strategy is designed via synergistic solvation structure regulation utilizing sulfolane (SL), dimethyl carbonate (DMC), and ethoxy(pentafluoro)cyclotriphosphazene (PFPN) solvents. In the novel electrolyte (denoted as SDP), SL competitively coordinates with Na + to suppress DMC oxidation, while PFPN acts as a free co‐solvent for interphase stability. Critically, the synergistic interactions promote anion (PF 6 − ) entry into the primary solvation sheath, inducing preferential decomposition of anion and solvents to form an inorganic, anion‐rich cathode–electrolyte interphase (CEI) with high mechanical modulus (19.967 GPa) and uniform thickness (∼7 nm). Consequently, SDP delivers favorable cycling stability (85.72% capacity retention after 300 cycles at 3 C, 2–4.1 V), high initial coulombic efficiency (92.03%), and superior rate capacity (57.83 mAh g −1 at 20 C). Furthermore, SDP effectively mitigates particle cracking, transition metals dissolution, and gas evolution (H 2 and CO 2 ), while demonstrating broad compatibility with various layered oxide and polyanionic cathode materials. This work provides a rational electrolyte design strategy to construct a stable anion‐derived CEI by manipulating the electrolyte structure of anion and solvents.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Highly Transparent Layer-by-Layer Nanoassembled Multicomponent Films of TiO2 and Graphene for Increased Photocatalytic Performance",
-      "authors": "Pauline Barrois, Pierre Gibot, Christophe Colbeau-Justin, Loic Vidal, Thomas Cottineau, Hermenegildo Garcia, Gero Decher, Valérie Keller",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-15",
-      "doi": "10.1021/jacs.6c10666",
-      "link": "https://doi.org/10.1021/jacs.6c10666",
-      "abstract": "Abstract Here, we report novel highly transparent and photoactive multicomponent films for enhanced photocatalytic applications. Some films are based on intimately interfaced TiO2 nanoparticles and few-layer graphene (FLG) assembled through an environmentally friendly aqueous layer-by-layer (LbL) process. In contrast to reduced graphene oxide-based systems, directly exfoliated FLG was employed in order to preserve the intrinsic electronic conductivity of graphene and promote an efficient interfacial charge separation. The highly transparent and nanoporous LbL architecture minimizes photon scattering and enables precise control of film thickness, TiO2 loading, and photon absorption. The incorporation of FLG strongly improves charge separation, limits charge recombination, and reduces catalyst deactivation through enhanced storage of sulfur-containing byproducts. The photocatalytic activity was evaluated through the photo-oxidation of diethyl sulfide (DES), used as a model compound for mustard gas. TiO2/FLG multilayers exhibit photocatalytic activities up to 35-fold higher than conventional drop-cast TiO2 coatings and up to 6-fold higher than LbL films without FLG at comparable TiO2 loadings. Beyond the material composition itself, these results demonstrate that transparent and nanoporous LbL nanoarchitectures provide a powerful strategy for optimizing photon management and interfacial charge transfer in photocatalytic coatings.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
@@ -946,33 +456,8 @@
       "link": "https://doi.org/10.1021/jacs.5c21712",
       "abstract": "Abstract Lithium metal batteries (LMBs) offer high energy density, but interfacial charge-transfer kinetics remain a bottleneck for high-rate operation. In this work, we construct a library of 12 ether solvents with systematic variations in symmetry and fluorination, confirming that molecular asymmetry is an important feature that results in enhanced Li+ redox kinetics and more stable solid electrolyte interphases on Li0. Furthermore, we developed a mechanistic understanding of the underlying process. We show that more tilted dipoles and lower moments of inertia strongly correlate with higher exchange current densities. Among the solvents in our study, the asymmetric F5MPE (1-methoxy-2-(2,2,3,3,3-pentafluoropropoxy) ethane) molecule, a previously unreported solvent molecule, enabled &gt;170 stable cycles in high-rate Li||NMC full cells, outperforming the previously reported best single-salt-single-solvent ether solvent, F5DEE molecule. Overall, this work links molecular-level information with the behavior at electrochemical interfaces and provides an understanding of molecular design considerations for next-generation electrolytes tailored for high-power, fast-charging LMBs.",
       "matchedTopics": [
-        "Solid-state batteries",
         "Lithium-metal and anode-free batteries",
         "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "The Potential of Operando DRIFT Spectroscopy for Studying Degradation Mechanisms of Metal Oxide‐Based Electrochemical Cells",
-      "authors": "Krishna Teja Valeti, Filip Grajkowski, Yuqing Meng, Sierra Astle, Kazi Rifat Bin Rafiq, Shannon Gerard, Dino Klotz, Dong Ding, Anna Staerz",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-13",
-      "doi": "10.1002/anie.3765346",
-      "link": "https://doi.org/10.1002/anie.3765346",
-      "abstract": "ABSTRACT High‐temperature electrochemical oxide devices are promising for many applications. These devices are known to be prone to degradation, yet the mechanisms remain poorly understood. In this perspective, we summarize the techniques most used to study degradation in metal oxide electrochemical devices, examining the advantages, challenges, and limitations of each. Although charge transfer processes, structural evolution, and compositional variation underlying degradation are widely studied, surface chemistry is often neglected. Surface chemical processes evolve with temperature, gas composition, and electrochemical bias with possible intermediary degradation steps that go unseen in ex situ analyses. Direct observation is necessary to understand these pathways. Operando diffuse reflectance infrared fourier transform (DRIFT) spectroscopy is well‐suited for this task. DRIFT spectroscopy offers high surface sensitivity, chemical specificity, and compatibility with elevated temperatures and reactive gas compositions. We discuss recent advances of operando DRIFT spectroscopy for metal oxide electrochemical systems, including the development of a novel high‐temperature spectro‐electrochemical chamber and emerging disposable reactors designed for poisoning studies. Finally, we outline strategies for coupling DRIFT spectroscopy with complementary analytical techniques. By enabling chemically resolved operando insights, DRIFT spectroscopy can advance the mechanistic understanding of degradation and inform smart design of durable metal oxide electrochemical devices.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Star Polyelectrolyte Coacervates Enable Adaptive and Robust Enzyme Immobilization for Efficient Biocatalysis",
-      "authors": "Jie Zhu, Zhiyuan Xiao, Dong Wu, Xinran Zhao, Haiyang Huo, Zhaoyan Sun, Xiayun Huang, Zhihong Nie",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-13",
-      "doi": "10.1021/jacs.6c10930",
-      "link": "https://doi.org/10.1021/jacs.6c10930",
-      "abstract": "Abstract Enzyme immobilization in solid porous supports often suffers from a trade-off among enzyme loading, mass transport, catalytic activity, and operational stability. Here, we report a liquid-like immobilization platform based on star polyelectrolyte coacervates (SPECs) formed by simple mixing of oppositely charged star polyelectrolytes. The multivalent star topology organizes the coacervate into a compact yet dynamically adaptive network, enabling enzyme loading efficiencies exceeding 97% and order-of-magnitude enhancements in apparent catalytic rates. Moreover, SPEC exhibits topology-enabled ion exclusion that suppresses ion penetration even under high-salinity conditions, thereby stabilizing both the coacervate structure and embedded enzymes. As a result, SPEC maintains high catalytic activity under salinity, pH, temperature, and organic solvent perturbations and supports sustained continuous-flow biocatalysis. The platform is broadly applicable to diverse enzymes, including lipases from multiple biological sources, alkaline phosphatase, and trypsin, thereby establishing SPEC as a general and scalable immobilization strategy for efficient and practical biocatalysis.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
       ]
     },
     {
@@ -988,90 +473,6 @@
       ]
     },
     {
-      "title": "Photoinduced Switching-on of Intermolecular Ferromagnetic Exchange in a Cobalt–Viologen Donor–Acceptor Assembly",
-      "authors": "Yongbing Shen, Mengxing Cui, Masahiro Yamashita, Shin-ichi Ohkoshi",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-13",
-      "doi": "10.1021/jacs.6c10589",
-      "link": "https://doi.org/10.1021/jacs.6c10589",
-      "abstract": "Abstract Crystal engineering of anisotropic molecular solids that translate photoinduced charge transfer into switchable magnetic exchange offers a route to optically addressable exchange-correlated magnetic states. Here, we show that (MV)[Co(pdms)2](MeOH)2(MeCN), a donor–acceptor (D–A) crystal incorporating Co(II) single-molecule magnet (SMM) units, converts photoinduced charge redistribution into reversible switching of intermolecular magnetic exchange (MV = methyl viologen, H2pdms = 1,2-bis(methanesulfonamido)benzene). Single-crystal, electrochemical, and natural transition orbital analyses establish that MV2+ remains the acceptor, whereas [Co(pdms)2]2– serves as the donor in a preorganized yet charge-localized one-dimensional zigzag D–A array that provides a through-space pathway for photoinduced intermolecular charge transfer. Upon 365 nm irradiation, this D–A lattice forms a metastable charge-transfer/radical photostate that reversibly switches it from a weakly coupled Co(II)-SMM assembly into a single-chain-magnet-like exchange-correlated state, as evidenced by the enhanced χmT response, the Weiss temperature change from −0.9 to +29.3 K, and magnetic hysteresis persisting up to 6 K. Dynamic magnetic measurements further reveal exchange-correlated relaxation with an effective correlation energy of Δξ/kB = 53 K, corresponding to a photoinduced ferromagnetic exchange of Jeff = 5.9 K. These results establish preorganized D–A solids as a platform for coupling photoinduced charge redistribution with local magnetic anisotropy to access optically switchable exchange-correlated molecular magnetic states",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Colloidal Crystals Engineered with DNA and Perylenediimide Exhibit Symmetry-Breaking Charge Transfer",
-      "authors": "Cuizheng Zhang, Yi Xie, Georgia C. Mantel, Kathryn R. Peinkofer, Amanda V. Nguyen, Nicholas Noinaj, Ryan M. Young, Michael R. Wasielewski, Chad A. Mirkin",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-13",
-      "doi": "10.1021/jacs.6c09022",
-      "link": "https://doi.org/10.1021/jacs.6c09022",
-      "abstract": "Abstract Perylenediimide (PDI) and its derivatives are widely studied for their photophysical and photochemical properties, making them promising candidates for photonic materials, organic semiconductors, and molecular qubits. However, the lack of control over their aggregation pathways and charge-transfer coupling severely limits their uses. Here, we report the synthesis of PDI-DNA bioconjugates as a new class of “programmable atom equivalents” (PAEs), in which a single PDI core is covalently linked to two DNA strands. Unlike conventional PAE superlattices formed by slow thermal annealing, the vapor-diffusion crystallization method enables the colloidal crystallization of PDI–DNA conjugates into large single-crystalline superlattices through cooperative DNA hybridization and PDI π–π stacking. The peripheral four sticky ends hybridize into a DNA framework, which serves as a scaffold, organizing the PDI cores into well-defined dimers, rather than disordered aggregates or micelles. The dimeric building units are rigid yet highly dynamic due to the intrinsic flexibility of the linkers, yielding superlattices with programmable PDI packing geometries and adaptiveness upon structural modifications. For most PDI crystals, PDI units stack continuously in one dimension to maximize interactions, which tend to hinder charge separation. Here, DNA not only encodes sequence-specific interactions but also sterically and electrostatically isolates PDI dimers as discrete photonic units into solid-state optically active materials. The structural tunability of the system can be readily adjusted by varying the PDI core or the linker length between the PDI core and the DNA shell. Notably, these superlattices exhibit photoinduced symmetry-breaking charge transfer distinct from that of monomers or micellar aggregates.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Vacancy-Engineered Perovskite Ferrites Stabilize Atomic Ru Sites and Activate Lattice Oxygen for Photothermal Methane Dry Reforming",
-      "authors": "Jilong Li, Ke Tang, Yueling Chen, Bo Su, Xiahui Lin, Xue Feng Lu, Kunlong Liu, Masakazu Anpo, Sibo Wang",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-12",
-      "doi": "10.1021/jacs.6c05473",
-      "link": "https://doi.org/10.1021/jacs.6c05473",
-      "abstract": "Abstract Photothermal dry reforming of methane (DRM) mediated by lattice oxygen (OL) via a Mars–van Krevelen pathway is a promising route for converting greenhouse gases into syngas. However, this strategy is limited by the instability of single-atom cocatalysts under reaction conditions and the sluggish migration of OL in conventional oxide supports. Here, we report a vacancy-engineered perovskite ferrite (LaFe1–xO3) that simultaneously stabilizes atomic cocatalysts and accelerates OL dynamics for efficient photothermal DRM. Introducing Fe defects generates robust anchoring sites for atomic Ru cocatalysts (Ru1) while weakening the La–O–Fe framework to promote OL mobility. The optimized Ru1/LaFe1–xO3 catalyst enables light-driven DRM without external heating, achieving high syngas production (H2: 53.6 and CO: 66.1 mol gRu–1 h–1), a methane turnover frequency of 1.3 s–1, and stable operation over 180 h. Mechanistic studies reveal that vacancy-induced electron localization facilitates OL migration, while photoinduced metal-to-metal charge transfer enriches Fe sites with electrons and activates surface OL with holes. This cooperative process selectively oxidizes CH3* to CH3O*, suppressing deep dehydrogenation and coke formation. These findings propose defect engineering as a general strategy to couple atomic cocatalyst stabilization with OL activation for solar-driven catalytic transformations.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Pressure‐Treated Luminescent and Structural Evolution With Irreversible Control of Emission in Through‐Space Charge Transfer Emitter",
-      "authors": "Aisen Li, Zirun Chen, Ruixiang Fu, Xiaojuan Song, Ziang Song, Jinfeng Wang, Qian Li, Kai Wang, Yujun Xie, Zhen Li",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-12",
-      "doi": "10.1002/anie.9247211",
-      "link": "https://doi.org/10.1002/anie.9247211",
-      "abstract": "ABSTRACT Through‐space charge transfer (TSCT) is gaining prominence for developing solid‐state luminophores, owing to its tunable and dynamically regulable luminescence. In this work, a novel TSCT emitter with a spatially segregated donor–acceptor (D–A) architecture is designed and synthesized, which exhibits high‐efficiency blue‐violet emission at 410 nm with a narrow 37 nm FWHM and minimal Stokes shift due to molecular rigidity and suppressed structural reorganization. DMAC‐CBO crystal demonstrates remarkable mechanochromism through grinding‐induced amorphization and a pronounced piezochromic response showing a 156 nm redshift in the range of 14.0 GPa due to the decreased distance between D and A units. As a result, pressure‐induced the enhancement of intramolecular and intermolecular interactions promote excimer formation, leading to redshifted emission and enabling the modulation of the dominant emissive state from a local excited (LE) state to an excimer. Impressively, upon decompression from high pressure, DMAC‐CBO retains a metastable phase, resulting in irreversibly shifted and broadened luminescence derived from excimers. These findings not only demonstrate that pressure can continuously regulate the distance between D and A units of TSCT‐based materials, but also effectively establish a structure‐property framework for TSCT‐based smart materials with tunable and persistent emission, offering promising applications in data storage, sensing, and optoelectronics.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Polyfluorinated‐Regulator‐Assisted Scaffold‐Directed Tilted 1D/3D Heterointerfaces for High‐Voltage and Stable Perovskite Solar Cells",
-      "authors": "Heng‐Chi Chu, Chieh‐Ming Hung, Gurumallappa Gurumallappa, Zhe‐Hong Su, I‐Chih Ni, Hao‐Jen Hung, Chih‐I. Wu, Yu‐Ching Lin, Norman Lu, Hsieh‐Chih Chen, Pi‐Tai Chou",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-12",
-      "doi": "10.1002/anie.8256065",
-      "link": "https://doi.org/10.1002/anie.8256065",
-      "abstract": "ABSTRACT Protective low‐dimensional interphases can improve perovskite solar‐cell stability, but they often compromise charge extraction because of unfavorable interfacial packing and transport barriers. Herein, we report a scaffold‐directed strategy to construct an interwoven tilted 1D/3D heterointerface on inverted perovskite absorbers. By depositing PbI 2 onto a tilt‐oriented 3D perovskite scaffold and inducing solvent‐assisted reconstruction, a compact near‐surface interphase composed of edge‐sharing 1D PbI 2 and face‐sharing 1D δ ‐FAPbI 3 is formed with an oblique orientation guided by the crystallographic texture of the underlying 3D framework. Unlike conventional laterally aligned low‐dimensional overlayers, this tilted 1D interphase preserves out‐of‐plane interfacial connectivity while providing a robust barrier against defect propagation and ion migration. We further identify 7F‐EA‐HI, a flexible polyfluorinated ammonium iodide, as an effective crystallization regulator that suppresses reconstruction‐induced defects and favorably modulates interfacial energetics through its large molecular dipole. As a result, the optimized inverted PSCs deliver a power conversion efficiency (PCE) of 24.94%, with an open‐circuit voltage ( V OC ) of 1.188 V, a short‐circuit current density ( J SC ) of 24.67 mA cm −2 , and a fill factor (FF) of 85.11%, along with markedly improved ambient and thermal stability. This work demonstrates tilted 1D/3D interfacial engineering as a viable route toward high‐voltage and durable perovskite optoelectronics.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Molecular Design of Chiral Naphthalenediimide-Based Cations for Chiral One-Dimensional Metal Halide Semiconductors with Strong Chiroptical Activity and Amplified Charge Transport Ability",
-      "authors": "Xiaoyu Zhang, Shripathi Ramakrishnan, Xiaoran Hu, Yi Xie, Yuanze Xu, Adewale Babatunde, Anna Niamh Alphenaar, Xinyu Yin, Xiaozhou Zheng, Letian Li, Pingchuan Liu, Hao Li, Yugang Zhang, Mircea Cotlet, Shaoyi Jiang, David B. Mitzi, Qiuming Yu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-12",
-      "doi": "10.1021/jacs.6c09248",
-      "link": "https://doi.org/10.1021/jacs.6c09248",
-      "abstract": "Abstract Chiral organic–inorganic metal halide semiconductors (MHSs) have emerged as promising materials for chiroptoelectronics, spintronics and ferroelectrics. However, commonly used chiral cations with nonconductive aliphatic and aromatic structures exhibit large energy gaps between the highest occupied molecular orbital (HOMO) and the lowest unoccupied molecular orbital (LUMO) relative to those of the inorganic frameworks. This energy mismatch between the chiral spacer and the inorganic sublattice creates a barrier that hinders charge-carrier transport, leading to inefficient out-of-plane charge mobility and strong quantum confinement effects. To address this challenge, we design and synthesize chiral n-type naphthalenediimide (NDI)-based cations, (R)-2-(7-ethyl-1,3,6,8-tetraoxo-3,6,7,8-tetrahydrobenzo[lmn][3,8]phenanthrolin-2(1H)-yl)propan-1-aminium ((R)-NDIEPA+). We successfully tune the LUMO level of (R)-NDIEPA+ to align with that of the inorganic sublattice, and the resulting chiral one-dimensional (1D) (R-NDIEPA)PbI3 MHS demonstrates a type II band alignment that facilitates charge separation, as evidenced by quenched photoluminescence and transient absorption dynamics indicative of ultrafast charge transfer across the organic–inorganic interface. As a result, these materials demonstrate an approximately 7-fold enhancement in electron mobility compared to the chiral 1D MHS incorporating nonconductive aromatic cations. (R-NDIEPA)PbI3 also exhibits a strong circular dichroism (CD) signal, confirming effective chirality transfer from the organic cation to the inorganic framework. These findings underscore the importance of leveraging the electronic properties of chiral organic cations while preserving strong chiroptical activity, highlighting the potential of (R-NDIEPA)PbI3 for chiroptoelectronic applications such as circularly polarized light photodetectors and other spintronic devices.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Epitaxial Oxide Interfaces Create Poison‐Resistant CuO Sites for Environmental Catalysis",
-      "authors": "Lupeng Han, Yanqing Li, Yongjie Shen, Huijun Yu, Evangelina Pensa, Xuehui Yang, Yanqi Chen, Xiaonan Hu, Xiyang Wang, Song Li, Gaowu Qin, Wenqiang Qu, Ming Xie, Emiliano Cortés, Dengsong Zhang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-12",
-      "doi": "10.1002/anie.7111765",
-      "link": "https://doi.org/10.1002/anie.7111765",
-      "abstract": "ABSTRACT Real exhaust streams rarely contain a single pollutant: NO x coexists with volatile organic compounds (VOCs) in flue gas from petrochemical production, chemical manufacturing, and waste incineration, yet catalysts that couple NH 3 ‐SCR with VOC oxidation typically suffer competitive adsorption, sulfur poisoning, and HCN byproduct formation. Here we engineer an epitaxially stabilized CuO overlayer on Ti 1‐x In x O 2 that breaks the activity–selectivity–stability constraint by creating electron‐poor, high‐symmetry Cu–O sites and activating lattice‐oxygen redox at the oxide–oxide interface. Interfacial strain and charge transfer increase Cu–O covalency and Lewis acidity, accelerating NO x reduction via an Eley–Rideal pathway while diverting sulfate deposition away from Cu. Concurrently, interface‐activated lattice oxygen sustains deep oxidation of CH 3 SH (a representative S‐VOC) through a Mars–van Krevelen cycle, suppressing HCN. Epitaxial interfaces thus offer a general route to poison‐resistant multipollutant catalysis.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
       "title": "Decoupling Ion Transport and Desolvation via Spatially Heterogeneous Solvation Structure for Wide‐Temperature Sodium‐Ion Batteries",
       "authors": "Xin Chen, Jiaxin Yan, Xingyu Wang, Shilin Xu, Haixia Yang, Yuanheng Wang, Chunyu Du, Yulin Ma, Chuankai Fu, Pengjian Zuo",
       "journal": "Angewandte Chemie International Edition",
@@ -1079,66 +480,6 @@
       "doi": "10.1002/anie.4522198",
       "link": "https://doi.org/10.1002/anie.4522198",
       "abstract": "ABSTRACT Despite competitive room‐temperature performance, sodium‐ion batteries suffer from sluggish kinetics and unstable interphases at ultralow temperatures. Herein, a single‐ether (diethylene glycol dibutyl ether, DGDE)‐based electrolyte featuring a spatially heterogeneous solvation structure across both the bulk and interfacial regions is successfully constructed by introducing a strongly polar sulfonate ester additive, 2,2,2‑trifluoroethyl trifluoromethanesulfonate (TTMS). In the bulk, DGDE chelates Na + via its multiple coordination sites to form a solvent‑separated ion pair dominated solvation structure, thereby enhancing ion dissociation and ionic conductivity. At the electrode–electrolyte interface, TTMS preferentially adsorbs onto the cathode surface, reconstructing the electric double layer into a compact, anion‐rich configuration dominated by contact ion pairs and aggregates. Meanwhile, TTMS in the inner Helmholtz plane provides desolvation‐active sites, lowering the charge‐transfer barrier and enabling the formation of a robust, inorganic‐rich interphase. This spatially heterogeneous solvation structure enables the decoupling of fast bulk ion transport and rapid interface desolvation. Consequently, at −40°C, the Na||NaNi 1/3 Fe 1/3 Mn 1/3 O 2 cell with the optimized electrolyte delivers an initial specific capacity of 109.9 mAh g −1 and sustains reversible cycling for 140 cycles with a capacity retention of 87.3%. Moreover, the cell demonstrates reliable electrochemical operation over a wide‐temperature range from −60°C to 55°C.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Reversible Oxygen Redox in High Voltage for Lithium-Rich Layered Oxides",
-      "authors": "Zhengbo Liu, Jun Wu, Ziliang Wang, Ting Lin, Jun Zeng, Tianqi Yang, Wei Wang, Fazhi Yang, Zhenjun Xue, Jun Liu, Qingyu Kong, Zhenhua Chen, Junzhang Ma, Lin Gu, Guoyang Lu, Hui Liu, Steven Wang, Liyuan Chai, Yang Ren, Christopher M. Wolverton, Qi Liu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-11",
-      "doi": "10.1021/jacs.6c07357",
-      "link": "https://doi.org/10.1021/jacs.6c07357",
-      "abstract": "Abstract Lithium-rich layered oxides, characterized by Li ions in the transition-metal layers, can significantly increase battery energy density through the introduction of oxygen redox. However, these cathodes often suffer from substantial voltage hysteresis, leading to a considerable energy loss during discharge. Herein, we present an O3-type cathode, Li0.63[Li0.20Mn0.80]O2, through the spontaneous ion exchange of P3–Na0.60[Li0.20Mn0.80]O2 in the electrolyte, which retains the ribbon-ordered superstructure. This cathode exhibits a reversible oxygen reduction plateau within the 4.2–4.7 V voltage range, exhibiting minimal voltage loss (hysteresis) during the initial discharge. When the lower voltage limit is reduced to 3.0 V, the plateau disappears. In situ XRD and STEM indicate that there is no significant structural change. Further spectral tests and DFT calculations show that the reversible oxygen reaction is replaced by the Mn reaction during the charging process due to charge transfer, resulting in the disappearance of the discharging plateau. Our findings suggest the potential for lithium-rich layered oxide cathodes to operate without voltage hysteresis and suggest that structural degradation at high voltage is not the only factor causing irreversible oxygen reaction.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "PhotoATRP Catalyzed by Iron/Phosphine Complexes under Green Light",
-      "authors": "Halil Ibrahim Coskun, Gorkem Yilmaz, Khidong Kim, Rushik Radadiya, Steffen Jockusch, Krzysztof Matyjaszewski",
-      "journal": "Macromolecules",
-      "publicationDate": "2026-08-11",
-      "doi": "10.1021/acs.macromol.6c01132",
-      "link": "https://doi.org/10.1021/acs.macromol.6c01132",
-      "abstract": "Abstract In thermal iron-catalyzed atom transfer radical polymerization, arylphosphines primarily serve as sacrificial reducing agents consumed during activator generation, thereby requiring excess phosphine (≥1.5 equiv) and high catalyst loadings (≥5000 ppm) at elevated temperatures. Here, we report that green-light irradiation (λ ≈ 525 nm) transforms phosphines from consumable reagents into regenerable co-catalysts within a ligand-to-metal charge-transfer (LMCT) redox cycle. This regeneration enabled the controlled polymerization of methacrylates at ambient temperature using FeBr3/phosphine loadings as low as 50 ppm at an equimolar ratio. The catalytic efficiency of various triarylphosphines correlated with their electron donor strength, with the most electron-rich tris(2,4,6-trimethoxyphenyl)phosphine (TTMPP) yielding well-controlled polymers with low dispersity (Đ &lt; 1.3). UV−vis spectroscopy, 31P NMR, transient absorption spectroscopy, and cyclic voltammetry provided evidence for LMCT in the photoexcited FeBr3/TTMPP complex. TTMPP was regenerated, thereby closing the catalytic cycle and enabling the use of an equimolar amount of phosphine under irradiation. The system exhibited temporal control, chain-end fidelity, and oxygen tolerance in sealed vials without prior deoxygenation.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Hierarchical Surface‐to‐Bulk Architecture for High‐Performance O3‐Type Sodium Cathodes",
-      "authors": "Zhiqi Yang, Yi Li, Yali Liang, Yuesheng Wang, Qin Chen, Peng Ouyang, Yifan He, Ganxiong Liu, Jiwei Ma, Hui Yang, Yongfu Tang, Yunhui Huang, Chao Wang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-11",
-      "doi": "10.1002/anie.4606157",
-      "link": "https://doi.org/10.1002/anie.4606157",
-      "abstract": "ABSTRACT O3‐type layered oxide cathodes suffer from surface chemical instability and sluggish Na + transport within the O‐type framework, limitations that are aggravated by humid‐air exposure and fast‐charging operation, leading to severe interfacial degradation and rapid capacity decay. Herein, we propose a mild ethylene‐glycol–assisted treatment that in situ constructs a coherent surface‐to‐bulk architecture within NaNi 1/3 Fe 1/3 Mn 1/3 O 2 (NFM) particles, comprising a nanoscale surface rock‐salt layer, a depth‐dependent Na‐vacancy gradient, and a Na‐deficient bulk. This hierarchical configuration locks the surface chemistry while opening continuous Na + percolation pathways across the surface–bulk junction, thereby flattening radial (de)sodiation heterogeneity and steering a more uniform, highly reversible phase evolution during prolonged cycling. As a result, the modified sample exhibits outstanding fast‐charging performance, delivering 107.6 mAh g −1 at 5C (600 mA g −1 ) with 81.6% capacity retention after 400 cycles. This work highlights gradient interphase coupled with Na‐vacancy engineering as an effective strategy to develop high‐performance layered oxide cathodes for sodium‐ion batteries.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Emergent Supermonomer Directs Spatially Separated Triplet Pair Generation in Dynamic Oligomers",
-      "authors": "Wenjing Fan, Xiaoqing Zhang, Hongyang Wang, Lijuan Xue, Xiufang Song, Xinyu Song, Jifan Gao, Heyuan Liu, Yuxiang Bu",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-11",
-      "doi": "10.1002/anie.3905300",
-      "link": "https://doi.org/10.1002/anie.3905300",
-      "abstract": "ABSTRACT The spatially separated triplet pair 1 (T···T) is critical for efficient singlet fission (SF) to overcome the recombination losses associated with the strongly coupled 1 (TT) intermediate. However, the microscopic mechanism governing its direct generation in flexible oligomers remains elusive. Here, using ab initio molecular dynamics simulations on tetracene (Tc) trimers, we discover that polar solvents act as “structural directors” that dynamically assemble adjacent chromophores into a transient “supermonomer”, a pre‐assembled partially delocalized electronic subunit that is inaccessible in static models. This supermonomer transforms the trimer into a functional supermonomer‐monomer quasi‐heterodimer. Coupling and energetic analyses reveal that the terminal long‐range charge transfer (LRCT) gateway in the monomer‐localized framework is electronically inefficient, whereas the supermonomer opens a strongly allowed pseudo‐short‐range CT gateway while maintaining favorable SF energetics. This topology enables formation of a singlet‐born hybrid triplet‐pair precursor 1 ( T T) state in which one triplet is delocalized across the supermonomer ( T 1 ). Driven by thermodynamic gradients, the supermonomer T subsequently localizes onto a terminal unit, yielding the 1 (T···T) state. Calculated Davydov splitting and experimental solvent‐dependent transient spectral broadening provide spectroscopic fingerprints of the supermonomer population. These findings establish dynamic solvent‐induced structural assembly as a key design principle for next‐generation SF materials.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Broad Optical Absorption and Photochromism in a Metal‐Tripyridinium Cage Glass via Acid Perturbation for Efficient Photothermo‐Electric Synergistic Conversion",
-      "authors": "Kang‐Jing Li, Nan Zhang, Ruo‐Tong Li, Dongpeng Yan, Shi‐Li Li, Xian‐Ming Zhang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-11",
-      "doi": "10.1002/anie.3141713",
-      "link": "https://doi.org/10.1002/anie.3141713",
-      "abstract": "ABSTRACT Solar‐thermoelectric generation (STEG) offers a promising route to meet growing energy demands, but its practical application is constrained by the narrow photoresponse and low efficiency of conventional photothermal materials. Here, we report an ultrastable metal‐tripyridinium cage photochromic glass ( 1g ) with outstanding photothermal performance, synthesized through an acid perturbation strategy. A π‐extended tripyridinium‐based tricarboxylic acid ligand was designed, integrating a rigid pyridine‐centered aromatic scaffold for cage assembly with flexible N‐CH 2 ‐aryl linkers to facilitate glass formation. Pair distribution function analyses reveal that the resulting coordination cage glass stabilizes radical states and optimizes charge transfer, enabling broad optical absorption beyond 2000 nm. Consequently, 1g achieves a photothermal conversion efficiency of 93.1 ± 1.2% under 1060 nm laser irradiation at 0.6 W cm − 2 , with a stable surface temperature of 97.8 °C. Excited‐state dynamics calculations and femtosecond transient absorption spectra show that disorder‐induced LLCT‐to‐MLCT transitions, reduced energy gaps, enhanced reorganization energy, and suppressed radiative decay underlie its exceptional performance. Integrated with thermoelectric modules, the system generates a 50.6°C temperature difference and 2.53 V under 8.0 kW m −2 irradiation, powering multicolor LEDs and dual fans. This work establishes an efficient, stable radical‐based photothermal material and an integrated photo‐thermo‐electric platform for practical STEG applications.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
@@ -1152,32 +493,7 @@
       "link": "https://doi.org/10.1002/anie.6581071",
       "abstract": "ABSTRACT LiNO 3 is a highly effective electrolyte additive for ether‐based lithium metal batteries, but its extremely poor solubility in carbonate electrolytes has long restricted its application in high‐voltage high‐energy‐density systems. In this study, we develop a pyridine carrier cosolvent strategy to efficiently dissolve LiNO 3 in carbonate electrolytes. Pyridine coordinates with Li + to enter the solvation shell, weakening Li + ‐carbonate interactions to promote LiNO 3 dissolution and enable NO 3 − participation in interphase formation. The coordination effect also suppresses the intrinsic high reactivity of pyridine, realizing its controllable interfacial decomposition. The synergistic decomposition of pyridine and LiNO 3 constructs compact, inorganic‐dominated, rigid‐flexible interpenetrating electrode‐electrolyte interphases rich in Li 3 N, LiN x O y , and LiF with high mechanical strength. Benefiting from the optimized interphases, Li||Cu cells deliver a Coulombic efficiency (CE) of 97.3% at 2 mA cm −2 , and 4.5 V Li||NCM90 cells show outstanding cycling stability under practical thin‐lithium and lean‐electrolyte conditions. Remarkably, 5.6 Ah pouch cells achieve an energy density up to 453 Wh kg −1 with 95.5% capacity retention after 50 cycles. This work offers a facile approach for utilizing sparingly soluble functional additives and promotes the development of high‐voltage, high‐energy‐density lithium metal batteries.",
       "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Selenoxanthylium Salts─Organic Photocatalysts for Low-Energy Photoredox Catalysis",
-      "authors": "Suwanan Uipanit, Till Schreyer, Kirill Zhiliaev, Jan-Hendrik Kaup, Mirco Natali, Javier Mateos",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-10",
-      "doi": "10.1021/jacs.6c13607",
-      "link": "https://doi.org/10.1021/jacs.6c13607",
-      "abstract": "Abstract The design of low energy organic photoredox catalysts relies predominantly on π-extended frameworks. Incorporation of selenium into the xanthylium core shifts absorption toward the red region relative to lighter chalcogens (O and S), enabling catalysis with 650 nm light-sources. Selenoxanthylium salts are low-energy-absorbing organic photocatalysts with defined excited-state topology, distinguishing locally excited and charge-transfer states. Incorporation of a heavier chalcogen constitutes a design principle complementary to extended π-frameworks commonly used in organic photocatalysts. Under red-light irradiation, the catalysts engage in reductive quenching and operate on up to 5.0 mmol scale. Catalytic activity is demonstrated across multiple transformations, including [4 + 2] and [2 + 2] cycloadditions, C–H aminations, boronic acid oxidations, aza-Henry reactions, and trifluoromethylations.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Programmable Vacancy Topology in High-Entropy-Alloy-Inspired Multiprincipal Alloys Directs Ru-Centered Alkaline Hydrogen Evolution",
-      "authors": "Huiyong Huang, Wenhui Zhong, Qiaoling Kang, Yinhe Wang, Chunyu Zhang, Hao Lei, Zhiyun Li, Qing Zhang, Wei Wei, Jinfeng Yang, Jingyuan Ma, Hao Liu, Li Li, Jun Jiang, Tingli Ma, Yi Cui",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-10",
-      "doi": "10.1021/jacs.6c09149",
-      "link": "https://doi.org/10.1021/jacs.6c09149",
-      "abstract": "Abstract Vacancy topology in multiprincipal alloys provides a controllable handle to tune interfacial reaction pathways, yet practical routes to program vacancies in ultrasmall alloys remain scarce. Here, we report an H2-free, volatility-assisted MOF-to-alloy synthesis in an inert atmosphere that yields sub-4 nm MnFeRuCoNi-based multiprincipal alloy nanoparticles with a Ru-proximal vacancy environment. A closed set of mutually reinforcing measurements─PALS/EPR (defect generation), EXAFS/XPS/XANES (coordination/electronic states), multipressure NAP-XPS (Ru→O(H2O) interfacial charge transfer), REELS/TOF-SIMS (H* and H3O+ intermediates), and in situ Raman (Ru–H vibration)─establishes a causal sequence from programmed vacancy topology to local electron redistribution at Ru, accelerated water activation, and step-specific alkaline-HER kinetics. Density-functional theory with Bader analysis shows reduced electron density at Ru and enhanced Ru→O charge transfer upon H2O adsorption in vacancy-rich environments, consistent with experimental observables. In 1.0 M KOH, the catalyst delivers an overpotential of 13 mV at 10 mA cm–2, a 47 mV dec–1 Tafel slope, and ∼2600 h stability at 100 mA cm–2, rivaling Ru benchmarks and approaching Pt/C under matched protocols. The volatility-assisted MOF-to-alloy route may be extendable to other multiprincipal alloy families containing a sacrificial volatile component, thereby offering a promising strategy for encoding vacancy topology in complex alloys.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
+        "Lithium-metal and anode-free batteries"
       ]
     },
     {
@@ -1188,43 +504,6 @@
       "doi": "10.1021/jacs.6c08495",
       "link": "https://doi.org/10.1021/jacs.6c08495",
       "abstract": "Abstract The ion transport properties of the solid electrolyte interphase (SEI) critically govern the kinetics and cycling stability of rechargeable batteries. However, a mechanistic understanding of ion transport within this dynamic, multicomponent interphase remains limited. In this study, we demonstrate that spatial variations in the internal electric field across the SEI dictates a fundamental transition in Na+ transport mechanisms. Within the thin SEI region adjacent to the electrode, a strong electric field dominates, enabling ballistic Na+ transport with minimal scattering and thus facilitating rapid ion migration. In contrast, in thicker SEI regions where the electric field is attenuated, frequent ion collisions dominate, resulting in diffusive transport and reduced ion mobility. To validate this mechanism, we combined molecular dynamics and density functional theory simulations to evaluate electrolyte reducibility based on salt–solvent interactions. These computational insights are complemented by in situ, nondestructive potentiostatic chronocoulometry technique to quantitatively determine SEI formation charge. A systematic evaluation of 23 representative electrolytes reveals a strong correlation between SEI formation charge and SEI resistance (RSEI), consistent with the electric-field-dependent ion transport model (R2 = 0.993). Notably, eight electrolytes exhibit SEI formation charges below 50% and low RSEI, proving suppressed SEI formation promotes ballistic Na+ migration. The optimal electrolyte, 1 M NaPF6 in tetraethylene glycol dimethyl ether (TEGDME), forms a ∼21 nm SEI with merely 31.7% charge loss. Na||hard carbon cells using this electrolyte achieve 24.48 Ω cm2 interfacial impedance and retain 99.4% capacity after 1200 cycles. This work offers a mechanistic framework for designing high-performance interphases through electrolyte engineering.",
-      "matchedTopics": [
-        "Solid-state batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Energy Transfer Catalysis Enabled by Multichannel Through‐Space Charge Transfer TADF Photosensitizers: [2 + 2] Photocycloaddition to Cyclobutane‐Fused Phosphindole 3‐Oxides",
-      "authors": "Jingjing Zhang, Dongle Li, Yuyang Tang, Ruobing Li, Haozheng Sun, Xin Li, Jingbo Lan, Jingsong You, Guangying Tan",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-10",
-      "doi": "10.1002/anie.1444773",
-      "link": "https://doi.org/10.1002/anie.1444773",
-      "abstract": "ABSTRACT Triplet energy transfer (TEnT) photocatalysis has emerged as a powerful tool for enabling mild and selective bond‐forming reactions. However, its generality remains limited by the intrinsic trade‐offs in existing photosensitizers (PSs). Noble metal (e.g., Ir, Ru) complexes offer high efficiency yet suffer from cost and sustainability concerns, while organic carbonyl sensitizers suffer from weak visible‐light absorption and short‐lived triplet states. Herein, we report heavy‐atom‐free organic PSs featuring a multi‐channel through‐space charge transfer (TSCT) architecture within a thermally activated delayed fluorescence (TADF) framework. A highly twisted donor‐acceptor topology enforces near‐complete frontier orbital separation, leading to ultralow singlet‐triplet energy gaps (Δ E ST down to 0.013 eV) and thereby enabling efficient spin interconversion. Consequently, these PSs simultaneously achieve high intersystem crossing (ISC) quantum yields, microsecond‐scale triplet lifetimes, and high triplet energies ( E T up to 63.7 kcal mol −1 ), rivaling those of state‐of‐the‐art noble‐metal systems. Leveraging these features, we demonstrate the first visible‐light‐driven intermolecular [2 + 2] cycloaddition of 1,3‐diphenylphosphindole 1‐oxides with alkenes and alkynes, enabling rapid access to structurally complex cyclobutane‐fused phosphindole 3‐oxides that hold potential value in drug screening but are typically difficult to obtain. Mechanistic studies support a TEnT pathway, in which minimal Δ E ST and efficient ISC are key to achieving high TEnT reactivity.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "A Tautomeric Carbon Nitride Structure for Photocatalytic Overall Water Splitting",
-      "authors": "Mingyang Qie, Xiaohong Cheng, Qiqi Sun, Zhi‐An Lan, Lihua Lin, Zhiming Pan, Xinchen Wang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-10",
-      "doi": "10.1002/anie.1761820",
-      "link": "https://doi.org/10.1002/anie.1761820",
-      "abstract": "ABSTRACT Constructing type‐II heterojunctions is a prevalent strategy for enhancing the photocatalytic performance of polymeric carbon nitride (PCN). However, conventional PCN‐based type‐II heterojunctions are often limited by incoherent interfacial contacts, high charge‐transfer resistance, and poorly aligned energy levels with large band offsets, all of which impede interfacial charge transfer and degrade the redox capability of photocarriers. In this study, we report a pseudo‐resonance transformation strategy to selectively convert melon‐type carbon nitride (MCN) into a topologically analogous yet electronically distinct conjugated derivative (C─MCN). This process constructs a unique MCN/C─MCN tautomeric heterojunction​ featuring a chemically bonded, coherent, and dangling‐bond‐free interface. Carrier dynamics analysis reveals that this structural continuum significantly lowers the energy barrier for exciton dissociation while facilitating efficient interfacial charge transfer. As a result, the obtained tautomeric heterojunction exhibits outstanding photocatalytic overall water splitting performance, achieving a hydrogen evolution rate 2.3 and 2.6 times higher than that of pristine MCN and standalone C─MCN, respectively. This work establishes a new paradigm for fabricating dangling‐bond‐free polymeric heterojunctions, providing an efficient pathway toward solar‐fuel production.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Simultaneously Strong Charge-Transfer Absorption and Efficient Triplet Formation in Organic Donor–Acceptor Molecules",
-      "authors": "Bo Zhang, Zhaolong Wang, Xubin Wang, Runze Liu, Hong Zhang, Chengming Nie, Jingyi Zhu, Kaifeng Wu",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-08",
-      "doi": "10.1021/jacs.6c08126",
-      "link": "https://doi.org/10.1021/jacs.6c08126",
-      "abstract": "Abstract Molecular triplet excited states play a crucial role in applications such as photocatalysis and photodynamic therapy. Spin–orbit charge-transfer intersystem crossing (SOCT-ISC) in pure organic donor–acceptor molecules offers an effective means to convert singlet charge-transfer states into triplet products without relying on heavy atoms. To date, however, quantitative insights into SOCT-ISC systems remain limited, and it is unclear how various recombination processes compete with the triplet formation channel. Here, we conduct a systematic study of excited-state dynamics in a PBI-4Cz pentad, comprising four carbazole donor units situated at the ortho-positions of a perylene bisimide acceptor, in different environments and under different temperatures. We find that the PBI triplet formation yield in 2-methyltetrahydrofuran solvent increases from 10% to 60% as the temperature decreases from 300 to 80 K, whereas it is temperature-independent (45%) in a poly(methyl methacrylate) matrix. Global analysis of transient absorption kinetics shows that the temperature dependence in solvent arises from more substantial suppression of the singlet recombination channel than the triplet formation channel due to gradually frozen molecular configuration with decreasing temperature. Importantly, we establish that an intermediate donor–acceptor dihedral angle (i.e., neither coplanar nor orthogonal) can simultaneously allow for efficient charge-transfer absorption, ultrafast charge separation, and efficient triplet formation, which allows us to demonstrate red-light-driven photon upconversion using the PBI-4Cz pentad as a sensitizer. These unprecedented insights for SOCT-ISC provide guidelines for the design and control of optical properties and triplet formation yields in pure organic systems.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
@@ -1250,20 +529,6 @@
       "link": "https://doi.org/10.1002/anie.4035251",
       "abstract": "ABSTRACT Lithium (Li) metal offers exceptional energy density but suffers from unstable interphases that lead to dendrite growth and poor reversibility. Because the interphase is established during the earliest stages of operation, controlling its formation is critical for stabilizing Li metal electrodes. Here, we demonstrate that a reflex charging strategy, in which short discharge pulses are introduced during charging, dynamically reprograms the interfacial environment. This approach sustains anion enrichment near the electrode surface and shifts Li + solvation from solvent‐dominated structures toward anion‐coordinated structures, thereby promoting the formation of an inorganic‐rich interphase. The resulting interphase reduces interfacial resistance and enables dense and uniform Li deposition. Consequently, the reflex charging‐based formation protocol exhibits markedly improved Li deposition/stripping reversibility, and greater resistance to degradation during cycling and calendar aging. In full cells paired with LiFePO 4 (LFP) cathodes, the system retains 73% capacity after 500 cycles, demonstrating practical performance benefits. These findings establish formation protocol as an effective operation‐driven lever for controlling interfacial chemistry, offering a practical route that complements conventional materials‐based strategies for stabilizing Li metal batteries (LMBs).",
       "matchedTopics": [
-        "Solid-state batteries",
-        "Lithium-metal and anode-free batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Ionic Liquid Electrolytes for Extreme Temperature Conditions: Challenges and Perspective",
-      "authors": "En Xie, Chengdong Liu, Xinghao Wang, Jian Wang, Zhen Chen, Huihua Li, Wenlong Cai, Hao Li, Yang Peng, Fanglin Wu, Stefano Passerini, Haolin Tang",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-08",
-      "doi": "10.1002/anie.7793957",
-      "link": "https://doi.org/10.1002/anie.7793957",
-      "abstract": "ABSTRACT The increasing applications of electrochemical energy‐storage systems in transportation, aerospace, and grid applications impose stringent requirements on electrolytes capable of operating safely and efficiently across extreme temperatures. Conventional carbonate‐ or ether‐ based electrolytes suffer from performance degradation and severe safety hazards in extreme thermal environments. Ionic liquid electrolytes (ILEs), distinguished by their intrinsic nonflammability and remarkable resistance to temperature‐induced property fluctuations, are recognized as promising alternatives. Nonetheless, the development of wide‐temperature ILEs is constrained by their complex temperature‐dependent physicochemical behaviors and interfacial instabilities. In this review, the effects of temperature on the molecular configurations, physicochemical properties, and interfacial chemistry of ILEs are systematically elucidated. The challenges associated with ILEs operation under low‐ and high‐temperature conditions are subsequently delineated, with particular emphasis on recent advances in molecular design and co‐solvent strategies aimed at improving the wide‐temperature performance of ILEs. Furthermore, the interfacial chemistry and electrode compatibility of ILE‐based systems are examined to demonstrate their roles in dictating interphase stability and electrochemical durability. Integrating molecular‐level insights with macroscopic performance characteristics, this review presents a unified framework correlating the structure of ILEs with temperature‐dependent performance, providing valuable guidance for the rational design of next‐generation wide‐temperature ILEs toward high‐safety and high‐energy‐density rechargeable batteries.",
-      "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
     },
@@ -1288,7 +553,6 @@
       "link": "https://doi.org/10.1021/jacs.6c08057",
       "abstract": "Abstract Solid–liquid interfaces dictate the performance and longevity of aqueous batteries. While rationally designed electrolyte additives offer a potent strategy to stabilize these interfaces, the complex interactions between additives and metal surfaces are difficult to isolate experimentally, hindering the predictive design of optimal additives. Here, we introduce an electronically coupled interfacial energy descriptor (ΔG) that quantitatively captures additive-metal interactions. By unifying the energetic contributions of additive adsorption and interfacial charge transfer at the zinc surface into a single metric, ΔG provides a fundamental measure of interfacial stability. Integrating this descriptor with intrinsic molecular properties, we develop a machine learning framework that accurately predicts Coulombic efficiency across different additive families, successfully identifying pentaerythritol (PTT) as a highly effective candidate with a minimized ΔG value. Formulated with PTT additive, the ZnSO4 electrolyte enables highly reversible zinc plating and stripping with an average Coulombic efficiency of 99.71%, sustaining stable cycling for over 1000 h, outperforming additives predicted by intrinsic molecular descriptors with a 2-fold longer cycle life. The resulting Zn–I2 full cells also sustain stable cycling under high-temperature and lean electrolyte conditions. Mechanistically, additives with minimized ΔG values preferentially accumulate at the interface to expel water molecules, promoting the formation of a robust solid electrolyte interphase composed of PTT- and anion-derived species. By redefining interfacial interactions through electronic-energetic coupling, this work provides a physically interpretable data-driven framework for additives screening in aqueous Zinc-ion batteries.",
       "matchedTopics": [
-        "Solid-state batteries",
         "Fast charging and interfacial ion transport"
       ]
     },
@@ -1301,32 +565,8 @@
       "link": "https://doi.org/10.1021/jacs.6c10148",
       "abstract": "Abstract Designing halide solid electrolytes with high ionic conductivity and robust electrochemical stability is crucial for advanced all-solid-state sodium-ion batteries. Currently, most sodium-based halide conductors suffer from the limited ionic conductivity. In this work, we report a new fast-ion-conductive sulfide-chloride solid electrolyte Na1.0Zr0.5Al0.5Cl3.5S0.5 (NZACS), where highly conductive prismatic Na-ion coordination units were developed by Al3+/S2–-triggered glass–ceramic evolution of the P21/n phase. The resulting material exhibits a high ionic conductivity of 3.2 × 10–4 S cm–1 at room temperature and 1.0 × 10–3 S cm–1 at 60 °C, and a low activation energy of 0.35 eV. Moreover, the excellent formability and high electrochemical oxidative stability of the NZACS solid electrolyte ensure a tight junction between the electrolyte-electrode interface, thus delivering superior cycling stability and rate capability, 93% capacity retention after 150 cycles at 0.1C and 80% capacity retention after 800 cycles at 1C. This study establishes a new paradigm of precise local-structure engineering for the development of high-performance solid electrolytes.",
       "matchedTopics": [
-        "Solid-state batteries"
-      ]
-    },
-    {
-      "title": "High-Voltage Sodium–Metal Batteries with Asymmetric Fluoroalkoxylated Organoborate Anion Chemistry",
-      "authors": "Zhiming Zhao, Andrei Dolocan, Arumugam Manthiram",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-07",
-      "doi": "10.1021/jacs.6c08026",
-      "link": "https://doi.org/10.1021/jacs.6c08026",
-      "abstract": "Abstract The high reactivity of sodium (Na) metal restricts its compatibility to ether-based electrolytes, while the poor oxidative stability of ethers precludes their coupling to high-voltage cathodes, fundamentally limiting the operating voltage and energy density of sodium–metal batteries (SMBs). We present here a coordination-asymmetry strategy to reconcile this thermodynamic mismatch by generating in situ an asymmetric fluoroalkoxylated organoborate anion, [FB(OCH(CF3)2)3]− (BOF–), via a Lewis acid–base adduct reaction in ether electrolyte. The asymmetric ligand architecture differentiates oxidative and fluorination pathways: oxidizable B–O moieties mediate controlled interfacial reconstruction, whereas the terminal B–F units supply fluorine for chemical passivation. This self-adaptive chemistry yields nanoscale, conformal, compositionally graded interphases: a boron-oxide/boron-oxycarbide-rich cathode-electrolyte interphase (CEI) that mitigates ether oxidation and a bilayered inorganic–organic solid–electrolyte interphase (SEI) that regulates Na deposition. The nanostructured interphases enable highly reversible Na plating/stripping with an average Coulombic efficiency (CE) of 99.98% and sustain stable 4.3 V operation of anode-free SMBs in oxidation-prone ether electrolytes. This work establishes asymmetric boron coordination as a molecular-level design principle for creating chemically adaptive interphases that overcome the redox asymmetry in energy-dense electrochemical systems.",
-      "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
+        "Solid-state batteries",
         "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "External‐Field‐Enhanced Helmholtz‐Layer Local Charge Density Enables C─C Coupling in Pure‐H 2 O‐Fed CO 2 Electroreduction To C 2+ Products",
-      "authors": "Yuan Zhang, Zhaolong Wang, Zhihang Xu, Lyuchao Zhuang, Siyu Yi, Xiaojie She, Hongping Li, Yiqun Fan, Hui Xu, Weihong Xing",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-07",
-      "doi": "10.1002/anie.7758933",
-      "link": "https://doi.org/10.1002/anie.7758933",
-      "abstract": "ABSTRACT Electrochemical CO 2 reduction (ECO 2 R) is a promising decarbonization technology but is limited by the trade‐off between catalytic performance and system stability. Here, we present an external‐field‐assisted strategy to enhance the local charge density of the Helmholtz layer, thereby promoting C─C coupling in a pure‐H 2 O‐fed ECO 2 R system. By introducing a cationic organic ionomer (QAS) onto the Cu 2 O surface, an interfacial external field is established, which amplifies Helmholtz‐layer charge density, suppresses hydronium accumulation and the hydrogen evolution reaction (HER), and accelerates ECO 2 R kinetics. The optimized Cu 2 O/QAS electrode delivers a C 2+ Faradaic efficiency (FE) of ∼85% at 400 mA cm −2 in an alkaline flow cell, with a C 2+ /C 1 ratio of ∼6.8, representing a 3.4‐fold enhancement over pristine Cu 2 O. Notably, a high C 2+ FE of ∼60% is retained even in acidic flow cells. To meet industrial requirements, a pure‐H 2 O‐fed membrane‐electrode‐assembly (MEA) cell is constructed, achieving ∼62% C 2+ FE at 300 mA cm −2 and ∼4 V. Moreover, the scaled‐up MEA system demonstrates stable operation for over 100 h at 45 A and ∼176 W. In situ electrochemical analyses, operando spectroscopy, and theoretical calculations reveal that enhanced Helmholtz‐layer charge density stabilizes C─C coupling intermediates and lowers the thermodynamic barrier, enabling high C 2+ selectivity and activity.",
-      "matchedTopics": [
-        "Ion-conducting polymers and single-ion conductors"
       ]
     },
     {
@@ -1337,55 +577,6 @@
       "doi": "10.1021/jacs.6c09703",
       "link": "https://doi.org/10.1021/jacs.6c09703",
       "abstract": "Abstract Lithium metal batteries with Ni-rich layered cathodes are promising candidates due to their high energy density; however, the unstable interphase formed in traditional carbonates accelerates premature irreversible capacity loss. In this study, we exploit the electron-deficient nature of boron (B)-containing species, which can initiate the chain polymerization of unstable alkyl lithium. This process facilitates the continuous conversion of these components into stable B-containing polymers, enhancing mechanical strength and ionic conductivity and ultimately achieving dynamic interphase transformation. Simultaneously, the unexpected generation of smaller solvation structures rich in multiple salt anions promotes Li+ transportation and the formation of LiF-rich interphases. Such an interphase bestows Li||LiNi0.8Co0.1Mn0.1O2 cells with a stable operation of up to 450 cycles under 4.6 V. Even practical 1.5 Ah graphite pouch cells can maintain 84% capacity after 1600 cycles. Thanks to the broad applicability of this unique in situ mechanism, it can be generalized to various LiPF6-based carbonate electrolytes. Our work provides a low-cost and highly accessible strategy for modifying the interphase, paving the way for high energy-density batteries that can meet diverse and demanding operating conditions.",
-      "matchedTopics": [
-        "Lithium-metal and anode-free batteries",
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Activity–Stability Volcano in Supported Electrocatalysis: Single Entity Correlation of Au25 Nanoclusters Between Oxygen Reduction Activity and Metal–Support Interaction",
-      "authors": "Yixiao Wang, Cheng Chen, Zehui Sun, Jianfu Chen, P. Hu, Wei Ma",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-07",
-      "doi": "10.1021/jacs.6c01996",
-      "link": "https://doi.org/10.1021/jacs.6c01996",
-      "abstract": "Abstract Metal–support interactions (MSIs) in supported nanoclusters (NCs) represent a crucial factor in the design of highly efficient heterogeneous catalysts, yet the understanding of these MSIs with their catalytic activities in nature remains elusive. Here, we employ single entity collision electrochemistry to reveal an activity–stability volcano relationship in Au25 NCs for oxygen reduction reaction (ORR) at the single entity level. By in situ identification of current amplitude and duration of individual collision events, we directly correlate MSI strength with ORR activity of single Au25 NCs on five representative supports (C, CeO2, SnO2, TiO2, and Co3O4). Our combined experimental findings and theoretical calculations demonstrate that an intermediate MSI strength provided by SnO2 enables favorable charge transfer without overstabilizing intermediates, thereby affording superior ORR activity of Au25 NCs while preserving adequate anchoring. This study introduces a novel methodological framework for probing MSIs at the single entity level, advancing understanding of metal–support interplay in heterogeneous electrocatalysis.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "A Bimetallic Covalent Organic Framework Photonic Synaptic Electrocatalysts",
-      "authors": "Guangyuan Feng, Zhiping Liu, Jie Liu, Guoning Cui, Nicolás Arisnabarreta, Miao Zhang, Chao Wang, Sihui Zhan, Shengbin Lei, Wenping Hu",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-07",
-      "doi": "10.1002/anie.2636151",
-      "link": "https://doi.org/10.1002/anie.2636151",
-      "abstract": "ABSTRACT Photonic synaptic electrocatalysts encode catalytic activity as a writable, retainable state under optical stimulation, enabling history‐dependent performance modulation with potential relevance to scenarios such as intermittent solar illumination and artificial metabolic learning systems. However, most photo‐assisted electrocatalysts are stateless, showing only transient activity enhancement under illumination that vanishes once the light is removed. Here, we establish a photonic synaptic electrocatalyst based on a bimetallic covalent organic framework (Co–Ni─COF), in which optical stimulation writes synaptic information into the catalytic state, and oxygen evolution serves as a stringent functional readout. During electrochemical reactions, Co─Ni─COF shows strong photonic synaptic behavior, featuring excitatory postsynaptic current responses, tunable synaptic plasticity, transitions from short‐term to long‐term plasticity, learning–forgetting–relearning behavior, and long‐term memory retention. Mechanistic investigations reveal that this light‐written and retained state originates from strengthened electronic coupling between Co and Ni centers, promoted charge delocalization and intermetallic charge transfer, and the accumulation of metastable Co(III) active species together with key oxygenated intermediates (*OOH, *OO). Notably, a substantial fraction of enhanced catalytic activity is preserved for hours in the dark, maintaining ∼127% higher than the initial state after 3 h, highlighting its potential for efficient energy conversion under intermittent solar illumination.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Pressure-Selective Magnetic Switching via Spatially Separated Soft Interlayer and Rigid Charge-Transfer Intralayer",
-      "authors": "Wakano Ota, Kazuki Nakamura, Gaël Privault, Haruki Taira, Riyo Nagao, Koji Nakabayashi, Eric Collet, Hirokazu Kadobayashi, Naohisa Hirao, Laurent Guérin, Shin-ichi Ohkoshi",
-      "journal": "Journal of the American Chemical Society",
-      "publicationDate": "2026-08-06",
-      "doi": "10.1021/jacs.6c10267",
-      "link": "https://doi.org/10.1021/jacs.6c10267",
-      "abstract": "Abstract We report a pressure-responsive molecule-based magnet featuring a layered cyanido-bridged Co–W assembly, [{CoII(4-phenoxypyridine)4}3{WV(CN)8}2], exhibiting a distinct pressure-selective magnetic behavior. The compound forms two-dimensional charge-transfer layers with large interlayer separation induced by bulky ligands, enabling a dimensional crossover of magnetization from two-dimensional to three-dimensional behavior at low temperatures. Applying moderate pressure up to 0.27 GPa selectively compresses the layers, eliminating the dimensional crossover and enhancing ferromagnetic interactions, increasing both the Curie temperature and coercive field. Upon further compression, the interlayer distance reaches a limit, triggering a pressure-induced charge-transfer phase transition from the high-spin CoII–WV to the low-spin CoIII–WIV state, which weakens ferromagnetism and eventually leads to complete paramagnetic behavior at higher pressures. The difference in the compressibility between the soft interlayer regions and the rigid charge-transfer intralayer enables two-step magnetic control solely by pressure, a rare feature in molecule-based magnets. High-pressure X-ray diffraction and microscopic imaging confirm the structural sensitivity of the interlayer regions and correlate the pressure-induced phase transitions with the sequential pressure-induced color changes. These findings demonstrate that the interlayer distance and its rigid layer are key parameters for designing pressure-responsive magnetic materials, offering a new strategy for controllable molecular magnetism via external stimuli.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Inner Helmholtz Plane Reconstruction Enables High‑Voltage Sodium‑Ion Batteries",
-      "authors": "Yanle Zhao, Yanjin Chen, Yuyu Deng, Wenyue Tian, Qinglun Wang, Ting Jin, Lifang Jiao",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-06",
-      "doi": "10.1002/anie.8233387",
-      "link": "https://doi.org/10.1002/anie.8233387",
-      "abstract": "ABSTRACT Parasitic reactions at the cathode–electrolyte interface are the primary cause of rapid capacity fading in sodium‐ion batteries (SIBs) under high voltage. Conventional electrolyte regulation strategies primarily focus on the bulk solvation structure, while neglecting the pivotal role of the inner Helmholtz plane (IHP) in cathode–electrolyte interfacial stability. Herein, we propose a modulator‐driven IHP reconstruction strategy to reshape the interfacial chemistry for high‐voltage SIBs. We employ 4‐amino‐2‐trifluoromethylbenzonitrile (ATMBN) as the molecular modulator, which possesses the dual functions of preferential adsorption within the IHP and induced enrichment of PF 6 − . This synergistic effect enables compositional reconstruction of the IHP, thereby facilitating the formation of a NaF/Na 3 N‐rich cathode–electrolyte interphase (CEI). Consequently, the Na 3 V 2 O 2 (PO 4 ) 2 F (NVPOF) cathode exhibits an ultrahigh capacity retention of 90.03% after 1000 cycles when charged to 4.5 V. Moreover, a 1.8 Ah NaNi 0.33 Fe 0.33 Mn 0.33 O 2 (NFM) || hard carbon (HC) pouch cell retains 80.33% of its initial capacity after 200 cycles within a voltage range of 1.5‐4.2 V. This work establishes a new paradigm for high‐voltage SIBs by harnessing the IHP to modulate cathode interfacial chemistry.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]

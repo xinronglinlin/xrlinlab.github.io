@@ -24,12 +24,12 @@ JOURNALS = {
     "Macromolecules": ["0024-9297", "1520-5835"],
     "Nature Sustainability": ["2398-9629"],
 }
-TOPICS = {
-    "Ion-conducting polymers and single-ion conductors": [r"ion[- ]conducting polymer", r"single[- ]ion", r"polymer ion conductor", r"polyelectrolyte", r"\bionomer"],
-    "Solid-state batteries": [r"solid[- ]state batter", r"solid electrolytes?", r"all[- ]solid[- ]state"],
-    "Lithium-metal and anode-free batteries": [r"lithium[- ]metal", r"\bli metal\b", r"anode[- ]free", r"lithium deposition", r"lithium plating"],
-    "Fast charging and interfacial ion transport": [r"fast[- ]charg", r"extreme fast charg", r"high[- ]rate charg", r"interfacial ion transport", r"charge[- ]transfer", r"interphase", r"sand['’]s time"],
-}
+TOPICS = [
+    "Ion-conducting polymers and single-ion conductors",
+    "Solid-state batteries",
+    "Lithium-metal and anode-free batteries",
+    "Fast charging and interfacial ion transport",
+]
 
 def clean(value):
     text = html.unescape(str(value or ""))
@@ -75,8 +75,57 @@ def fetch_issn(issn, start, end):
 def matched_topics(item):
     title = clean((item.get("title") or [""])[0])
     abstract = clean(item.get("abstract"))
-    corpus = (title + " " + abstract).lower()
-    return [topic for topic, patterns in TOPICS.items() if any(re.search(pattern, corpus, re.I) for pattern in patterns)]
+    title_text = re.sub(r"[‐‑‒–—−]", "-", title.lower())
+    corpus = re.sub(r"[‐‑‒–—−]", "-", (title + " " + abstract).lower())
+    if re.match(r"^(author correction|correction|editorial):", title_text):
+        return []
+
+    matched = []
+    storage_context = bool(re.search(
+        r"batter|(?:^|[^a-z])electrolyte|anode|lithium[- ]rich layered oxide",
+        title_text,
+    ))
+    ion_material = bool(re.search(
+        r"ion[ -]conducting (?:polymer|organo[ -]ionic solid)|single[ -]ion conduct|"
+        r"polymer electrolyte|gel polymer electrolyte|composite polymer electrolyte",
+        title_text,
+    ))
+    ion_function = bool(re.search(
+        r"ionic conductivity|ion transport|proton conduction|cation conduction|"
+        r"anion conduction|li\s*\+ transport|na\s*\+ transport|vehicular transport",
+        corpus,
+    ))
+    if ion_material and ion_function:
+        matched.append(TOPICS[0])
+
+    solid_state = bool(re.search(
+        r"all[ -]solid[ -]state.{0,25}batter|solid[ -]state.{0,25}batter|"
+        r"(?:composite|polymer|ceramic|halide|sulfide(?:[ -]chloride)?) solid electrolyte|"
+        r"nasicon electrolyte",
+        title_text,
+    )) and not bool(re.search(r"solid electrolyte interphase", title_text))
+    if solid_state:
+        matched.append(TOPICS[1])
+
+    lithium_metal = storage_context and bool(re.search(
+        r"lithium[ -]metal|li metal|anode[ -]free lithium",
+        title_text,
+    ))
+    if lithium_metal:
+        matched.append(TOPICS[2])
+
+    direct_fast = bool(re.search(
+        r"fast[ -]charg|ultrafast[ -]charg|extreme fast charg|high[ -]rate",
+        title_text,
+    ))
+    interface_transport = bool(re.search(
+        r"interfac|interphase|solvation|desolvation|dendrite|deposition|plating|"
+        r"ion transport|ionic transport|redox kinetics|kinetic[ -]buffering",
+        title_text,
+    ))
+    if storage_context and (direct_fast or interface_transport):
+        matched.append(TOPICS[3])
+    return matched
 
 def main():
     end = date.today()
@@ -128,7 +177,7 @@ def main():
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "windowDays": WINDOW_DAYS,
-        "topics": list(TOPICS),
+        "topics": TOPICS,
         "journals": list(JOURNALS),
         "papers": papers,
         "source": "Crossref",
