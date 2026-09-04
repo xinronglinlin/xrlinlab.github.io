@@ -112,19 +112,21 @@
 
 <section class="gallery-section">
   <h2 class="section-label">People &amp; Lab Life</h2>
-  <div class="gallery-carousel gallery-photo-carousel" data-carousel aria-label="People and lab life photographs">
-    <div class="gallery-carousel-controls">
-      <button type="button" data-carousel-prev aria-label="Previous photograph">←</button>
-      <button type="button" data-carousel-next aria-label="Next photograph">→</button>
+  <div class="gallery-viewer" data-gallery-viewer>
+    <div class="gallery-viewer-main">
+      <img data-gallery-main src="assets/images/gallery-sioc-july-2026.webp" alt="Molecular Energy Lab group at the Shanghai Institute of Organic Chemistry">
+      <div class="gallery-viewer-caption" data-gallery-caption>Molecular Energy Lab at SIOC · July 2026</div>
+      <button class="gallery-viewer-arrow gallery-viewer-prev" type="button" data-gallery-prev aria-label="Previous photograph">‹</button>
+      <button class="gallery-viewer-arrow gallery-viewer-next" type="button" data-gallery-next aria-label="Next photograph">›</button>
     </div>
-    <div class="gallery-track" data-carousel-track>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-sioc-july-2026.webp" alt="Molecular Energy Lab group at the Shanghai Institute of Organic Chemistry"></div><figcaption>Molecular Energy Lab at SIOC · July 2026</figcaption></figure>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-group-2023.webp" alt="Research group photograph in 2023" loading="lazy"></div><figcaption>Group photograph · 2023</figcaption></figure>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-group-2022.webp" alt="Research group photograph in 2022" loading="lazy"></div><figcaption>Group photograph · 2022</figcaption></figure>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-dku.webp" alt="Group photograph at Duke Kunshan University" loading="lazy"></div><figcaption>At Duke Kunshan University</figcaption></figure>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-sioc-synthesis-lab.webp" alt="Synthetic chemistry laboratory at SIOC" loading="lazy"></div><figcaption>Synthetic chemistry laboratory at SIOC</figcaption></figure>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-sioc-glovebox-lab.webp" alt="Controlled-atmosphere and battery research facilities at SIOC" loading="lazy"></div><figcaption>Controlled-atmosphere and battery research facilities at SIOC</figcaption></figure>
-      <figure class="gallery-slide"><div class="gallery-slide-media gallery-slide-image"><img src="assets/images/gallery-sioc-workspace.webp" alt="Laboratory working space at SIOC" loading="lazy"></div><figcaption>Laboratory working space at SIOC</figcaption></figure>
+    <div class="gallery-thumbnails" role="tablist" aria-label="People and lab life photographs">
+      <button class="active" type="button" role="tab" aria-selected="true" data-gallery-index="0" data-src="assets/images/gallery-sioc-july-2026.webp" data-alt="Molecular Energy Lab group at the Shanghai Institute of Organic Chemistry" data-caption="Molecular Energy Lab at SIOC · July 2026"><img src="assets/images/gallery-sioc-july-2026.webp" alt=""></button>
+      <button type="button" role="tab" aria-selected="false" data-gallery-index="1" data-src="assets/images/gallery-group-2023.webp" data-alt="Research group photograph in 2023" data-caption="Group photograph · 2023"><img src="assets/images/gallery-group-2023.webp" alt="" loading="lazy"></button>
+      <button type="button" role="tab" aria-selected="false" data-gallery-index="2" data-src="assets/images/gallery-group-2022.webp" data-alt="Research group photograph in 2022" data-caption="Group photograph · 2022"><img src="assets/images/gallery-group-2022.webp" alt="" loading="lazy"></button>
+      <button type="button" role="tab" aria-selected="false" data-gallery-index="3" data-src="assets/images/gallery-dku.webp" data-alt="Group photograph at Duke Kunshan University" data-caption="At Duke Kunshan University"><img src="assets/images/gallery-dku.webp" alt="" loading="lazy"></button>
+      <button type="button" role="tab" aria-selected="false" data-gallery-index="4" data-src="assets/images/gallery-sioc-synthesis-lab.webp" data-alt="Synthetic chemistry laboratory at SIOC" data-caption="Synthetic chemistry laboratory at SIOC"><img src="assets/images/gallery-sioc-synthesis-lab.webp" alt="" loading="lazy"></button>
+      <button type="button" role="tab" aria-selected="false" data-gallery-index="5" data-src="assets/images/gallery-sioc-glovebox-lab.webp" data-alt="Controlled-atmosphere and battery research facilities at SIOC" data-caption="Controlled-atmosphere and battery research facilities at SIOC"><img src="assets/images/gallery-sioc-glovebox-lab.webp" alt="" loading="lazy"></button>
+      <button type="button" role="tab" aria-selected="false" data-gallery-index="6" data-src="assets/images/gallery-sioc-workspace.webp" data-alt="Laboratory working space at SIOC" data-caption="Laboratory working space at SIOC"><img src="assets/images/gallery-sioc-workspace.webp" alt="" loading="lazy"></button>
     </div>
   </div>
 </section>
@@ -206,6 +208,57 @@ document.querySelectorAll("[data-carousel]").forEach(function (carousel) {
   document.addEventListener("visibilitychange", function () {
     if (document.hidden) stop(); else start();
   });
+  start();
+});
+</script>
+<script>
+document.querySelectorAll("[data-gallery-viewer]").forEach(function (viewer) {
+  var mainImage = viewer.querySelector("[data-gallery-main]");
+  var caption = viewer.querySelector("[data-gallery-caption]");
+  var thumbnails = Array.prototype.slice.call(viewer.querySelectorAll("[data-gallery-index]"));
+  var previous = viewer.querySelector("[data-gallery-prev]");
+  var next = viewer.querySelector("[data-gallery-next]");
+  var index = 0;
+  var timer;
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function show(nextIndex) {
+    index = (nextIndex + thumbnails.length) % thumbnails.length;
+    var selected = thumbnails[index];
+    mainImage.src = selected.dataset.src;
+    mainImage.alt = selected.dataset.alt;
+    caption.textContent = selected.dataset.caption;
+    thumbnails.forEach(function (thumbnail, thumbnailIndex) {
+      var active = thumbnailIndex === index;
+      thumbnail.classList.toggle("active", active);
+      thumbnail.setAttribute("aria-selected", active ? "true" : "false");
+    });
+    selected.scrollIntoView({behavior: reduceMotion ? "auto" : "smooth", block: "nearest", inline: "center"});
+  }
+
+  function stop() {
+    window.clearInterval(timer);
+  }
+
+  function start() {
+    stop();
+    if (!reduceMotion) timer = window.setInterval(function () { show(index + 1); }, 5200);
+  }
+
+  thumbnails.forEach(function (thumbnail) {
+    thumbnail.addEventListener("click", function () {
+      show(Number(thumbnail.dataset.galleryIndex));
+      start();
+    });
+  });
+  previous.addEventListener("click", function () { show(index - 1); start(); });
+  next.addEventListener("click", function () { show(index + 1); start(); });
+  viewer.addEventListener("mouseenter", stop);
+  viewer.addEventListener("mouseleave", start);
+  viewer.addEventListener("focusin", stop);
+  viewer.addEventListener("focusout", start);
+  viewer.addEventListener("pointerdown", stop);
+  viewer.addEventListener("pointerup", start);
   start();
 });
 </script>

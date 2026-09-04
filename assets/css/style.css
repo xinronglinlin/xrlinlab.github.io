@@ -172,3 +172,30 @@ img{display:block;max-width:100%}
 @media(max-width:700px){
  .gallery-photo-carousel .gallery-slide-media{height:220px}
 }
+
+.gallery-viewer{width:100%}
+.gallery-viewer-main{position:relative;width:100%;height:620px;overflow:hidden;background:#f3f3f1}
+.gallery-viewer-main>img{width:100%;height:100%;object-fit:contain}
+.gallery-viewer-main:after{content:"";position:absolute;left:0;right:0;bottom:0;height:92px;background:linear-gradient(to top,rgba(0,0,0,.38),transparent);pointer-events:none}
+.gallery-viewer-caption{position:absolute;z-index:2;left:24px;right:70px;bottom:19px;color:#fff;font-size:14px;line-height:1.5;letter-spacing:.2px}
+.gallery-viewer-arrow{position:absolute;z-index:3;top:50%;width:42px;height:64px;margin-top:-32px;padding:0;border:0;background:rgba(255,255,255,.72);color:#555;font:300 35px/1 "Helvetica Neue",Arial,sans-serif;cursor:pointer;transition:background .15s ease,color .15s ease}
+.gallery-viewer-arrow:hover,.gallery-viewer-arrow:focus-visible{background:rgba(255,255,255,.94);color:#111;outline:none}
+.gallery-viewer-prev{left:0}
+.gallery-viewer-next{right:0}
+.gallery-thumbnails{display:flex;gap:8px;margin-top:10px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.gallery-thumbnails::-webkit-scrollbar{display:none}
+.gallery-thumbnails button{position:relative;flex:0 0 calc((100% - 48px)/7);min-width:0;padding:0 0 4px;border:0;border-bottom:2px solid transparent;background:#fff;opacity:.48;cursor:pointer;transition:opacity .18s ease,border-color .18s ease}
+.gallery-thumbnails button:hover,.gallery-thumbnails button:focus-visible,.gallery-thumbnails button.active{opacity:1}
+.gallery-thumbnails button.active{border-bottom-color:#555}
+.gallery-thumbnails button:focus-visible{outline:1px solid #aaa;outline-offset:2px}
+.gallery-thumbnails img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media(max-width:900px){
+ .gallery-viewer-main{height:58vw;min-height:360px;max-height:560px}
+ .gallery-thumbnails button{flex-basis:120px}
+}
+@media(max-width:700px){
+ .gallery-viewer-main{height:66vw;min-height:240px;max-height:390px}
+ .gallery-viewer-caption{left:16px;right:54px;bottom:13px;font-size:12px}
+ .gallery-viewer-arrow{width:34px;height:54px;margin-top:-27px;font-size:30px}
+ .gallery-thumbnails button{flex-basis:92px}
+}
