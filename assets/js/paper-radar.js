@@ -43,15 +43,38 @@ document.addEventListener("DOMContentLoaded", function () {
     }).join(" ") + " " + family;
   }
 
+  function normalizedAuthorName(name) {
+    return String(name || "").normalize("NFKD").replace(/[^\p{L}\p{N}]+/gu, "").toLowerCase();
+  }
+
   function citationAuthors(paper) {
-    if (paper.authorsCitation) return paper.authorsCitation;
-    return String(paper.authors || "").split(",").map(initialsName).join(", ");
+    var fullNames = String(paper.authors || "").split(",").map(function (name) { return name.trim(); }).filter(Boolean);
+    var citationNames = paper.authorsCitation
+      ? String(paper.authorsCitation).split(",").map(function (name) { return name.trim(); }).filter(Boolean)
+      : fullNames.map(initialsName);
+    var corresponding = (paper.correspondingAuthors || []).map(normalizedAuthorName);
+    return citationNames.map(function (name, index) {
+      return {
+        name: name,
+        corresponding: corresponding.indexOf(normalizedAuthorName(fullNames[index])) !== -1
+      };
+    });
   }
 
   function citationNode(paper) {
     var citation = element("p", "radar-paper-citation");
-    var authorsText = citationAuthors(paper);
-    if (authorsText) citation.appendChild(document.createTextNode(authorsText + ", "));
+    var authors = citationAuthors(paper);
+    authors.forEach(function (author, index) {
+      if (index) citation.appendChild(document.createTextNode(", "));
+      citation.appendChild(document.createTextNode(author.name));
+      if (author.corresponding) {
+        var marker = element("sup", "radar-corresponding-mark", "*");
+        marker.title = "Corresponding author";
+        marker.setAttribute("aria-label", " corresponding author");
+        citation.appendChild(marker);
+      }
+    });
+    if (authors.length) citation.appendChild(document.createTextNode(", "));
     citation.appendChild(element("em", "", journalAbbreviations[paper.journal] || paper.journal || "Journal"));
     var year = String(paper.publicationDate || "").slice(0, 4);
     if (year) {
@@ -64,6 +87,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     if (paper.page) citation.appendChild(document.createTextNode(", " + paper.page));
     citation.appendChild(document.createTextNode("."));
+    if ((paper.correspondingAuthors || []).length) {
+      citation.appendChild(element("span", "radar-corresponding-note", " * Corresponding author"));
+    }
     return citation;
   }
 
