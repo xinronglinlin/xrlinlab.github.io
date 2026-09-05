@@ -246,10 +246,10 @@ img{display:block;max-width:100%}
   .radar-filters { justify-content: flex-start; }
   .radar-day { grid-template-columns: 1fr; gap: 15px; }
 }
-.radar-summary { margin-top: 18px; padding: 16px 18px; border-left: 2px solid #8b8b84; background: #f7f7f5; }
-.radar-summary-label { display: flex; align-items: center; gap: 9px; margin-bottom: 10px; color: var(--ink); font-size: 12px; font-weight: 600; letter-spacing: .08em; }
+.radar-summary { margin-top: 18px; padding: 16px 18px; border-left: 2px solid #8b8b84; background: #f7f7f5; font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", sans-serif; font-weight: 400; }
+.radar-summary-label { display: flex; align-items: center; gap: 9px; margin-bottom: 10px; color: var(--ink); font-size: 12px; font-weight: 600; letter-spacing: .04em; }
 .radar-summary-caveat { border: 1px solid var(--line); border-radius: 999px; padding: 2px 6px; color: var(--muted); font-size: 10px; font-weight: 400; letter-spacing: 0; }
-.radar-summary-text { margin: 6px 0 0; color: #3f3f3b; font-size: 14px; line-height: 1.72; }
+.radar-summary-text { margin: 6px 0 0; color: #3f3f3b; font-size: 14px; line-height: 1.82; letter-spacing: 0; }
 .radar-summary-text strong { color: var(--ink); font-weight: 600; }
 .radar-paper-citation { margin: 0; color: #4d4d4d; font-size: 14px; line-height: 1.65; }
 .radar-paper-citation strong { color: var(--ink); font-weight: 600; }
