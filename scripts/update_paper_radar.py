@@ -198,7 +198,7 @@ def main():
                 "matchedTopics": topics,
             }
             old = existing.get(key, {})
-            for field in ("summaryZh", "summarySource", "summaryGeneratedAt", "summaryPromptVersion"):
+            for field in ("summaryZh", "summarySource", "summaryGeneratedAt", "summaryPromptVersion", "correspondingAuthors", "correspondingAuthorSource", "correspondingAuthorVerifiedAt"):
                 if old.get(field):
                     paper[field] = old[field]
             if paper.get("summaryZh"):
