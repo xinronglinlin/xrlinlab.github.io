@@ -87,9 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     if (paper.page) citation.appendChild(document.createTextNode(", " + paper.page));
     citation.appendChild(document.createTextNode("."));
-    if ((paper.correspondingAuthors || []).length) {
-      citation.appendChild(element("span", "radar-corresponding-note", " * Corresponding author"));
-    }
     return citation;
   }
 
