@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T05:36:15Z",
+  "generatedAt": "2026-09-05T05:38:21.937Z",
   "windowDays": 30,
   "topics": [
     "Ion-conducting polymers and single-ion conductors",
@@ -403,10 +403,14 @@
       "page": "",
       "doi": "10.1021/jacs.6c10041",
       "link": "https://doi.org/10.1021/jacs.6c10041",
-      "abstract": "Abstract While atomically dispersed Fe–N–C catalysts represent a compelling nonplatinum alternative for the oxygen reduction reaction (ORR), their practical deployment in proton-exchange membrane fuel cells (PEMFCs) remains severely constrained by a poorly defined catalyst–ionomer–reactant triple-phase interface, which drastically impedes efficient proton transfer within the cathode catalyst layer. Herein, we report a rational interfacial microenvironment engineering strategy that exploits noncovalent interactions between oxygenated functional groups on carbon nanotubes (CNTs) and ionomer side chains to precisely modulate the catalyst–ionomer interfacial structure. The incorporation of oxygen-containing moieties effectively promotes water enrichment at the catalyst–ionomer interface, strengthens intermolecular interactions among water moieties, and facilitates the establishment of a hydrogen-bonded water network. This interconnected network significantly reduces proton transport resistance, boosting the proton conductivity of the Fe–N–C cathode layer by a factor of 2.3 relative to the conventional architecture. Coarse-grained molecular dynamics simulations substantiate that oxygen-functionalized CNTs facilitate long-range proton hopping, directly contributing to the measured conductivity enhancement. As a result, the optimized PEMFC delivers a remarkable peak power density of 1.63 W cm–2 and an exceptional current density of 53 mA cm–2 at 0.9ViR-free, surpassing the U.S. Department of Energy (DOE) 2025 target of 44 mA cm–2. This work establishes a generalized interfacial microenvironment modulation strategy to overcome proton transport limitations in nonplatinum ORR catalysts, opening a new avenue toward advanced fuel cell electrocatalysts.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：通过碳纳米管（carbon nanotubes, CNTs）表面含氧基团与离聚物侧链的非共价作用，重构Fe–N–C阴极的催化剂–离聚物–反应物三相界面，把质子传输作为阴极层的直接设计变量。\n性能：与常规结构相比，阴极层质子电导率提高2.3倍；质子交换膜燃料电池（proton-exchange membrane fuel cell, PEMFC）峰值功率密度达到1.63 W cm⁻²，在0.9 V（iR校正）时电流密度为53 mA cm⁻²。\n怎么解释：含氧界面促进水富集并增强水分子间作用，形成连续氢键水网络；粗粒化分子动力学模拟支持该网络有利于长程质子跳跃。该机制由模拟与电导率变化共同支持，但摘要未给出区分不同含氧基团贡献的对照。\n为什么重要：结果表明，非铂氧还原催化剂（oxygen reduction reaction, ORR）的器件性能不仅取决于活性位点，还受催化层内质子输运限制；界面微环境可成为连接催化剂结构与膜电极性能的设计层级。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Enabling Fast Charging of Lithium‐Ion Batteries With Regioisomeric Nitrile Additives for Interphase Regulation",
@@ -419,10 +423,14 @@
       "page": "e6426355",
       "doi": "10.1002/anie.6426355",
       "link": "https://doi.org/10.1002/anie.6426355",
-      "abstract": "ABSTRACT Achieving fast charging across a wide range of operating conditions remains challenging for lithium (Li)‐ion batteries due to unstable electrode–electrolyte interphases (EEIs) and sluggish interfacial kinetics. Here, we introduce a nitrile‐based additive strategy to regulate interphase formation, while maintaining full compatibility with the commercial LP57 electrolyte, thereby avoiding the need for expensive salts or complex electrolyte reformulation. By incorporating only 0.5 wt.% of 3‐(trifluoromethyl) benzonitrile (AD3), the modified electrolyte significantly enhances fast‐charging performance in 1 Ah Graphite (Gr) | LiNi 0.8 Mn 0.1 Co 0.1 O 2 pouch cells, while also improving low‐temperature, high‐temperature, and high‐voltage stabilities. Mechanistic analysis reveals that AD3 fundamentally alters the interphase formation at both electrodes. At the cathode, AD3 suppresses penetration of decomposition products and enables the formation of a thinner, more uniform cathode‐electrolyte interphase. At the anode, its preferential reduction leads to a thin (10 nm), well‐controlled solid‐electrolyte interphase (SEI) and effectively suppresses Li plating, in contrast to a thick (450 nm), Li‐rich layer formed in LP57. The interfacial improvements reduce parasitic reactions and lower interfacial resistance, as confirmed by distribution of relaxation times (DRT) analysis. The work demonstrates that minimal additive engineering can simultaneously stabilize interphases and enable fast charging, offering a cost‐effective, industry‐compatible pathway for next‐generation Li‐ion batteries.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：以仅0.5 wt.%的区域异构腈类添加剂3-(三氟甲基)苯甲腈调控正、负极电解质界面，同时保持与商业LP57电解液兼容。\n性能：在1 Ah石墨||NCM811软包电池中实现更好的快充表现，并改善低温、高温和高电压稳定性；摘要未给出软包快充循环的具体倍率与保持率。\n怎么解释：添加剂在负极优先还原，形成约10 nm的受控固体电解质界面膜（solid electrolyte interphase, SEI），而LP57形成约450 nm的富锂层；在正极侧则形成更薄、更均匀的正极电解质界面膜（cathode electrolyte interphase, CEI）。弛豫时间分布（distribution of relaxation times, DRT）分析显示界面阻抗降低，并伴随锂沉积受抑。\n为什么重要：该工作把添加剂的区域异构结构与双界面成膜差异联系起来，为不更换主体电解液条件下改善快充提供了较接近产业配方的路径。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Data-Driven Design of Asymmetric, Fluorine-Free Ethers for High-Voltage Lithium-Metal Batteries under Extreme Conditions",
@@ -435,10 +443,14 @@
       "page": "",
       "doi": "10.1021/jacs.6c08864",
       "link": "https://doi.org/10.1021/jacs.6c08864",
-      "abstract": "Abstract Electrolyte design for advanced lithium-metal batteries faces a persistent challenge: reconciling physicochemical performance, economic viability, and environmental sustainability within a single molecular framework. Here, we introduce an AI-guided protocol that integrates molecular and electronic descriptors to rapidly screen over 1000 solvent candidates. Our design principle centers on introducing asymmetric alkyl or alkoxy substituents along the ether backbone, creating an electronic and steric environment that simultaneously modulates dipole moment distribution, liquid range, and electrochemical potential window. Experimental and computational results demonstrate that extending the ether chain length enhances oxidative stability and volatility resistance through multidentate coordination, eliminating the need for conventional fluorination. Concurrently, molecular asymmetry introduces electronic inequivalence among the coordinating oxygen atoms, generating a solvation environment that preserves the thermodynamic stability of multidentate binding while kinetically facilitating desolvation via a weakened coordination site. The optimized fluorine-free asymmetric ether electrolyte enables Li || LiCoO2 (LCO) coin cells to retain 81.2% of room-temperature capacity at −40 °C and maintain 91.3% capacity after 300 cycles. A 301 Wh kg–1 (1 Ah) pouch cell retains 71.9% capacity at −35 °C, and a 475 Wh kg–1 (5 Ah) pouch cell operates under lean electrolyte conditions (1 g Ah–1). This molecular asymmetry strategy within fluorine-free ether frameworks represents a paradigm shift, uniquely unifying high-voltage stability, volatility resistance, and reliable ultralow-temperature operation. The methodology integrates data-driven high-throughput screening with rational molecular engineering, offering an efficient route toward high-performance, cost-effective, and environmentally benign electrolytes for extreme-condition batteries.",
+      "abstract": "",
       "matchedTopics": [
         "Lithium-metal and anode-free batteries"
-      ]
+      ],
+      "summaryZh": "新在哪里：将数据驱动筛选与分子设计结合，从千余种候选物中提出不对称、无氟醚溶剂，通过醚链长度和配位氧电子不等价同时调节高电压稳定性、挥发性与去溶剂化动力学。\n性能：Li||LiCoO₂电池在−40 °C保留室温容量的81.2%，循环300次后容量保持率为91.3%；1 Ah软包电池在−35 °C保留71.9%容量，5 Ah软包电池在1 g Ah⁻¹贫液条件下达到475 Wh kg⁻¹。\n怎么解释：较长醚链通过多齿配位提高抗氧化与抗挥发能力；分子不对称性使不同配位氧具有不等价结合强度，在保持多齿配位热力学稳定性的同时，由较弱位点降低去溶剂化的动力学约束。该解释由计算和实验共同支持，但摘要未说明各描述符的独立贡献。\n为什么重要：结果说明无氟并不必然以牺牲高电压或低温性能为代价，并给出可被继续检验的结构变量，而不是仅依赖经验性含氟化设计。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "An Ultrafast-Charging Daniell-Type All-Solid-State Battery",
@@ -451,11 +463,15 @@
       "page": "",
       "doi": "10.1021/jacs.6c09270",
       "link": "https://doi.org/10.1021/jacs.6c09270",
-      "abstract": "Abstract All-solid-state batteries (ASSBs) demonstrate unique advantages in energy density and safety performance. However, the point contact between multiphase particles restricts the ion/electron transport, severely limiting the kinetic performance of ASSBs. Planar metal electrodes can cancel out tortuous transport paths, providing the possibility for a revolutionary breakthrough in the kinetic performance of ASSBs. Herein, we develop a universal electrolyte framework that enables the comigration of Li+ and Cu+, facilitating the design of a Daniell-type ASSB. Remarkably, this system exhibits unprecedented kinetic performance and cycling stability. By canceling out the tortuous ion/electron transport, 100% capacity retention is achieved even under a 10-fold increment of current density (from 1.0 to 10.0 mA cm–2). Meanwhile, the reduction in the average discharge voltage is also extremely small (ΔV ≈ 45 mV). The invariant interfacial microstructure ensures 100% capacity retention over 10,000 cycles at 10.0 mA cm–2 (30 °C) and 25,000 cycles at 100.0 mA cm–2 (60 °C). The metal electrode configuration further endows exceptional advantages in electrode fabrication and battery recycling, reducing material costs by 80% and recycling costs by 97% compared to traditional ASSBs. This work transcends the cognitive constraints of powder-based cathodes, charting a transformative pathway for high-performance energy storage systems.",
+      "abstract": "",
       "matchedTopics": [
         "Solid-state batteries",
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：构建Li⁺与Cu⁺共同迁移的电解质框架，以平面金属电极形成丹尼尔型全固态电池（Daniell-type all-solid-state battery），绕开粉体复合电极中的曲折离子/电子传输路径。\n性能：电流密度由1.0提高至10.0 mA cm⁻²时容量保持率为100%，平均放电电压仅降低约45 mV；在30 °C、10.0 mA cm⁻²循环10000次，在60 °C、100.0 mA cm⁻²循环25000次后仍报告100%容量保持。\n怎么解释：作者将快速动力学归因于平面金属电极消除了多相颗粒点接触与曲折输运，并由稳定的界面微结构维持长期循环。摘要尚不足以判断容量负载、面积容量及能量密度是否与常规全固态电池具有同等可比性。\n为什么重要：该体系提出了不同于粉体正极的全固态电池构型，提示电极几何与载流离子协同迁移可能比单纯提高固态电解质电导率更直接地改变倍率边界。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "A Dual‐Interface Stabilizing Additive for High‐voltage Sodium Metal Batteries",
@@ -468,10 +484,14 @@
       "page": "e5330124",
       "doi": "10.1002/anie.5330124",
       "link": "https://doi.org/10.1002/anie.5330124",
-      "abstract": "ABSTRACT High‐voltage sodium metal batteries (SMBs) suffer from fast degradation stemming from the interfacial incompatibility between electrolytes and electrodes. In this study, potassium 3‐pyridyltrifluoroborate (KPBF 3 ) is proposed as a dual‐interface electrolyte additive, where the pyridine moiety can effectively modulate the anion's electronic structure, lowering its lowest unoccupied molecular orbital energy level and enhancing its binding affinity for Na + . This promotes the preferential reductive decomposition of PBF 3 − , forming a robust NaF‐rich solid electrolyte interphase that suppresses Na dendrite growth. Simultaneously, the cleavage of B─F bonds facilitates the formation of a thin and uniform NaF‐rich cathode electrolyte interphase (CEI), significantly suppressing electrolyte oxidation and greatly improving the high‐voltage stability. Consequently, Na||Na symmetric cells achieve an ultra‐long cycling life of 6000 h at 5 mA cm −2 , while Na||Cu cells exhibit a high average Coulombic efficiency (ACE) of 99.89%. Moreover, Na||Na 3 V 2 (PO 4 ) 2 F 3 cells demonstrate 90.8% capacity retention over 10000 cycles at 10 C and 4.3 V, and 90.0% retention after 2500 cycles at 4.4 V. Notably, this additive also enables SMBs with a low N/P ratio of 2.65 to deliver a high capacity retention of 88.4% after 1000 cycles.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：以3-吡啶基三氟硼酸钾作为双界面添加剂，利用吡啶基调节阴离子电子结构和Na⁺结合能力，使同一分子分别参与负极SEI与正极CEI形成。\n性能：Na||Na对称电池在5 mA cm⁻²下循环6000 h；Na||Cu平均库仑效率为99.89%；Na||Na₃V₂(PO₄)₂F₃电池在4.3 V、10 C循环10000次后容量保持率为90.8%，在4.4 V循环2500次后为90.0%。\n怎么解释：PBF₃⁻优先还原并形成富NaF的SEI，抑制枝晶；B–F键断裂同时促进薄而均匀的富NaF CEI，降低高电压电解液氧化。摘要支持成膜组成与性能相关，但尚不能单凭这些信息确认两侧界面作用的相对贡献。\n为什么重要：该设计尝试用单一添加剂同时解决钠金属沉积与高电压正极氧化两个失效源，为低添加量双界面调控提供了明确的分子电子结构依据。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Descriptor‐Guided Dynamic Solvation‐Shell Reconstruction Enables PEO‐Based Polymer Electrolytes With 10.9 mS cm −1 Ionic Conductivity",
@@ -484,10 +504,14 @@
       "page": "e3211208",
       "doi": "10.1002/anie.3211208",
       "link": "https://doi.org/10.1002/anie.3211208",
-      "abstract": "ABSTRACT High‐voltage polymer electrolyte lithium metal batteries have long been constrained by the intrinsically low ionic conductivity of polymer electrolytes and unstable high‐voltage cathode interfaces, especially at low temperatures where ion transport and interfacial kinetics become sluggish. Here, we propose a descriptor‐guided dynamic solvation‐shell reconstruction strategy for poly(ethylene oxide) (PEO)‐based quasi‐solid electrolytes by introducing nitrile plasticizers with competitive Li + affinity and fast local Li + diffusivity. These nitrile ligands competitively enter the first Li + solvation shell, weaken persistent Li + ‐ether oxygen coordination, and shift Li + migration from polymer‐cage‐confined hopping to ligand‐exchange‐assisted transport. The optimized electrolyte achieves a room‐temperature ionic conductivity of 10.9 mS cm −1 , nearly three orders of magnitude higher than that of the pristine PEO electrolyte. Meanwhile, the nitrile‐containing solvation shell regulates interfacial decomposition pathways, suppresses oxidative PEO degradation in high‐voltage Li‖NCM811 cells, and promotes the formation of compact cathode electrolyte interphases. Benefiting from simultaneously enhanced bulk Li + transport and high‐voltage interfacial stability, the optimized electrolyte enables stable fast‐charging cycling and low‐temperature operation in Li‖NCM811 cells. This work establishes descriptor‐guided dynamic first‐solvation‐shell reconstruction as a molecular design principle for high‐conductivity, high‐voltage‐stable PEO‐based quasi‐solid electrolytes.",
+      "abstract": "",
       "matchedTopics": [
         "Ion-conducting polymers and single-ion conductors"
-      ]
+      ],
+      "summaryZh": "新在哪里：采用描述符引导的动态溶剂化壳层重构，在聚氧化乙烯（poly(ethylene oxide), PEO）准固态电解质中引入兼具竞争性Li⁺亲和力和快速局部扩散的腈类增塑剂。\n性能：优化电解质室温离子电导率达到10.9 mS cm⁻¹，较原始PEO提高近三个数量级；摘要仅说明Li||NCM811电池可稳定快充和低温运行，未提供对应倍率、温度与循环数据。\n怎么解释：腈配体进入第一溶剂化壳层，削弱持续的Li⁺–醚氧配位，使迁移由聚合物笼限跳跃转向配体交换辅助传输；同时改变界面分解路径，抑制高电压下PEO氧化并形成更致密的CEI。\n为什么重要：工作将体相离子输运与高电压界面稳定性放在同一溶剂化结构变量下讨论，为PEO体系中电导率与界面稳定性同步改善提供了可量化的分子筛选思路。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Adaptive Solvation Evolution by Molecular Design Enables High‐Performance Wide‐Temperature Lithium‐Ion Batteries",
@@ -500,10 +524,14 @@
       "page": "e2577060",
       "doi": "10.1002/anie.2577060",
       "link": "https://doi.org/10.1002/anie.2577060",
-      "abstract": "ABSTRACT The solvation structure is a decisive factor for the performance of lithium‐ion batteries (LIBs) under extreme environments, and its evolution with temperature changes is particularly elusive. This work reports a strategy to regulate the coordination interactions between solvents, Li + , and anions through a local steric shielding effect of α‐methyl‐substituted solvents, thereby forming a temperature‐adaptive evolution of the solvation structure, ensuring efficient ion transport over the entire temperature range (from −80°C to 100°C). Practical pouch cells demonstrated outstanding performance: 1 Ah LiFePO 4 (LFP)||graphite (Gr) commercial pouch cells retained 87.4% capacity after 2000 cycles at 2 C and 25°C, and delivered stable discharge capacities down to −60°C (0.47 Ah). Meanwhile, the 1 Ah LiNi 0.8 Mn 0.1 Co 0.1 O 2 (NMC811)||Gr pouch cells maintained 83.2% capacity over 4000 cycles at 1 C and 25°C, while also delivering 0.49 Ah at −80°C and maintaining operational functionality even at 100°C. The strategy offers a practical route toward LIB electrolytes with broad temperature adaptability and long cycle life.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：通过α-甲基取代溶剂产生局部位阻屏蔽，调节溶剂–Li⁺–阴离子配位随温度的变化，构建温度自适应溶剂化结构。\n性能：1 Ah LFP||石墨软包电池在25 °C、2 C循环2000次后保持87.4%容量，并在−60 °C输出0.47 Ah；1 Ah NMC811||石墨软包电池在25 °C、1 C循环4000次后保持83.2%，在−80 °C输出0.49 Ah，并可在100 °C运行。\n怎么解释：作者将宽温性能归因于α-甲基位阻对配位强度的动态调节，使低温离子传输与高温稳定性得到兼顾。摘要没有列出不同温度下溶剂化结构的直接表征，因此具体温度响应机制仍需正文证据确认。\n为什么重要：相比为单一低温或高温条件优化固定溶剂化结构，该策略关注配位关系随温度的演化，并在商业尺寸软包电池中检验，具有更明确的宽温应用相关性。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "A Fullerene-Based Interphase Confines Interfacial Electrons for Long-Lived Zinc Metal Anodes in Aqueous Electrolytes",
@@ -516,10 +544,14 @@
       "page": "",
       "doi": "10.1021/jacs.6c11153",
       "link": "https://doi.org/10.1021/jacs.6c11153",
-      "abstract": "Abstract The intrinsic instability of the Zn/electrolyte interface, arising from dendrite growth, hydrogen evolution, corrosion, and passivation, fundamentally limits the reversibility of aqueous Zn metal anodes. Herein, we construct a fullerene-based polymer interphase (PC60) on Zn to confine interfacial electrons and regulate Zn redox chemistry. A fullerene-derived monomer integrating an electron-deficient C60 cage with polar ester and amine groups undergoes thermal polymerization to form a dense and uniform interphase. Owing to the high electron affinity and deep LUMO of C60, PC60 induces interfacial charge redistribution, yielding an electronegative passivating layer that suppresses hydrogen evolution and sulfate/polyiodide-involved corrosion, while facilitating Zn2+ desolvation and selective transport. In situ DEMS, XRD, Raman spectroscopy, and KPFM collectively reveal suppressed HER, reduced basic zinc sulfate formation, enhanced Zn2+ transference, and homogenized surface potential. Consequently, PC60/Zn enables stable cycling over 5500 h in symmetric cells, &gt; 99.9% Coulombic efficiency for 5500 cycles in half cells, and &gt;96% capacity retention after 1000 cycles in PC60/Zn||ZnI2 full cells. This work establishes electron confinement as an effective lever to reconstruct the interfacial electronic landscape and decouple Zn redox chemistry from parasitic reactions in aqueous Zn metal batteries.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：在锌表面构建富勒烯聚合物界面层，利用C₆₀较高电子亲和力限制界面电子分布，从电子结构层面调节锌沉积与水系副反应。\n性能：PC60/Zn对称电池稳定循环超过5500 h，半电池在5500次循环中库仑效率超过99.9%，PC60/Zn||ZnI₂全电池循环1000次后容量保持率超过96%。\n怎么解释：电子缺陷C₆₀笼与极性酯、胺基共同形成致密界面，并诱导负电性钝化层；原位差分电化学质谱（differential electrochemical mass spectrometry, DEMS）、X射线衍射、拉曼光谱和开尔文探针力显微镜（Kelvin probe force microscopy, KPFM）共同支持析氢、碱式硫酸锌生成和腐蚀受抑，同时Zn²⁺传输与表面电势更均匀。\n为什么重要：该工作把界面电子分布作为可调变量，尝试将锌氧化还原与析氢、腐蚀等副反应分离，为水系金属负极界面层设计增加了不同于机械阻隔和溶剂化调控的维度。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Steric‐Electronic Engineering of Ester Carbonyls Enables Thermodynamic‐Kinetic Regulation of Electron Transfer for High‐Voltage and High‐Rate Lithium Metal Batteries",
@@ -532,11 +564,15 @@
       "page": "e5288915",
       "doi": "10.1002/anie.5288915",
       "link": "https://doi.org/10.1002/anie.5288915",
-      "abstract": "ABSTRACT Ester‐based electrolytes, widely used in lithium‐ion batteries (LIBs), suffer from the intrinsically unstable carbonyl groups that trigger uncontrollable reductive decomposition, along with the narrow operating temperature window, limiting their application in high‐energy lithium metal batteries (LMBs). In this study, we establish a molecular‐level electron transfer regulation strategy toward ester carbonyls that simultaneously suppresses electron transfer thermodynamically and kinetically, while tailoring the solvation structure, thereby converting uncontrolled solvent decomposition into well‐defined interphase chemistry. This strategy ultimately yields a lightweight, wide‐temperature, and stable ethyl pivalate‐based electrolyte. The electrolyte supports stable operation from −40°C to 50°C and robust cycling in Li||NCM 811 cells at 4.6 V and 10 C. Commercially relevant Li||NCM 811 full cells further demonstrate exceptional durability at 4.6 V, with negligible capacity decay over 300 cycles. A 432 Wh kg −1 pouch cell (2.5 Ah) with a low negative/positive ratio of 0.94 and lean electrolyte (1.17 g Ah −1 ), stable cycling under high‐voltage (4.6 V) conditions. We believe the findings may extend to other ester‐based electrolytes and inform sodium/potassium/calcium/magnesium battery systems.",
+      "abstract": "",
       "matchedTopics": [
         "Lithium-metal and anode-free batteries",
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：通过酯羰基的位阻–电子协同调节，同时在热力学和动力学上限制电子转移，并改变溶剂化结构，使乙酸新戊酯类电解液的无序还原转化为受控界面成膜。\n性能：电解液支持−40至50 °C运行，并在4.6 V、10 C条件下驱动Li||NCM811电池；2.5 Ah软包电池在负正极容量比0.94、1.17 g Ah⁻¹贫液条件下达到432 Wh kg⁻¹。摘要称4.6 V循环300次容量衰减可忽略，但未给出数值。\n怎么解释：作者认为酯羰基周围的电子与空间环境降低其接受电子并发生非受控还原的倾向，同时重塑Li⁺溶剂化和界面分解路径。摘要未给出热力学势垒与电子转移速率的独立证据，二者的相对作用仍需正文确认。\n为什么重要：酯类溶剂成本和质量优势明显，但还原稳定性通常不足；该工作提供了从羰基局部结构出发改善锂金属兼容性的分子设计方向。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Moderately Solvated Electrolyte Enabling Fast Charging of a Lithium-Ion Battery at Low Temperature",
@@ -549,10 +585,14 @@
       "page": "37298",
       "doi": "10.1021/jacs.6c12417",
       "link": "https://doi.org/10.1021/jacs.6c12417",
-      "abstract": "Abstract Lithium-ion batteries operating under low-temperature conditions suffer from sluggish ion transport and hindered interfacial desolvation, which limit fast-charging capability and cycling stability. Herein, a moderate solvation strategy is adopted, which enables a rational balance between bulk ionic transport and interfacial kinetics through tuning solvent–Li+–anion interactions. Notably, the as-designed moderately solvated electrolyte (MSE), employing dimethyl sulfite (DMS) and dimethyl ketone (DMK), is enriched with contact ion pairs (CIPs), which simultaneously preserves sufficient ion transport and reduced interfacial desolvation barrier, leading to well-balanced electrochemical kinetics with remarkably fast charging performance under low temperature. Graphite||LiCoO2 full cells achieved 82.8% capacity retention after 1500 cycles at 1 C rate at −20 °C, and even at −40 °C, reversible cycling can still be achieved at a record-breaking rate of 0.5 C. The 1 Ah pouch cells can also achieve over 90% capacity retention at −40 °C. This work reveals how the evolution of electrolyte solvation structures intrinsically governs electrochemical performance and provides new insights into electrolyte design principles for advanced low-temperature energy storage systems.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：提出适度溶剂化电解液，通过调节溶剂–Li⁺–阴离子相互作用，在低温体相离子输运与界面去溶剂化之间取得平衡，而非单向追求弱溶剂化。\n性能：石墨||LiCoO₂全电池在−20 °C、1 C循环1500次后容量保持率为82.8%；在−40 °C仍可按0.5 C可逆循环，1 Ah软包电池在−40 °C容量保持率超过90%。\n怎么解释：由亚硫酸二甲酯与丙酮组成的体系富含接触离子对（contact ion pairs, CIPs），既保留足够的液相离子传输，又降低界面去溶剂化能垒，从而缓解低温下两类动力学限制。摘要未给出各过程的定量贡献。\n为什么重要：结果说明低温快充的优化目标不是简单增强解离或减弱溶剂化，而是寻找体相与界面动力学的中间区间，为电解液配位强度设计提供了更可操作的判断框架。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Solvation‐Gradient Thin‐Film Composite Membranes Decouple Ferricyanide Rejection From Hydroxide Conduction in Alkaline Zinc–Iron Flow Batteries",
@@ -565,10 +605,14 @@
       "page": "e9300778",
       "doi": "10.1002/anie.9300778",
       "link": "https://doi.org/10.1002/anie.9300778",
-      "abstract": "ABSTRACT The long‐standing trade‐off between ion selectivity and ionic conductivity in membrane materials stems from the difficulty in rapidly transporting ions through chemically homogeneous channels while simultaneously excluding large ions. Here, we report a solvation‐gradient membrane prepared via reaction‐diffusion‐coupled interfacial polymerization between piperazine and 1,3,5‐tris(bromomethyl)benzene. The resulting membrane comprised a dense outer selective layer approximately 35 nm thick (with a transport pore size of approximately 6 Å) and an NH‐rich inner layer approximately 400 nm thick. The outer layer imposes a high entry/desolvation barrier on large ions, thereby inhibiting their transport, whereas the NH‐rich region supports rapid OH − transport through re‐solvation and hydrogen‐bond reorganization. This depth‐dependent architecture spatially separates ferricyanide rejection from hydroxide conduction. Depth‐resolved spectroscopy and molecular dynamics simulations supported a depth‐dependent solvation environment and revealed stronger water/OH − interactions in the NH‐rich region. Optimization of poly(tertiary amine) (PTA) membranes achieved low Fe(CN) 6 3− permeability (8.07 × 10 −7 cm 2 h −1 ) and OH − conductivity (41.08 mS cm −1 ), enabling an alkaline zinc‐iron flow battery to achieve an energy efficiency of 89.94% at 80 mA cm −2 and stable cycling for over 800 h. This study suggests depth‐dependent solvation regulation as a useful design principle for alleviating the selectivity‐conductivity trade‐off in electrochemical membranes.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：通过反应–扩散耦合界面聚合构建沿厚度方向变化的溶剂化梯度膜，将铁氰根排斥与OH⁻传导分配到不同空间区域。\n性能：优化膜的Fe(CN)₆³⁻渗透率为8.07 × 10⁻⁷ cm² h⁻¹，OH⁻电导率为41.08 mS cm⁻¹；碱性锌–铁液流电池在80 mA cm⁻²下能量效率为89.94%，稳定运行超过800 h。\n怎么解释：约35 nm致密外层以约6 Å孔径提高大离子进入和去溶剂化势垒；约400 nm富NH内层通过再溶剂化与氢键重排促进OH⁻迁移。深度分辨光谱和分子动力学模拟支持膜内溶剂化环境随深度变化。\n为什么重要：该结构不要求单一均匀通道同时满足高选择性和高电导率，而是用空间分工缓解二者的竞争，为电化学分离膜的非均相结构设计提供了清晰范式。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "A Stage‐Coupled View of Interfacial Reconstruction in Anode‐Free Sodium Metal Batteries",
@@ -581,10 +625,14 @@
       "page": "e3647021",
       "doi": "10.1002/anie.3647021",
       "link": "https://doi.org/10.1002/anie.3647021",
-      "abstract": "ABSTRACT Anode‐free sodium metal batteries (AFSMBs) remove the excess metal anode and increase projected cell‐level energy density, but they place reversibility on a transient negative‐electrode interface. In each cycle, Na is deposited on a foreign current collector and removed to a highly depleted state. Cell failure is governed by whether continuity can be preserved across a sequence of short‐lived interfacial states, including bulk coordination, interfacial desolvation, heterogeneous nucleation, metallic coalescence, Na isolation, and recurrent solid electrolyte interphase (SEI) renewal. AFSMBs are therefore better understood as dynamically reconstructed interfacial systems, where non‐uniformity introduced during interfacial entry can propagate through later plating and stripping. This review examines AFSMBs through three coupled stages: solvation‐controlled interfacial entry, current collector regulated Na reconstruction, and SEI renewal controlled by reaction–pathway selectivity and mechanical coherence. Current density, stripping depth, pressure, temperature, sodium inventory, and cell architecture are treated as boundary conditions that determine whether local interfacial gains persist under practical operation. By linking coordination chemistry, metallic continuity, interphase renewal, and device‐level constraints, this review provides a mechanistic framework for predictive AFSMB design.",
+      "abstract": "",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
-      ]
+      ],
+      "summaryZh": "新在哪里：该综述不把无负极钠金属电池视为具有固定界面的体系，而是以“溶剂化控制的界面进入—集流体调节的钠重构—反应路径与力学完整性控制的SEI更新”三个连续阶段组织失效机制。\n性能：本文为机制综述，不报告单一材料的性能纪录；重点比较电流密度、剥离深度、压力、温度、钠库存和电池构型如何改变界面连续性。\n怎么解释：早期去溶剂化和异相成核产生的不均匀性可传递至金属并合、钠孤立和后续SEI反复更新，因此局部界面改善只有在后续阶段保持连续性时才可能转化为循环收益。\n为什么重要：该框架把配位化学、金属连续性、界面更新和器件边界条件放入同一时间序列，有助于避免仅凭某一阶段的局部表征判断无负极体系稳定性。",
+      "summarySource": "abstract",
+      "summaryGeneratedAt": "2026-09-05T05:38:21.937Z",
+      "summaryPromptVersion": "performance-v2"
     },
     {
       "title": "Ultrathin Membrane With Ion‐Specific Gating Enables Interfacial Decoupling of Conductivity–Selectivity for Aqueous Flow Batteries",
