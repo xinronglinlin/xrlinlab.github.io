@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T22:25:58Z",
+  "generatedAt": "2026-09-05T01:50:31Z",
   "windowDays": 30,
   "topics": [
     "Ion-conducting polymers and single-ion conductors",
@@ -1016,22 +1016,6 @@
       "doi": "10.1021/jacs.6c09703",
       "link": "https://doi.org/10.1021/jacs.6c09703",
       "abstract": "Abstract Lithium metal batteries with Ni-rich layered cathodes are promising candidates due to their high energy density; however, the unstable interphase formed in traditional carbonates accelerates premature irreversible capacity loss. In this study, we exploit the electron-deficient nature of boron (B)-containing species, which can initiate the chain polymerization of unstable alkyl lithium. This process facilitates the continuous conversion of these components into stable B-containing polymers, enhancing mechanical strength and ionic conductivity and ultimately achieving dynamic interphase transformation. Simultaneously, the unexpected generation of smaller solvation structures rich in multiple salt anions promotes Li+ transportation and the formation of LiF-rich interphases. Such an interphase bestows Li||LiNi0.8Co0.1Mn0.1O2 cells with a stable operation of up to 450 cycles under 4.6 V. Even practical 1.5 Ah graphite pouch cells can maintain 84% capacity after 1600 cycles. Thanks to the broad applicability of this unique in situ mechanism, it can be generalized to various LiPF6-based carbonate electrolytes. Our work provides a low-cost and highly accessible strategy for modifying the interphase, paving the way for high energy-density batteries that can meet diverse and demanding operating conditions.",
-      "matchedTopics": [
-        "Fast charging and interfacial ion transport"
-      ]
-    },
-    {
-      "title": "Interfacial Charge‐Transfer Kinetics Regulate Na 2 S Deposition by Recycled V Single‐Atom Catalysts for Durable Na–S Batteries",
-      "authors": "Guangxuan Wu, Zhihui Zhou, Yeteng Lu, Zhoujie Lao, Yuhan Ma, Nan Xiao, Ning Wang, Congqin Zheng, Shuiyong Wang, Enzuo Liu, Xiang Zhang, Chunsheng Shi, Chunnian He, Wenbin Hu, Naiqin Zhao, Wanxiang Zhao, Biao Chen",
-      "authorsCitation": "G. Wu, Z. Zhou, Y. Lu, Z. Lao, Y. Ma, N. Xiao, N. Wang, C. Zheng, S. Wang, E. Liu, X. Zhang, C. Shi, C. He, W. Hu, N. Zhao, W. Zhao, B. Chen",
-      "journal": "Angewandte Chemie International Edition",
-      "publicationDate": "2026-08-06",
-      "volume": "",
-      "issue": "",
-      "page": "e7796630",
-      "doi": "10.1002/anie.7796630",
-      "link": "https://doi.org/10.1002/anie.7796630",
-      "abstract": "ABSTRACT Na 2 S, as the terminal discharge product of room‐temperature sodium–sulfur (Na–S) batteries, is electronically and ionically insulating. When it deposits as a compact film on the cathode, the cathode will become passivated, hindering electron transport and inhibiting further sulfur conversion reactions. Existing catalyst strategies promote the formation of Na 2 S thermodynamically by enhancing polysulfide adsorption, but this does not address the kinetics passivation issue. Here, we adopt the exchange current density ( j 0 ) as a kinetic descriptor of the Na 2 S nucleation mode. Finite‐element simulations reveal that increasing j 0 drives the nucleation pathway from progressive to instantaneous nucleation. The deposit morphology then evolves from a compact passivating film to uniformly dispersed nanoparticles, and ion and electron transport channels are preserved. This pathway prevents Na 2 S aggregation and electrode passivation, maintaining electrochemical activity at deep discharge. Guided by this kinetic insight, nitrogen‐doped porous carbon‐supported V single‐atom catalysts (NPC‐V SACs) with high apparent j 0 were fabricated, and instantaneous Na 2 S nucleation was achieved on their surfaces. The resulting Na–S battery retains 976.3 mAh g −1 after 200 cycles at 0.2 A g −1 , with a decay rate of only 0.08% per cycle. This work establishes a kinetic design perspective for regulating Na 2 S nucleation in durable Na–S batteries.",
       "matchedTopics": [
         "Fast charging and interfacial ion transport"
       ]
