@@ -139,12 +139,14 @@ document.addEventListener("DOMContentLoaded", function () {
     papers.forEach(function (paper) { if (dates.indexOf(paper.publicationDate) === -1) dates.push(paper.publicationDate); });
     dates.sort().reverse().forEach(function (dateValue) {
       var section = element("section", "radar-day");
-      var heading = element("div", "radar-day-heading");
+      var heading = element("div", "radar-day-heading radar-date");
+      var paperList = element("div", "radar-papers");
       var datePapers = papers.filter(function (paper) { return paper.publicationDate === dateValue; });
       heading.appendChild(element("h2", "radar-day-date", formatDate(dateValue)));
       heading.appendChild(element("span", "radar-day-count", datePapers.length + " paper" + (datePapers.length === 1 ? "" : "s")));
       section.appendChild(heading);
-      datePapers.forEach(function (paper) { section.appendChild(paperNode(paper)); });
+      datePapers.forEach(function (paper) { paperList.appendChild(paperNode(paper)); });
+      section.appendChild(paperList);
       list.appendChild(section);
     });
   }
