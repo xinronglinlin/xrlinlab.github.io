@@ -257,3 +257,6 @@ img{display:block;max-width:100%}
 .radar-paper-doi a { color: var(--muted); text-decoration: none; }
 .radar-paper-doi a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 
+
+.radar-corresponding-mark { margin-left: 1px; color: var(--ink); font-size: .72em; font-weight: 600; vertical-align: super; }
+.radar-corresponding-note { display: inline-block; margin-left: 8px; color: var(--muted); font-size: 11px; font-style: normal; white-space: nowrap; }
